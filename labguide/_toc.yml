@@ -1,0 +1,11 @@
+format: jb-book
+root: index
+chapters:
+- file: mission_statement.md
+- file: environment/lab_environment.md
+  sections: 
+  - file: environment/code_of_conduct.md
+  - file: environment/work_life_balance.md
+  - file: environment/expectations.md
+  - file: environment/working_remotely.md
+  - file: environment/survey.md
