@@ -133,7 +133,7 @@ particularly important for admission to my lab:
     you have experienced, and most importantly what you learned from all
     of these experiences.
 
-### *What kind of advisor are you?*
+### What kind of advisor are you?
 Different advisers have different philosophies, and it’s important to be
 sure that you pick an advisor whose style is right for you. I would say that the most
 important characteristic of my style is that I foster independent
