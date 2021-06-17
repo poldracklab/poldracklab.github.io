@@ -1,6 +1,9 @@
 # Poldrack Lab Guide
 
-This guide provides details about the mission, values, and practices of the Poldrack Lab at Stanford.
+This guide provides details about the mission, values, and practices of the Poldrack Lab at Stanford.  This guide is intended for:
+
+- Individuals who are joining the lab, to describe the standards and practices that they are expected to adhere to
+- Individuals who are considering joining the lab, to provide a picture of the lab environment and practices.
 
 Additional contributions to this guide are welcome!
 
