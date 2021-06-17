@@ -1,4 +1,4 @@
-## Poldrack Lab Guide
+# Poldrack Lab Guide
 
 This guide provides details about the mission, values, and practices of the Poldrack Lab at Stanford.
 

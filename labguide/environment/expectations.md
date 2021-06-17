@@ -1,4 +1,4 @@
-## Expectations of lab engagement
+# Expectations of lab engagement
 
 
 1.  All researchers in the lab

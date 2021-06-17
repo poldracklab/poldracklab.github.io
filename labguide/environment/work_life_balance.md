@@ -1,4 +1,4 @@
-## Work/life balance
+# Work/life balance
 
 1.  We aim to promote sustainable
     creativity and productivity for all of our members, which can’t be

@@ -1,5 +1,4 @@
-
-## Code of conduct
+# Code of conduct
 
 All lab members and guests are
 expected to adhere to the following code of conduct. In addition, all
@@ -12,7 +11,7 @@ incident that occured in or outside of the lab, the university has
 this[ list of
 resources.](https://deanofstudents.stanford.edu/acts-intolerance-protocol/talk-someone)
 
-### Statement of intent
+## Statement of intent
 
 Our lab is dedicated to
 providing a safe and welcoming environment for everyone. We do not
@@ -25,7 +24,7 @@ any form. Sexual language and imagery is not appropriate for any lab
 event or venue, including talks, workshops, parties, Twitter and
 other online media.
 
-### Details of Lab Code of Conduct
+## Details of Lab Code of Conduct
 
 1.  Harassment includes offensive
 verbal comments related to a person’s identity or presentation of
@@ -39,7 +38,7 @@ displays of sexual images in public lab spaces, deliberate
 intimidation, stalking/ following, coerced photography or recording,
 inappropriate physical contact, and unwelcome sexual attention.
 
-### Responding to incidents
+## Responding to incidents
 
 1. Lab members asked to stop any
     misconduct are expected to comply immediately. Justification for the

@@ -1,4 +1,4 @@
-## Working remotely
+# Working remotely
 
 1.  The Poldracklab has a long
     history of remote members, and we support the needs of lab members
