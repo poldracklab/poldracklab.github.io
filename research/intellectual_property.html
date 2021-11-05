@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data management and sharing &#8212; Poldrack Lab Guide</title>
+    <title>Intellectual property &#8212; Poldrack Lab Guide</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,6 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Data analysis procedures" href="data_analysis_procedures.html" />
-    <link rel="prev" title="Coding standards" href="coding_standards.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -88,7 +86,7 @@
   </a>
  </li>
 </ul>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../mission_statement.html">
    Mission/values statement
@@ -153,16 +151,16 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active has-children">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="research.html">
    Research practices
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul class="current">
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="human_subjects.html">
      Human subjects research
@@ -188,8 +186,8 @@
      Coding standards
     </a>
    </li>
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="data_management.html">
      Data management and sharing
     </a>
    </li>
@@ -293,7 +291,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/research/data_management.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/research/intellectual_property.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -313,10 +311,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/poldracklab/poldracklab.github.io/issues/new?title=Issue%20on%20page%20%2Fresearch/data_management.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/poldracklab/poldracklab.github.io/issues/new?title=Issue%20on%20page%20%2Fresearch/intellectual_property.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/poldracklab/poldracklab.github.io/edit/master/research/data_management.md"><button
+        <a class="edit-button" href="https://github.com/poldracklab/poldracklab.github.io/edit/master/research/intellectual_property.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -336,24 +334,6 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#data-management">
-   Data Management
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#data-sharing">
-   Data sharing
-  </a>
- </li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -362,98 +342,11 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="data-management-and-sharing">
-<h1>Data management and sharing<a class="headerlink" href="#data-management-and-sharing" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="data-management">
-<h2>Data Management<a class="headerlink" href="#data-management" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>All research-related materials
-(including data and code) should be stored on a volume that is
-automatically backed up to a cloud storage server, such as Google Drive
-(which provides <a class="reference external" href="https://uit.stanford.edu/service/gsuite/drive">free storage via your Stanford login</a>).</p>
-<ul>
-<li><p>Stanford also provides access
-to <a class="reference external" href="https://uit.stanford.edu/service/code42crashplan">Crashplan</a>
-backups for faculty and staff which automatically backs up laptops
-and computers.</p></li>
-</ul>
-</li>
-<li><p>Neuroimaging datasets should be
-backed up on TACC Corral.</p></li>
-<li><p>Every dataset should be organized
-with the goal that another researcher could take the dataset and
-immediately understand its content without the need to ask questions of
-the dataset owner.</p></li>
-<li><p>All imaging data should be
-organized using the <a class="reference external" href="https://bids-specification.readthedocs.io/en/stable/">BIDS format</a>.</p></li>
-<li><p>For non-imaging data, files and
-folders should be named and organized using the <a class="reference external" href="https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit#heading=h.1m6sa5bs9j0e">Psych-DS
-format</a>
-when possible.</p></li>
-<li><p>Variable names should be as
-expressive as possible, with automated parsing in mind. The structure of variable names
-should follow the key-value schema used in BIDS (with key and value
-separated by a dash, and key-value pairs separated by underscores). All embedded numbers should be
-zero-padded.</p>
-<ul>
-<li><p>Examples:</p></li>
-<li><p>for item 5 on the Barratt
-Impulsiveness Scale, the variable name might be
-“survey-BIS_item-005”</p></li>
-</ul>
-</li>
-<li><p>All datasets should be
-accompanied by a data dictionary that specifies the meaning of each
-variable.</p>
-<ul>
-<li><p>This should preferably be
-stored as a JSON file, with variable names as dictionary keys to
-support automated parsing.</p></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="section" id="data-sharing">
-<h2>Data sharing<a class="headerlink" href="#data-sharing" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>All data generated within our lab
-will be shared upon publication at the latest, and preferably upon
-preprint submission.</p></li>
-<li><p>In some cases, we may work with
-datasets that we are not able to share in full, due to data use
-agreements or legal restrictions. In this case, we will push to share at
-least the processed data necessary to run the primary statistical
-analyses.</p></li>
-<li><p>Data will be shared through
-platforms that allow snapshotting and generation of a DOI:</p>
-<ul>
-<li><p>OpenNeuro for neuroimaging
-data</p></li>
-<li><p>For behavioral data,
-repositories include Zenodo (preferred), OSF, Stanford Digital
-Repository, or Dryad.</p></li>
-<li><p>Large data files should not
-be committed to Github repositories. Small data files may be hosted
-on github, but it should not be the primary sharing platform.</p></li>
-</ul>
-</li>
-<li><p>A snapshot should be shared that
-matches exactly the analyses in the publication, and which can be
-analyzed directly using the shared analysis code.</p></li>
-<li><p>All data will be shared with an
-explicit data use agreement (aka “license”)</p>
-<ul>
-<li><p>We prefer the minimally
-restrictive license possible, preferably CC0</p></li>
-</ul>
-</li>
-<li><p>All data should be shared with an
-explicit description of how they should be cited.</p></li>
-<li><p>When using shared data, lab
-members should ensure that they properly cite the data source in any
-publications using the language recommended by the data owner.</p></li>
-</ul>
-</div>
+  <div class="tex2jax_ignore mathjax_ignore section" id="intellectual-property">
+<h1>Intellectual property<a class="headerlink" href="#intellectual-property" title="Permalink to this headline">¶</a></h1>
+<p>All products of research at Stanford (including data and code) are the property of the University.  However, faculty have wide latitude to release software as open source under the University’s <a class="reference external" href="https://otl.stanford.edu/open-source-stanford">open source policy</a>, as long as it doesn’t conflict with any other obligations. Students are allowed to release code under an open source license at Stanford with faculty permission; students in the Poldracklab have blanket permission to do so, as all of our code is intended to be made open available, as discussed in the section on <a class="reference external" href="https://poldracklab.github.io/research/code_management.html">code sharing</a>.  After leaving the lab, trainees can continue to reuse any code or other research materials (e.g. stimuli) developed as part of their work in the lab as long as the code has been released under an open source license and they continue to abide by the terms of the license.</p>
+<p>As discussed in the section on <a class="reference external" href="https://poldracklab.github.io/research/data_management.html">data management and sharing</a>, all data collected within our laboratory is meant to be shared upon submission of the related paper.  In cases where these data can be deidentified they will be shared under a public domain dedication (CC0), which places no restrictions on their use by other researchers.  Thus, any researcher can continue to use those data once they leave the lab. In other cases it may be necessary to restrict data sharing (e.g. when the data cannot be deidentified), in which case researchers will need to obtain a data use agreement from Stanford in order to access those data at their new institution. Dr. Poldrack commits to supporting any such requests, unless they violate other obligations of his or the University.</p>
+<p>In many cases we use data within the lab under Data Use Agreements (such as the ABCD or HCP datasets), and any researcher wishing to use such datasets must be explcitly listed on the DUA.  Once a researcher is no longer included in the Stanford DUA for a particular dataset, they must no longer access the dataset via Stanford computer systems.</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -485,24 +378,6 @@ publications using the language recommended by the data owner.</p></li>
 
 <div class='prev-next-bottom'>
     
-    <div id="prev">
-        <a class="left-prev" href="coding_standards.html" title="previous page">
-            <i class="prevnext-label fas fa-angle-left"></i>
-            <div class="prevnext-info">
-                <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Coding standards</p>
-            </div>
-        </a>
-    </div>
-     <div id="next">
-        <a class="right-next" href="data_analysis_procedures.html" title="next page">
-            <div class="prevnext-info">
-                <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Data analysis procedures</p>
-            </div>
-            <i class="prevnext-label fas fa-angle-right"></i>
-        </a>
-     </div>
 
 </div>
         
