@@ -23,6 +23,7 @@ chapters:
   - file: research/data_management
   - file: research/data_analysis_procedures
   - file: research/statistical_methods
+  - file: research/intellectual_property
 - file: publication/publication
   sections:
   - file: publication/authorship
