@@ -1,4 +1,10 @@
-# Science communication
+---
+title: "Science communication"
+format:
+  html:
+    page-layout: full
+---
+
 
 - We affirm the importance and
     value of engaging with non-expert audiences, and support the efforts

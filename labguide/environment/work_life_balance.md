@@ -1,4 +1,10 @@
-# Work/life balance
+---
+title: "Work/life balance"
+format:
+  html:
+    page-layout: full
+---
+
 
 1.  We aim to promote sustainable
     creativity and productivity for all of our members, which can’t be

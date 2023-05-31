@@ -1,4 +1,10 @@
-# Open access and preprints
+---
+title: "Open access and preprints"
+format:
+  html:
+    page-layout: full
+---
+
 
 ## Open access
 

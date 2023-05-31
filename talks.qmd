@@ -1,0 +1,9 @@
+---
+title: "Presentations"
+format:
+  html:
+    page-layout: full
+---
+
+## Poldracklab presentations
+

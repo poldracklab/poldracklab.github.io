@@ -1,4 +1,10 @@
-# Conferences
+---
+title: "Conferences"
+format:
+  html:
+    page-layout: full
+---
+
 
 - The laboratory will generally
 fund the attendance of members to at least one conference per year,

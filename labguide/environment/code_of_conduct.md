@@ -1,4 +1,9 @@
-# Code of conduct
+---
+title: "Code of conduct"
+format:
+  html:
+    page-layout: full
+---
 
 All lab members and guests are
 expected to adhere to the following code of conduct. In addition, all

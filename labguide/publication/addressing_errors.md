@@ -1,4 +1,10 @@
-# Addressing errors
+---
+title: "Addressing errors"
+format:
+  html:
+    page-layout: full
+---
+
 
 - If we identify an error in a
     published paper from the lab, all authors should convene promptly to

@@ -1,4 +1,10 @@
-# Authorship
+---
+title: "Authorship"
+format:
+  html:
+    page-layout: full
+---
+
 
 - The lab’s policy follows the
 IJCME recommendations on [Defining the Role of Authors

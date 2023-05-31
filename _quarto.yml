@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "The Poldrack Lab @Stanford"
+  repo-url: https://github.com/poldracklab/poldracklab.github.io
+  repo-actions: [edit, issue] 
+  google-analytics: "379246033"
+  page-footer: 
+    left: "© 2023 Poldrack Lab, released under the <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0 license</a>"
+    right: "Built with <a href='https://quarto.org'>Quarto</a>"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Home"
+        file: index.qmd
+      - text: "Lab members"
+        file: people.md
+      - text: "Projects"
+        file: projects.md
+      - publications.qmd
+      - text: "Software"
+        file: software.md
+      - section: "Getting involved"
+        contents:
+          - volunteer.md
+          - positions.md
+      - section: "Lab guide"
+        contents:
+          - labguide/mission_statement.md
+          - section: "Lab environment"
+            contents:
+              - labguide/environment/code_of_conduct.md
+              - labguide/environment/work_life_balance.md
+              - labguide/environment/expectations.md
+              - labguide/environment/working_remotely.md
+              - labguide/environment/survey.md
+          - labguide/general_lab_policies.md
+          - labguide/computing/computing.md
+          - section: "Research practices"
+            contents:
+              - labguide/research/human_subjects.md
+              - labguide/research/preregistration.md
+              - labguide/research/documentation.md
+              - labguide/research/code_management.md
+              - labguide/research/coding_standards.md
+              - labguide/research/data_management.md
+              - labguide/research/data_analysis_procedures.md
+              - labguide/research/statistical_methods.md
+              - labguide/research/intellectual_property.md
+          - section: "Publication and dissemination"
+            contents:
+              - labguide/publication/authorship.md
+              - labguide/publication/openaccess.md
+              - labguide/publication/addressing_errors.md
+              - labguide/publication/science_communication.md
+              - labguide/publication/conferences.md
+          - labguide/funding/funding.md
+          - labguide/mentoring/mentoring.md
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
+

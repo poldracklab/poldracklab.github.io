@@ -1,4 +1,9 @@
-# Expectations of lab engagement
+---
+title: "Expectations of lab engagement"
+format:
+  html:
+    page-layout: full
+---
 
 
 1.  All researchers in the lab

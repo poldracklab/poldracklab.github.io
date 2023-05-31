@@ -1,9 +1,14 @@
-# General lab policies
+---
+title: "General lab policies"
+format:
+  html:
+    page-layout: full
+---
 
 ## Administrative requests
 
 The assigned administrative
-    assistant for the lab (currently Renee Schumm) should be the default
+    assistant for the lab (currently Diana Savastio) should be the default
     person to send any administrative requests. In the past, we have had
     issues where requests were coming from multiple members of our lab
     and/or to multiple administrative staff, which was not being

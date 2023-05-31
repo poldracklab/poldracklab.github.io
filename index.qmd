@@ -1,0 +1,39 @@
+---
+format:
+  html:
+    page-layout: full
+---
+
+<center><a><img src="images/stanford-line2-8.png" alt="Poldracklab logo" width="50%"/></a></center>
+
+<br>
+<br>
+
+<center><a><img src="images/poldracklab_2022_small.png" alt="Poldracklab logo" width="50%"/></a></center>
+
+<br>
+<br>
+
+Our lab is focused on understanding how the brain gives rise to adaptive human behaviors.  We use a combination of functional neuroimaging, cognitive psychology, and computational modeling to address this question.  We also develop tools and infrastructure to make neuroscience more transparent and reproducible.
+
+In the Poldrack Lab, we want all of our lab members to feel valued,
+appreciated, safe, and free to be who they are. We embrace diversity and
+are committed to preventing discrimination against people based on
+gender identity or expression, sexual orientation, race, ethnicity,
+religion, age, neurodiversity, disability status, citizenship, or any
+other feature that makes them unique.
+
+We have an online [Lab Guide](labguide/index.html) that outlines our lab's values, principles, and practices.
+
+Learn more about our lab's work:
+
+- [Projects](projects.html)
+- [Publications](publications.html)
+- [Presentations](talks.html)
+- [Software](software.html)
+
+Interested in joining the lab?  See our listing of [open positions](positions.html).
+
+<br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

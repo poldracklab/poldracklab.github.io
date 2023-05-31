@@ -9,7 +9,8 @@
     through existing grants. In this case, the postdoc must spend a significant portion of
     their time working on that project. However, the lab also provides
     postdocs the room to develop their own ideas.
-1.  c. We have the opportunity to
+
+We have the opportunity to
     request [Diversity
     Supplements](https://grants.nih.gov/grants/guide/pa-files/pa-20-222.html)
     for our NIH grants. If you qualify for such a fellowship (which

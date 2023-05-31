@@ -1,4 +1,9 @@
-# Mission/values statement
+---
+title: "Mission statement"
+format:
+  html:
+    page-layout: full
+---
 
 The fundamental mission of our lab is to understand how human brain
 computations give rise to decisions and actions, with a particular focus

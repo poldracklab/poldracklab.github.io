@@ -1,0 +1,49 @@
+name: Render quarto website
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  render_site:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+    - name: Install GDebi first
+      run: sudo apt-get install gdebi-core
+    - name: Download the deb file
+      run: sudo curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb 
+    - name: Install the deb file
+      run: sudo apt-get install -y ./quarto-linux-amd64.deb
+    - name: Verify Install
+      run: /usr/local/bin/quarto check
+    - name: Install quarto deps
+      run: pip install nbformat nbclient ipykernel jupyter tomli biopython scholarly crossrefapi toml pymongo orcid
+    - name: Install academicdb
+      run: pip install academicdb
+    - name: decrypt config file
+      run: ./decrypt_secret.sh
+      env:
+        CONFIG_SECRET_PASSPHRASE: ${{ secrets.CONFIG_SECRET_PASSPHRASE }}
+    - name: decrypt pybliometrics config file
+      run: ./decrypt_pyb_config.sh
+      env:
+        TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
+    - name: build site
+      run: quarto render .
+    - name: check contents
+      run: echo "$PWD"; ls -lR
+    - name: Deploy (on tags)
+      if: github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs
+          force_orphan: true
+          user_name: "Russ Poldrack"
+          user_email: poldrack@gmail.com

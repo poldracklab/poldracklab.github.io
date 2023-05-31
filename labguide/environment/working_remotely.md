@@ -1,4 +1,9 @@
-# Working remotely
+---
+title: "Working remotely"
+format:
+  html:
+    page-layout: full
+---
 
 1.  The Poldracklab has a long
     history of remote members, and we support the needs of lab members
