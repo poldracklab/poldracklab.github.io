@@ -24,6 +24,7 @@ format:
   
 ## Graduate Students
 
+- Austin Brotman
 - Rastko Ciric
 - Lynde Folsom
 - Grace Huckins
