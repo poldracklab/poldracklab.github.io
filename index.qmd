@@ -32,6 +32,8 @@ Learn more about our lab's work:
 - [Presentations](talks.html)
 - [Software](software.html)
 
+Interested in participating in a research subject?  See our listing of [current studies](research_subjects.html).
+
 Interested in joining the lab?  See our listing of [open positions](positions.html).
 
 <br>
