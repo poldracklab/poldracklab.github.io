@@ -11,11 +11,7 @@ format:
 - A project that is characterizing the large-scale brain networks involved in diverse cognitive control processes using deep phenotyping.
 - Funded by [5R01MH117772](https://reporter.nih.gov/project-details/10398085)
 - Papers:
-  - [Severe violations of independence in response inhibition tasks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7968836/)
-  - [Open Exploration](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6964967/)
-  - [Large-scale analysis of test–retest reliabilities of self-regulation measures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431228/)
-  - [Uncovering the structure of self-regulation through data-driven ontology discovery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6534563/)
-  - [Applying Novel Technologies and Methods to Inform the Ontology of Self-Regulation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5801197/)
+  - [A dual-task approach to inform the taxomony of inhibition-related processes] (https://psycnet.apa.org/record/2023-31463-001) 
   
 #### Data-driven validation of cognitive RDoC dimensions using deep phenotyping
 - A project that is reframing the Cognitive Systems component of RDoC using deep phenotyping with behavior and fMRI.
@@ -30,10 +26,19 @@ format:
 - Publications:
   - [Modelling human behaviour in cognitive tasks with latent dynamical systems](https://www.nature.com/articles/s41562-022-01510-8)
 
+#### Challenging existing models and developing new models for response inhibition
+- A project aimed at development next-generation models of response inhibition
+- Publications:
+  -[Severe violations of independence in response inhibition tasks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7968836/)
+  -[Estimating the time to do nothing: Towards next-generation models of response inhibition (https://journals.sagepub.com/doi/10.1177/09637214221121753
+
 #### Applying novel technologies and methods to inform the ontology of self-regulation
   - A study examining the organization of cognitive functions that underlie self-regulatory abilities
   - Funded by [5UH3DA041713](https://reporter.nih.gov/project-details/9780476)
   - Publications:
+    - [Uncovering the structure of self-regulation through data-driven ontology discovery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6534563/)
+    - [Large-scale analysis of test–retest reliabilities of self-regulation measures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6431228/)
+    - [Applying Novel Technologies and Methods to Inform the Ontology of Self-Regulation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5801197/)
     - [Relating psychiatric symptoms and self-regulation during the COVID-19 crisis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9274960/)
     - [Momentary Influences on Self-Regulation in Two Populations With Health Risk Behaviors: Adults Who Smoke and Adults Who Are Overweight and Have Binge-Eating Disorder](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8971561/)
     - [A Psychometric Analysis of the Brief Self-Control Scale](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7261631/)
