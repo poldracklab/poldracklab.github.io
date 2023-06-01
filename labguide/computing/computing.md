@@ -15,8 +15,8 @@ members for research purposes must meet the [Stanford Minimum Security Standards
 We use two primary shared
 computing platforms:
 
--   Stanford Research Computing Facility
--   Texas Advanced Computing Center
+-   [Stanford Research Computing Center](https://srcc.stanford.edu/)
+-   [Texas Advanced Computing Center](https://www.tacc.utexas.edu/)
 
 The decision regarding which
     platform to use will depend upon the specific needs of the project,
