@@ -1,39 +1,46 @@
 ---
-- PI:
+- group: PI
+  members:
   - name: Russ Poldrack
     website: https://poldrack.github.io
 
-- Research Scientists:
+- group: Research Scientists
+  members:
   - name: Patrick Bissett
   - name: Joshua Buckholtz
   - name: Jeanette Mumford
 
-- Postdoctoral Scholars:
+- group: Postdoctoral Scholars
+  members:
   - name: Michael Demidenko
   - name: Elizabeth DuPre
   - name: Paul Jaffe
   - name: Anita Jwa
   - name: Armin Thomas
   
-- Graduate Students:
+- group: Graduate Students
+  members:
   - name: Austin Brotman
   - name: Rastko Ciric
   - name: Lynde Folsom
   - name: Grace Huckins
   - name: Anna Xu
   
-- Research Coordinators:
+- group: Research Coordinators
+  members:
   - name: Logan Bennett
   - name: Jaime Rios
   - name: Sunjae Shim
   
-- Software Developers:
+- group: Software Developers
+  members:
   - name: Ross Blair
   - name: Nell Hardcastle
   - name: Mathias Goncalves
   - name: Chris Markiewicz
 
-- Lab Alumni:
+- group: Lab Alumni
+  members:
   - name: Adam Aron
   - name: Akram Bakkour
   - name: Mei-Yen Chen

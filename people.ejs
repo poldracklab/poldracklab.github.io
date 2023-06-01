@@ -1,0 +1,13 @@
+```{=html}
+<% for (const item of items) { %>
+<h2><%- item.group %></h2>
+<ul>
+  <% for (const member of item.members) { %>
+  <li>
+    <% if (member.website) { %><a href="<%- member.website %>"><% }
+     %><%- member.name %><% if (member.website) { %></a><% } %>
+  </li>
+  <% } %>
+</ul>
+<% } %>
+```
