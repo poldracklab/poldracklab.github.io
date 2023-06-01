@@ -36,8 +36,8 @@ jobs:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: build site
       run: quarto render .
-    - name: check contents
-      run: echo "$PWD"; ls -lR
+    - name: create CNAME file for custom domain
+      run: echo "poldracklab.org"; > docs/CNAME
     - name: Deploy (on tags)
       if: github.event_name == 'push'
       uses: peaceiris/actions-gh-pages@v3
