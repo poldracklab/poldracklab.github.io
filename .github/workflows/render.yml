@@ -38,10 +38,6 @@ jobs:
       run: quarto render .
     - name: Deploy (on tags)
       if: github.event_name == 'push'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
-          force_orphan: true
-          user_name: "Russ Poldrack"
-          user_email: poldrack@gmail.com
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs # The folder the action should deploy.
