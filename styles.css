@@ -1,0 +1,10 @@
+/* css styles */
+
+.roundedimg {
+    border-radius: 80%;
+  }
+
+.centered {
+    text-align: center !important;
+    fig-align: center !important;
+}
