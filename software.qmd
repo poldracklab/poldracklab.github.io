@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Poldracklab Software and Data"
 format:
   html:
     page-layout: full
@@ -14,6 +14,21 @@ For additional information on our organized software development projects, see [
 - [Poldracklab Github organization](https://github.com/poldracklab)
 - [Russ Poldrack's Github page](http://github.com/poldrack)
 
+## Software for tasks used in lab publications
+- Many of our recent tasks are housed in the [Experiment Factory](https://expfactory.github.io/)
+- [mixed gambles task](http://web.stanford.edu/group/poldracklab/software/mixed_gambles_task.zip) (demo and scanning script from task used in Tom et al., 2007)
+
+## Task software used in Consortium for Neuropsychiatric Phenomics (CNP)
+  - ​Users of these tasks should include the following acknowledgment in any resulting publications: Development of this software was supported by the Consortium for Neuropsychiatric Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580, RL1MH083269, RL1DA024853, PL1MH083271.
+  - [Balloon Analog Risk task](http://web.stanford.edu/group/poldracklab/software/BART.zip) (demo and scanning script)
+  - [Breath holding task](http://web.stanford.edu/group/poldracklab/software/BHT.zip)
+  - Paired Associate Memory
+  - [Spatial working memory capacity](http://web.stanford.edu/group/poldracklab/software/SCAP.zip)
+  - [Stop Signal task](http://web.stanford.edu/group/poldracklab/software/STOPSIG.zip)
+  - [Task switching](http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip)
+
+
+## Data/code/OSF pages for published papers
 
 ```{python}
 #| echo: false
@@ -40,10 +55,8 @@ if not os.path.exists(configfile):
 
 db = setup_db(configfile)
 
-print(get_publications(
-        db.get_collection('publications'),
-    ))
+pubs = [i for i in db.get_collection('publications') if 'links' in i]
 
-
+print(get_publications(pubs))
 
 ```
