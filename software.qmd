@@ -1,0 +1,49 @@
+---
+title: "Publications"
+format:
+  html:
+    page-layout: full
+---
+
+
+Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive [MIT License](http://opensource.org/licenses/MIT)
+
+For additional information on our organized software development projects, see [here](projects.md).
+
+## Github repositories
+- [Poldracklab Github organization](https://github.com/poldracklab)
+- [Russ Poldrack's Github page](http://github.com/poldrack)
+
+
+```{python}
+#| echo: false
+#| output: asis
+#| warning: false
+#| message: false
+
+# this code uses academicdb to put together a list of publications 
+# with data/code/osf pages
+from datetime import date
+from contextlib import suppress
+from academicdb.dbbuilder import setup_db
+from academicdb.utils import escape_characters_for_latex
+from academicdb.render_pubs import get_publications
+import logging
+import argparse
+import os
+
+configfile = 'config.toml'
+if not os.path.exists(configfile):
+    raise FileNotFoundError(
+        f'You must first set up the config.toml file'
+    )
+
+db = setup_db(configfile)
+
+print(get_publications(
+        db.get_collection('publications'),
+    ))
+
+
+
+```
