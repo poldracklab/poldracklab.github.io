@@ -36,7 +36,7 @@ jobs:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: rebuild database
       if: "contains(github.event.head_commit.message, 'builddb')"
-      run: cd academicdb; dbbuilder -b . -c ../ 
+      run: cd academicdb; dbbuilder -b -o . -c ../ 
     - name: build site
       run: quarto render .
     - name: Deploy (on tags)
