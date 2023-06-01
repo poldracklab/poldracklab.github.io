@@ -35,7 +35,8 @@ jobs:
       env:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: check commit message
-      run: echo ${{ github.event.head_commit.message }}
+      run: echo $(git log -1 --no-merges --pretty=%B)
+
     - name: rebuild database
       if: contains(github.event.head_commit.message, 'builddb')
       run: cd academicdb; dbbuilder -o -b . -c ../ 
