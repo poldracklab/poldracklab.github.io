@@ -35,8 +35,13 @@ jobs:
       env:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: check commit message
-      run: echo $(git log -1 --no-merges --pretty=%B)
-
+      run: |
+        PR_NUMBER="${{ github.event.pull_request.number }}"
+        PR_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+        TOKEN="${{ secrets.GITHUB_TOKEN }}"
+        commits_url="https://api.github.com/repos/$PR_REPO/pulls/$PR_NUMBER/commits"
+        commit_messages=$(curl -s -H "Authorization: token $TOKEN" $commits_url | jq '.[].commit.message')
+        echo "$commit_messages"
     - name: rebuild database
       if: contains(github.event.head_commit.message, 'builddb')
       run: cd academicdb; dbbuilder -o -b . -c ../ 
