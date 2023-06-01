@@ -22,7 +22,7 @@ website:
         file: projects.md
       - publications.qmd
       - text: "Software"
-        file: software.md
+        file: software.qmd
       - section: "Getting involved"
         contents:
           - volunteer.md
