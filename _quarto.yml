@@ -21,7 +21,7 @@ website:
       - text: "Projects"
         file: projects.md
       - publications.qmd
-      - text: "Software"
+      - text: "Code/Data"
         file: software.qmd
       - section: "Getting involved"
         contents:
