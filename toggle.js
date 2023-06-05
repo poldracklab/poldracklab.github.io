@@ -3,7 +3,7 @@
 
 // Replicated from https://github.com/quarto-dev/quarto-cli/blob/84d4659/src/resources/formats/html/templates/quarto-html.ejs
 const getColorSchemeSentinel = () => {
-  const localAlternateSentinel = 'alternate';
+  const localAlternateSentinel = 'default';
   if (window.location.protocol !== 'file:') {
     const storageValue = window.localStorage.getItem('quarto-color-scheme');
     return storageValue != null ? storageValue : localAlternateSentinel;
@@ -26,8 +26,23 @@ const toggleColorSchemeElements = () => {
   }
 };
 
-// Add event listener for when the readyState is complete (and default toggler is set)
+// Function to check if the user's browser prefers dark themes
+const prefersDarkTheme = () => {
+  if (window.matchMedia) {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  return false;
+};
+
 document.addEventListener('readystatechange', function() {
+  // Set the default color scheme based on browser preference
+  if (document.readyState === 'interactive' && window.location.protocol !== 'file:') {
+    const storageValue = window.localStorage.getItem('quarto-color-scheme');
+    if (storageValue == null && prefersDarkTheme()) {
+      window.localStorage.setItem('quarto-color-scheme', 'alternate');
+    }
+  }
+  // Add event listener for when the readyState is complete (and default toggler is set)
   if (document.readyState === 'complete') {
     // Toggle scheme once
     toggleColorSchemeElements();
@@ -39,4 +54,5 @@ document.addEventListener('readystatechange', function() {
     }
   }
 });
+
 </script>
