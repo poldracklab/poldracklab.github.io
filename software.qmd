@@ -38,16 +38,16 @@ For additional information on our organized software development projects, see [
 
 # this code uses academicdb to put together a list of publications
 # with data/code/osf pages
-from datetime import date
-from contextlib import suppress
-from academicdb.dbbuilder import setup_db
-from academicdb.utils import escape_characters_for_latex
-from academicdb.render_pubs import get_publications
-import logging
-import argparse
 import os
-
 try:
+    from datetime import date
+    from contextlib import suppress
+    from academicdb.dbbuilder import setup_db
+    from academicdb.utils import escape_characters_for_latex
+    from academicdb.render_pubs import get_publications
+    import logging
+    import argparse
+
     configfile = 'config.toml'
     if not os.path.exists(configfile):
         raise FileNotFoundError(

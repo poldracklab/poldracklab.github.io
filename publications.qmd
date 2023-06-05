@@ -11,17 +11,18 @@ format:
 #| warning: false
 #| message: false
 
-# this code uses academicdb to put together a list of publications
-from datetime import date
-from contextlib import suppress
-from academicdb.dbbuilder import setup_db
-from academicdb.utils import escape_characters_for_latex
-from academicdb.render_pubs import get_publications
-import logging
-import argparse
 import os
 
+# this code uses academicdb to put together a list of publications
 try:
+    from datetime import date
+    from contextlib import suppress
+    from academicdb.dbbuilder import setup_db
+    from academicdb.utils import escape_characters_for_latex
+    from academicdb.render_pubs import get_publications
+    import logging
+    import argparse
+
     configfile = 'config.toml'
     if not os.path.exists(configfile):
         raise FileNotFoundError(
