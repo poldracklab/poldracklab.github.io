@@ -21,20 +21,23 @@ import logging
 import argparse
 import os
 
-configfile = 'config.toml'
-if not os.path.exists(configfile):
-    raise FileNotFoundError(
-        f'You must first set up the config.toml file'
-    )
+try:
+    configfile = 'config.toml'
+    if not os.path.exists(configfile):
+        raise FileNotFoundError(
+            f'You must first set up the config.toml file'
+        )
 
-db = setup_db(configfile)
+    db = setup_db(configfile)
 
-print(get_publications(
-        db.get_collection('publications'),
-    ))
+    print(get_publications(
+            db.get_collection('publications'),
+        ))
 
-print('\ \n\ \n')
-print(f'*Updated: {date.today()} - Publication list created using [autocv](https://github.com/poldrack/academicdb)*')
-
+    print('\ \n\ \n')
+    print(f'*Updated: {date.today()} - Publication list created using [autocv](https://github.com/poldrack/academicdb)*')
+except Exception:
+    if not os.getenv("POLDRACKLAB_IGNORE_FAILURE"):
+        raise
 
 ```
