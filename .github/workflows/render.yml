@@ -38,6 +38,9 @@ jobs:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
     - name: build site
       run: quarto render .
+      env:
+        # Only enabled on pull requests
+        POLDRACKLAB_IGNORE_FAILURE: $GITHUB_BASE_REF
     - name: Deploy
       if: github.event_name == 'push'
       uses: JamesIves/github-pages-deploy-action@v4
