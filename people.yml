@@ -40,6 +40,8 @@
   members:
   - name: Ross Blair
   - name: Nell Hardcastle
+    orcid: 0000-0002-3837-0707
+    github: nellh
   - name: Mathias Goncalves
   - name: Chris Markiewicz
     website: https://effigies.gitlab.io
