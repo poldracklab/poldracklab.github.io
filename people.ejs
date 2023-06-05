@@ -9,7 +9,15 @@
     if (member.website) { %></a><% }
     for (const [link, field] of Object.entries(templateParams)) {
       if (member[link]) {
-      %> <a href="<%- field.base_url %><%- member[link] %>"><img src="<%- field.icon %>" alt="<%- field.alt %>"></a><%
+      %> <a style="color: inherit;" href="<%- field.base_url %><%- member[link] %>"><%
+        if (field.icon) {
+          %><img src="<%- field.icon %>" alt="<%- field.alt ? field.alt : link %>"><%
+        } else {
+          %><i class="bi bi-<%- link %>" role="img" aria-label="<%-
+            field.alt ? field.alt : link
+          %>"></i><%
+        }
+      %></a><%
       }
     }
   %></li>
