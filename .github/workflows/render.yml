@@ -40,11 +40,15 @@ jobs:
       continue-on-error: true
       env:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
+    - name: Allow Python code to fail on forked PRs
+      run: |
+        if [ "$REPO_OWNER" != "poldracklab" ]; then
+          echo "POLDRACKLAB_IGNORE_FAILURE=1" | tee -a $GITHUB_ENV
+        fi
+      env:
+        REPO_OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
     - name: build site
       run: quarto render .
-      env:
-        # Only enabled on pull requests
-        POLDRACKLAB_IGNORE_FAILURE: $GITHUB_BASE_REF
     - name: Deploy
       if: github.event_name == 'push'
       uses: JamesIves/github-pages-deploy-action@v4
