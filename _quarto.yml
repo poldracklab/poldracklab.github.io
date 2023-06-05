@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "The Poldrack Lab @Stanford"
+  title: "The Poldrack Lab \\@Stanford"
   repo-url: https://github.com/poldracklab/poldracklab.github.io
   repo-actions: [edit, issue] 
   google-analytics: "379246033"
