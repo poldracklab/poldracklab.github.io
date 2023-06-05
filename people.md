@@ -14,6 +14,8 @@ listing:
       base_url: https://orcid.org/
       icon: https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png
       alt: ORCID
+    github:
+      base_url: https://github.com/
 format:
   html:
     page-layout: full
