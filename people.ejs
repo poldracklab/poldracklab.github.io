@@ -1,0 +1,27 @@
+```{=html}
+<% for (const item of items) { %>
+<h2><%- item.group %></h2>
+<ul>
+  <% for (const member of item.members) { %>
+  <li><%
+    if (member.website) { %><a href="<%- member.website %>"><% }
+    %><%- member.name %><%
+    if (member.website) { %></a><% }
+    for (const [link, field] of Object.entries(templateParams)) {
+      if (member[link]) {
+      %> <a style="color: inherit;" href="<%- field.base_url %><%- member[link] %>"><%
+        if (field.icon) {
+          %><img src="<%- field.icon %>" alt="<%- field.alt ? field.alt : link %>"><%
+        } else {
+          %><i class="bi bi-<%- link %>" role="img" aria-label="<%-
+            field.alt ? field.alt : link
+          %>"></i><%
+        }
+      %></a><%
+      }
+    }
+  %></li>
+  <% } %>
+</ul>
+<% } %>
+```
