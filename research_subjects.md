@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-<p>Please note, these project are active as of August 2022. If you take our screener, we'll be sure to contact you as soon as possible if you're eligible.</p>
+<p>Please note, these project are active as of June 2023. If you take our screener, we'll be sure to contact you as soon as possible if you're eligible.</p>
 
 <p>We currently have the following opportunities available for research participants:</p>
 
