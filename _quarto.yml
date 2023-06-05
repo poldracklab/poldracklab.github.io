@@ -67,6 +67,8 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    include-in-header:
+      - toggle.js
 
 
 

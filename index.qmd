@@ -4,11 +4,11 @@ format:
     page-layout: full
 ---
 
-<center><a>
-  <picture>
-  <source srcset="images/stanford-line2-8-dark.png" media="(prefers-color-scheme: dark)" />
-  <img src="images/stanford-line2-8.png" alt="Poldracklab logo" width="50%" />
-  </picture></a>
+<center>
+  <a>
+    <img src="images/stanford-line2-8.png" alt="Poldracklab logo" width="50%" class="only-light" />
+    <img src="images/stanford-line2-8-dark.png" alt="Poldracklab logo" width="50%" class="only-dark" style="display: none" />
+  </a>
 </center>
 
 <br>
