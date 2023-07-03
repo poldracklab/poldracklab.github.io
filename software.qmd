@@ -36,27 +36,31 @@ For additional information on our organized software development projects, see [
 #| warning: false
 #| message: false
 
-# this code uses academicdb to put together a list of publications 
+# this code uses academicdb to put together a list of publications
 # with data/code/osf pages
-from datetime import date
-from contextlib import suppress
-from academicdb.dbbuilder import setup_db
-from academicdb.utils import escape_characters_for_latex
-from academicdb.render_pubs import get_publications
-import logging
-import argparse
 import os
+try:
+    from datetime import date
+    from contextlib import suppress
+    from academicdb.dbbuilder import setup_db
+    from academicdb.utils import escape_characters_for_latex
+    from academicdb.render_pubs import get_publications
+    import logging
+    import argparse
 
-configfile = 'config.toml'
-if not os.path.exists(configfile):
-    raise FileNotFoundError(
-        f'You must first set up the config.toml file'
-    )
+    configfile = 'config.toml'
+    if not os.path.exists(configfile):
+        raise FileNotFoundError(
+            f'You must first set up the config.toml file'
+        )
 
-db = setup_db(configfile)
+    db = setup_db(configfile)
 
-pubs = [i for i in db.get_collection('publications') if 'links' in i]
+    pubs = [i for i in db.get_collection('publications') if 'links' in i]
 
-print(get_publications(pubs))
+    print(get_publications(pubs))
+except Exception:
+    if not os.getenv("POLDRACKLAB_IGNORE_FAILURE"):
+        raise
 
 ```

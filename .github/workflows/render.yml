@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   render_site:
     runs-on: ubuntu-latest
@@ -28,15 +32,24 @@ jobs:
       run: pip install academicdb
     - name: decrypt config file
       run: ./decrypt_secret.sh
+      continue-on-error: true
       env:
         CONFIG_SECRET_PASSPHRASE: ${{ secrets.CONFIG_SECRET_PASSPHRASE }}
     - name: decrypt pybliometrics config file
       run: ./decrypt_pyb_config.sh
+      continue-on-error: true
       env:
         TOKEN_PASSCODE: ${{ secrets.TOKEN_PASSCODE }}
+    - name: Allow Python code to fail on forked PRs
+      run: |
+        if [ "$REPO_OWNER" != "poldracklab" ]; then
+          echo "POLDRACKLAB_IGNORE_FAILURE=1" | tee -a $GITHUB_ENV
+        fi
+      env:
+        REPO_OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
     - name: build site
       run: quarto render .
-    - name: Deploy (on tags)
+    - name: Deploy
       if: github.event_name == 'push'
       uses: JamesIves/github-pages-deploy-action@v4
       with:

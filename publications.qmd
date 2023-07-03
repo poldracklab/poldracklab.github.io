@@ -11,30 +11,34 @@ format:
 #| warning: false
 #| message: false
 
-# this code uses academicdb to put together a list of publications
-from datetime import date
-from contextlib import suppress
-from academicdb.dbbuilder import setup_db
-from academicdb.utils import escape_characters_for_latex
-from academicdb.render_pubs import get_publications
-import logging
-import argparse
 import os
 
-configfile = 'config.toml'
-if not os.path.exists(configfile):
-    raise FileNotFoundError(
-        f'You must first set up the config.toml file'
-    )
+# this code uses academicdb to put together a list of publications
+try:
+    from datetime import date
+    from contextlib import suppress
+    from academicdb.dbbuilder import setup_db
+    from academicdb.utils import escape_characters_for_latex
+    from academicdb.render_pubs import get_publications
+    import logging
+    import argparse
 
-db = setup_db(configfile)
+    configfile = 'config.toml'
+    if not os.path.exists(configfile):
+        raise FileNotFoundError(
+            f'You must first set up the config.toml file'
+        )
 
-print(get_publications(
-        db.get_collection('publications'),
-    ))
+    db = setup_db(configfile)
 
-print('\ \n\ \n')
-print(f'*Updated: {date.today()} - Publication list created using [autocv](https://github.com/poldrack/academicdb)*')
+    print(get_publications(
+            db.get_collection('publications'),
+        ))
 
+    print('\ \n\ \n')
+    print(f'*Updated: {date.today()} - Publication list created using [autocv](https://github.com/poldrack/academicdb)*')
+except Exception:
+    if not os.getenv("POLDRACKLAB_IGNORE_FAILURE"):
+        raise
 
 ```
