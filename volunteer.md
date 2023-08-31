@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-<p>Please note, these project are active as of August 2022. If you take our screener, we'll be sure to contact you as soon as possible if you're eligible.</p>
+<p>Please note, these project are active as of August 2023. If you take our screener, we'll be sure to contact you as soon as possible if you're eligible.</p>
 
 <p>We currently have the following opportunities available for research participants:</p>
 
@@ -15,7 +15,7 @@ format:
 
 <p>Eligible participants must be between 18 and 50 years old, speak English fluently, be right-handed, free of psychiatric and neurological illness, have no metallic implants in or on their body, have no history of eating disorder, and have no food allergies.</p>
 
-<p>You may receive a total of $630 as payment for your participation, which is $15/hr for all sessions, and a $210 completion bonus for completing all 12 scanning sessions and post-scan tasks, and $150 for completing the behavioral tasks.</p>
+<p>You may receive a total of $820 as payment for your participation, which is $20/hr for all sessions, and a $250 completion bonus for completing all 12 scanning sessions and post-scan tasks, and $200 for completing the behavioral tasks.</p>
 
 <p><span>For general information about participants rights, contact 1-866-680-2906.</span></p>
 
