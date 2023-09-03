@@ -11,6 +11,10 @@
   - name: Patrick Bissett
     website: https://bissettp.github.io/
   - name: Joshua Buckholtz
+  - name: Chris Markiewicz
+    website: https://effigies.gitlab.io
+    orcid: 0000-0002-6533-164X
+    github: effigies
   - name: Jeanette Mumford
     website: https://jeanettemumford.org/
     orcid: 0000-0002-0926-3531
@@ -34,10 +38,10 @@
   
 - group: Graduate Students
   members:
-  - name: Austin Brotman
   - name: Rastko Ciric
   - name: Lynde Folsom
   - name: Grace Huckins
+  - name: Nastasia Klevak
   - name: Anna Xu
   
 - group: Research Coordinators
@@ -55,33 +59,41 @@
   - name: Mathias Goncalves
     orcid: 0000-0002-7252-7771
     github: mgxd
-  - name: Chris Markiewicz
-    website: https://effigies.gitlab.io
-    orcid: 0000-0002-6533-164X
-    github: effigies
 
 - group: Lab Alumni
   members:
   - name: Adam Aron
+    website: https://aronlab.org/
   - name: Akram Bakkour
+    website: https://bakkourlab.uchicago.edu/
+  - name: Austin Brotman
   - name: Mei-Yen Chen
   - name: Naomi Cherne
+    website: https://www.exponent.com/people/naomi-cherne
   - name: Jessica Cohen
+    website: https://cohenlab.web.unc.edu/
   - name: Eliza Congdon
+    website: https://neurogen.semel.ucla.edu/eliza-congdon-phd/
   - name: Tyler Davis
   - name: Joke Durnez
   - name: Ian Eisenberg
   - name: Ayse Zeynep Enkavi
   - name: Oscar Esteban
+    website: https://wp.unil.ch/connectomics/team/oscar-esteban/
   - name: Karin Foerde
   - name: Adriana Galvan
+    website: https://galvanlab.psych.ucla.edu/
   - name: Marta Garrido
+    website: https://psychologicalsciences.unimelb.edu.au/research/msps-research-groups/C2NP/lab
   - name: Dara Ghahremani
   - name: Chris Gorgolewski
   - name: Koji Jimura
+    website: https://en.jimuralab.org/
   - name: Don Kalar
   - name: Sanmi Koyejo
+    website: https://cs.stanford.edu/~sanmi/
   - name: Agatha Lenartowicz
+    website: https://agathalenartowicz.com/
   - name: Romy Lorenz
   - name: Nick Malecek
   - name: Dana Mastrovito
@@ -93,15 +105,22 @@
   - name: Rajeev Raizada
   - name: Angela Rizk-Jackson
   - name: Ajay Satpute
+    website: https://web.northeastern.edu/affectiveandbrainscienceslab/
   - name: Tom Schonberg
+    website: https://www.schonberglab.sites.tau.ac.il/
   - name: Mac Shine
+    website: https://www.schonberglab.sites.tau.ac.il/
   - name: Vanessa Sochat
   - name: Elena Stover
   - name: William Thompson
+    website: https://www.gu.se/en/about/find-staff/williamhedleythompson
   - name: Christopher Trepel
   - name: Matilde Vaghi
+    website: https://research-portal.uea.ac.uk/en/persons/matilde-vaghi
   - name: Jonathan Walters
   - name: Corey White
   - name: Eliott Wimmer
+    website: https://lmdlab.github.io/
   - name: Alara Wright
   - name: Gui Xue
+    website: https://cbls.bnu.edu.cn/
