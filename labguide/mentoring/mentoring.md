@@ -7,7 +7,7 @@ This section of the guide is a first-person perspective from Dr. Poldrack.
 ### What graduate programs are you affiliated with?
 - I am affiliated with three
     graduate programs at Stanford: 
-    - [Psychology](https://psychology.stanford.edu/gradprogram)
+    - [Psychology](https://psychology.stanford.edu/phd-program)
     - [Neuroscience](https://med.stanford.edu/neurogradprogram.html)
     - [Biomedical Informatics](http://bmi.stanford.edu/prospective-students/PhD-degree-biomedical-informatics.html) (BMI)
 
