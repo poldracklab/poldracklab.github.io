@@ -24,7 +24,7 @@ which state that authorship should be based on four criteria:
     investigated and resolved.
 - Importantly, we view substantial
 contributions to data acquisition or analysis alone to be sufficient for
-authorship, as long criteria 2-4 are met. For this reason, research
+authorship on the primary project manuscript, as long criteria 2-4 are met. For this reason, research
 assistants in our lab often end up being coauthors on our publications.
 - Criterion \#1 also implies
     that Dr. Poldrack will *not* accept authorship on any work that he
@@ -32,7 +32,7 @@ assistants in our lab often end up being coauthors on our publications.
     interpreting.<span class="Apple-converted-space">  </span>Please do
     not send completed manuscripts with a request for him to be a
     coauthor.
-- The sharing of data on its own is
+- The sharing of data is
 not considered to be sufficient on its own to warrant authorship;
 instead, credit should be given through citation of a data descriptor
 and/or dataset DOI.<span class="Apple-converted-space">  </span>However,
