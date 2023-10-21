@@ -5,7 +5,7 @@ render-site:
 
 push-site:
 	-git add -u
-	-git -f add docs/*
+	-git add -f docs/*
 	-git commit -m"updating docs"
 	git push origin main
 
