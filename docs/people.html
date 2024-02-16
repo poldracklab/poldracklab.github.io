@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-99.9.9">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -109,6 +110,33 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -118,11 +146,11 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./people.html">Lab members</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -133,7 +161,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">The Poldrack Lab @Stanford</a> 
@@ -390,7 +418,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
@@ -446,15 +474,15 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 <h2 class="anchored">Postdoctoral Scholars</h2>
 <ul>
   
+  <li><a href="https://ericwb.me/">Eric Bridgeford</a></li>
+  
   <li><a href="https://michaeldemidenko.com/">Michael Demidenko</a> <a style="color: inherit;" href="https://orcid.org/0000-0001-9270-0124"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/demidenm"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
   
   <li><a href="https://elizabeth-dupre.com/">Elizabeth DuPre</a> <a style="color: inherit;" href="https://orcid.org/0000-0003-1358-196X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/emdupre"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
   
   <li>Paul Jaffe <a style="color: inherit;" href="https://orcid.org/0000-0003-0680-3923"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/pauljaffe"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
   
-  <li>Anita Jwa</li>
-  
-  <li>Armin Thomas</li>
+  <li>Anita Jwa <a style="color: inherit;" href="https://orcid.org/0000-0002-1462-424X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a></li>
   
 </ul>
 
@@ -506,9 +534,9 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   
   <li><a href="https://bakkourlab.uchicago.edu/">Akram Bakkour</a></li>
   
-  <li>Austin Brotman</li>
+  <li><a href="https://www.linkedin.com/in/austin-brotman-8725471b1/">Austin Brotman</a></li>
   
-  <li>Mei-Yen Chen</li>
+  <li><a href="https://www.linkedin.com/in/mei-yen-chen-22937787/">Mei-Yen Chen</a></li>
   
   <li><a href="https://www.exponent.com/people/naomi-cherne">Naomi Cherne</a></li>
   
@@ -516,17 +544,17 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   
   <li><a href="https://neurogen.semel.ucla.edu/eliza-congdon-phd/">Eliza Congdon</a></li>
   
-  <li>Tyler Davis</li>
+  <li><a href="https://www.linkedin.com/in/tyler-davis-453a1a75/">Tyler Davis</a></li>
   
-  <li>Joke Durnez</li>
+  <li><a href="https://www.linkedin.com/in/joke-durnez/">Joke Durnez</a></li>
   
-  <li>Ian Eisenberg</li>
+  <li><a href="https://www.linkedin.com/in/ian-eisenberg-aa17b594/">Ian Eisenberg</a></li>
   
-  <li>Ayse Zeynep Enkavi</li>
+  <li><a href="https://zenkavi.github.io/">Ayse Zeynep Enkavi</a></li>
   
   <li><a href="https://wp.unil.ch/connectomics/team/oscar-esteban/">Oscar Esteban</a></li>
   
-  <li>Karin Foerde</li>
+  <li><a href="https://karinfoerde.wixsite.com/karinfoerde">Karin Foerde</a></li>
   
   <li><a href="https://galvanlab.psych.ucla.edu/">Adriana Galvan</a></li>
   
@@ -534,29 +562,29 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   
   <li>Dara Ghahremani</li>
   
-  <li>Chris Gorgolewski</li>
+  <li><a href="https://chrisgorgolewski.org/">Chris Gorgolewski</a></li>
   
   <li><a href="https://en.jimuralab.org/">Koji Jimura</a></li>
   
-  <li>Don Kalar</li>
+  <li><a href="https://www.linkedin.com/in/donald-kalar-010977b/">Don Kalar</a></li>
   
   <li><a href="https://cs.stanford.edu/~sanmi/">Sanmi Koyejo</a></li>
   
   <li><a href="https://agathalenartowicz.com/">Agatha Lenartowicz</a></li>
   
-  <li>Romy Lorenz</li>
+  <li><a href="https://www.romylorenz.com/">Romy Lorenz</a></li>
   
-  <li>Nick Malecek</li>
+  <li><a href="https://www.linkedin.com/in/nicholasmalecek/">Nick Malecek</a></li>
   
-  <li>Dana Mastrovito</li>
+  <li><a href="https://www.linkedin.com/in/danamastrovito/">Dana Mastrovito</a></li>
   
-  <li>Craig Moodie</li>
+  <li><a href="https://www.linkedin.com/in/craigmoodie/">Craig Moodie</a></li>
   
   <li><a href="https://mnoergaard.github.io/">Martin Norgaard</a> <a style="color: inherit;" href="https://orcid.org/0000-0003-2131-5688"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/mnoergaard"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
   
-  <li>Rajeev Raizada</li>
+  <li><a href="https://rajeevraizada.github.io/">Rajeev Raizada</a></li>
   
-  <li>Angela Rizk-Jackson</li>
+  <li><a href="https://www.linkedin.com/in/angela-rizk-jackson/">Angela Rizk-Jackson</a></li>
   
   <li><a href="https://web.northeastern.edu/affectiveandbrainscienceslab/">Ajay Satpute</a></li>
   
@@ -564,19 +592,21 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   
   <li><a href="https://www.schonberglab.sites.tau.ac.il/">Mac Shine</a></li>
   
-  <li>Vanessa Sochat</li>
+  <li><a href="https://vsoch.github.io/">Vanessa Sochat</a></li>
   
   <li>Elena Stover</li>
   
+  <li><a href="https://athms.me/">Armin Thomas</a></li>
+  
   <li><a href="https://www.gu.se/en/about/find-staff/williamhedleythompson">William Thompson</a></li>
   
-  <li>Christopher Trepel</li>
+  <li><a href="https://www.linkedin.com/in/christophertrepel/">Christopher Trepel</a></li>
   
   <li><a href="https://research-portal.uea.ac.uk/en/persons/matilde-vaghi">Matilde Vaghi</a></li>
   
-  <li>Jonathan Walters</li>
+  <li><a href="https://www.linkedin.com/in/jwalters4/">Jonathan Walters</a></li>
   
-  <li>Corey White</li>
+  <li><a href="https://www.linkedin.com/in/corey-white-162635173/">Corey White</a></li>
   
   <li><a href="https://lmdlab.github.io/">Eliott Wimmer</a></li>
   
@@ -718,38 +748,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -758,8 +778,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

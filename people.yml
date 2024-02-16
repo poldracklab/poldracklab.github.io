@@ -22,6 +22,8 @@
 
 - group: Postdoctoral Scholars
   members:
+  - name: Eric Bridgeford
+    website: https://ericwb.me/
   - name: Michael Demidenko
     website: https://michaeldemidenko.com/
     orcid: 0000-0001-9270-0124
@@ -34,7 +36,8 @@
     orcid: 0000-0003-0680-3923
     github: pauljaffe
   - name: Anita Jwa
-  - name: Armin Thomas
+    orcid: 0000-0002-1462-424X
+
   
 - group: Graduate Students
   members:
@@ -69,7 +72,9 @@
   - name: Akram Bakkour
     website: https://bakkourlab.uchicago.edu/
   - name: Austin Brotman
+    website: https://www.linkedin.com/in/austin-brotman-8725471b1/
   - name: Mei-Yen Chen
+    website: https://www.linkedin.com/in/mei-yen-chen-22937787/
   - name: Naomi Cherne
     website: https://www.exponent.com/people/naomi-cherne
   - name: Jessica Cohen
@@ -77,35 +82,48 @@
   - name: Eliza Congdon
     website: https://neurogen.semel.ucla.edu/eliza-congdon-phd/
   - name: Tyler Davis
+    website: https://www.linkedin.com/in/tyler-davis-453a1a75/
   - name: Joke Durnez
+    website: https://www.linkedin.com/in/joke-durnez/
   - name: Ian Eisenberg
+    website: https://www.linkedin.com/in/ian-eisenberg-aa17b594/
   - name: Ayse Zeynep Enkavi
+    website: https://zenkavi.github.io/
   - name: Oscar Esteban
     website: https://wp.unil.ch/connectomics/team/oscar-esteban/
   - name: Karin Foerde
+    website: https://karinfoerde.wixsite.com/karinfoerde
   - name: Adriana Galvan
     website: https://galvanlab.psych.ucla.edu/
   - name: Marta Garrido
     website: https://psychologicalsciences.unimelb.edu.au/research/msps-research-groups/C2NP/lab
   - name: Dara Ghahremani
   - name: Chris Gorgolewski
+    website: https://chrisgorgolewski.org/
   - name: Koji Jimura
     website: https://en.jimuralab.org/
   - name: Don Kalar
+    website: https://www.linkedin.com/in/donald-kalar-010977b/
   - name: Sanmi Koyejo
     website: https://cs.stanford.edu/~sanmi/
   - name: Agatha Lenartowicz
     website: https://agathalenartowicz.com/
   - name: Romy Lorenz
+    website: https://www.romylorenz.com/
   - name: Nick Malecek
+    website: https://www.linkedin.com/in/nicholasmalecek/
   - name: Dana Mastrovito
+    website: https://www.linkedin.com/in/danamastrovito/
   - name: Craig Moodie
+    website: https://www.linkedin.com/in/craigmoodie/
   - name: Martin Norgaard
     website: https://mnoergaard.github.io/
     orcid: 0000-0003-2131-5688
     github: mnoergaard
   - name: Rajeev Raizada
+    website: https://rajeevraizada.github.io/
   - name: Angela Rizk-Jackson
+    website: https://www.linkedin.com/in/angela-rizk-jackson/
   - name: Ajay Satpute
     website: https://web.northeastern.edu/affectiveandbrainscienceslab/
   - name: Tom Schonberg
@@ -113,14 +131,20 @@
   - name: Mac Shine
     website: https://www.schonberglab.sites.tau.ac.il/
   - name: Vanessa Sochat
+    website: https://vsoch.github.io/
   - name: Elena Stover
+  - name: Armin Thomas
+    website: https://athms.me/
   - name: William Thompson
     website: https://www.gu.se/en/about/find-staff/williamhedleythompson
   - name: Christopher Trepel
+    website: https://www.linkedin.com/in/christophertrepel/
   - name: Matilde Vaghi
     website: https://research-portal.uea.ac.uk/en/persons/matilde-vaghi
   - name: Jonathan Walters
+    website: https://www.linkedin.com/in/jwalters4/
   - name: Corey White
+    website: https://www.linkedin.com/in/corey-white-162635173/
   - name: Eliott Wimmer
     website: https://lmdlab.github.io/
   - name: Alara Wright
