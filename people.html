@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -103,6 +110,33 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -112,12 +146,12 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./people.html">Lab members</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./people.html">Lab members</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -127,7 +161,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">The Poldrack Lab @Stanford</a> 
@@ -384,7 +418,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
@@ -399,7 +433,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     
   
@@ -407,98 +441,181 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </div>
   
 
+
 </header>
 
 
 
 
 
+
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+
 <h2 class="anchored">PI</h2>
 <ul>
+  
   <li><a href="https://poldrack.github.io">Russ Poldrack</a> <a style="color: inherit;" href="https://orcid.org/0000-0001-6755-0259"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/poldrack"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
 </ul>
+
 <h2 class="anchored">Research Scientists</h2>
 <ul>
+  
   <li><a href="https://bissettp.github.io/">Patrick Bissett</a></li>
+  
   <li>Joshua Buckholtz</li>
+  
   <li><a href="https://effigies.gitlab.io">Chris Markiewicz</a> <a style="color: inherit;" href="https://orcid.org/0000-0002-6533-164X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/effigies"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
   <li><a href="https://jeanettemumford.org/">Jeanette Mumford</a> <a style="color: inherit;" href="https://orcid.org/0000-0002-0926-3531"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/jmumford"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
 </ul>
+
 <h2 class="anchored">Postdoctoral Scholars</h2>
 <ul>
+  
+  <li><a href="https://ericwb.me/">Eric Bridgeford</a></li>
+  
   <li><a href="https://michaeldemidenko.com/">Michael Demidenko</a> <a style="color: inherit;" href="https://orcid.org/0000-0001-9270-0124"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/demidenm"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
   <li><a href="https://elizabeth-dupre.com/">Elizabeth DuPre</a> <a style="color: inherit;" href="https://orcid.org/0000-0003-1358-196X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/emdupre"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
   <li>Paul Jaffe <a style="color: inherit;" href="https://orcid.org/0000-0003-0680-3923"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/pauljaffe"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
-  <li>Anita Jwa</li>
-  <li>Armin Thomas</li>
+  
+  <li>Anita Jwa <a style="color: inherit;" href="https://orcid.org/0000-0002-1462-424X"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a></li>
+  
 </ul>
+
 <h2 class="anchored">Graduate Students</h2>
 <ul>
+  
   <li>Rastko Ciric</li>
+  
   <li>Lynde Folsom</li>
+  
   <li>Grace Huckins</li>
+  
   <li>Nastasia Klevak</li>
+  
   <li>Gustavo Santiago-Reyes</li>
+  
   <li>Anna Xu</li>
+  
 </ul>
+
 <h2 class="anchored">Research Staff</h2>
 <ul>
+  
   <li>Logan Bennett</li>
+  
   <li>Jaime Rios</li>
+  
   <li>Sunjae Shim</li>
+  
   <li>Joe Wexler</li>
+  
 </ul>
+
 <h2 class="anchored">Software Developers</h2>
 <ul>
+  
   <li>Ross Blair</li>
+  
   <li>Nell Hardcastle <a style="color: inherit;" href="https://orcid.org/0000-0002-3837-0707"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/nellh"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
   <li>Mathias Goncalves <a style="color: inherit;" href="https://orcid.org/0000-0002-7252-7771"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/mgxd"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
+  
 </ul>
+
 <h2 class="anchored">Lab Alumni</h2>
 <ul>
+  
   <li><a href="https://aronlab.org/">Adam Aron</a></li>
+  
   <li><a href="https://bakkourlab.uchicago.edu/">Akram Bakkour</a></li>
-  <li>Austin Brotman</li>
-  <li>Mei-Yen Chen</li>
+  
+  <li><a href="https://www.linkedin.com/in/austin-brotman-8725471b1/">Austin Brotman</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/mei-yen-chen-22937787/">Mei-Yen Chen</a></li>
+  
   <li><a href="https://www.exponent.com/people/naomi-cherne">Naomi Cherne</a></li>
+  
   <li><a href="https://cohenlab.web.unc.edu/">Jessica Cohen</a></li>
+  
   <li><a href="https://neurogen.semel.ucla.edu/eliza-congdon-phd/">Eliza Congdon</a></li>
-  <li>Tyler Davis</li>
-  <li>Joke Durnez</li>
-  <li>Ian Eisenberg</li>
-  <li>Ayse Zeynep Enkavi</li>
+  
+  <li><a href="https://www.linkedin.com/in/tyler-davis-453a1a75/">Tyler Davis</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/joke-durnez/">Joke Durnez</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/ian-eisenberg-aa17b594/">Ian Eisenberg</a></li>
+  
+  <li><a href="https://zenkavi.github.io/">Ayse Zeynep Enkavi</a></li>
+  
   <li><a href="https://wp.unil.ch/connectomics/team/oscar-esteban/">Oscar Esteban</a></li>
-  <li>Karin Foerde</li>
+  
+  <li><a href="https://karinfoerde.wixsite.com/karinfoerde">Karin Foerde</a></li>
+  
   <li><a href="https://galvanlab.psych.ucla.edu/">Adriana Galvan</a></li>
+  
   <li><a href="https://psychologicalsciences.unimelb.edu.au/research/msps-research-groups/C2NP/lab">Marta Garrido</a></li>
+  
   <li>Dara Ghahremani</li>
-  <li>Chris Gorgolewski</li>
+  
+  <li><a href="https://chrisgorgolewski.org/">Chris Gorgolewski</a></li>
+  
   <li><a href="https://en.jimuralab.org/">Koji Jimura</a></li>
-  <li>Don Kalar</li>
+  
+  <li><a href="https://www.linkedin.com/in/donald-kalar-010977b/">Don Kalar</a></li>
+  
   <li><a href="https://cs.stanford.edu/~sanmi/">Sanmi Koyejo</a></li>
+  
   <li><a href="https://agathalenartowicz.com/">Agatha Lenartowicz</a></li>
-  <li>Romy Lorenz</li>
-  <li>Nick Malecek</li>
-  <li>Dana Mastrovito</li>
-  <li>Craig Moodie</li>
+  
+  <li><a href="https://www.romylorenz.com/">Romy Lorenz</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/nicholasmalecek/">Nick Malecek</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/danamastrovito/">Dana Mastrovito</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/craigmoodie/">Craig Moodie</a></li>
+  
   <li><a href="https://mnoergaard.github.io/">Martin Norgaard</a> <a style="color: inherit;" href="https://orcid.org/0000-0003-2131-5688"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"></a> <a style="color: inherit;" href="https://github.com/mnoergaard"><i class="bi bi-github" role="img" aria-label="github"></i></a></li>
-  <li>Rajeev Raizada</li>
-  <li>Angela Rizk-Jackson</li>
+  
+  <li><a href="https://rajeevraizada.github.io/">Rajeev Raizada</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/angela-rizk-jackson/">Angela Rizk-Jackson</a></li>
+  
   <li><a href="https://web.northeastern.edu/affectiveandbrainscienceslab/">Ajay Satpute</a></li>
+  
   <li><a href="https://www.schonberglab.sites.tau.ac.il/">Tom Schonberg</a></li>
+  
   <li><a href="https://www.schonberglab.sites.tau.ac.il/">Mac Shine</a></li>
-  <li>Vanessa Sochat</li>
+  
+  <li><a href="https://vsoch.github.io/">Vanessa Sochat</a></li>
+  
   <li>Elena Stover</li>
+  
+  <li><a href="https://athms.me/">Armin Thomas</a></li>
+  
   <li><a href="https://www.gu.se/en/about/find-staff/williamhedleythompson">William Thompson</a></li>
-  <li>Christopher Trepel</li>
+  
+  <li><a href="https://www.linkedin.com/in/christophertrepel/">Christopher Trepel</a></li>
+  
   <li><a href="https://research-portal.uea.ac.uk/en/persons/matilde-vaghi">Matilde Vaghi</a></li>
-  <li>Jonathan Walters</li>
-  <li>Corey White</li>
+  
+  <li><a href="https://www.linkedin.com/in/jwalters4/">Jonathan Walters</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/corey-white-162635173/">Corey White</a></li>
+  
   <li><a href="https://lmdlab.github.io/">Eliott Wimmer</a></li>
+  
   <li>Alara Wright</li>
+  
   <li><a href="https://cbls.bnu.edu.cn/">Gui Xue</a></li>
+  
 </ul>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -582,10 +699,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -595,8 +711,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -609,6 +734,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -652,6 +896,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -677,6 +922,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -739,13 +1010,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2023 Poldrack Lab, released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a></div>   
+    <div class="nav-footer-left">
+<p>© 2023 Poldrack Lab, released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/people.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
-    <div class="nav-footer-right">Built with <a href="https://quarto.org">Quarto</a></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/people.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
   </div>
 </footer>
+
 
 
 
