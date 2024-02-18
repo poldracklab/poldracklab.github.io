@@ -10,7 +10,9 @@
   members:
   - name: Patrick Bissett
     website: https://bissettp.github.io/
+    orcid: 0000-0003-0854-9404
   - name: Joshua Buckholtz
+    orcid: 0000-0002-9418-8686
   - name: Chris Markiewicz
     website: https://effigies.gitlab.io
     orcid: 0000-0002-6533-164X
@@ -24,6 +26,7 @@
   members:
   - name: Eric Bridgeford
     website: https://ericwb.me/
+    orcid: 0000-0001-6115-719X
   - name: Michael Demidenko
     website: https://michaeldemidenko.com/
     orcid: 0000-0001-9270-0124
@@ -43,9 +46,12 @@
   members:
   - name: Rastko Ciric
   - name: Lynde Folsom
+    orcid: 0000-0003-4484-5120
   - name: Grace Huckins
+    orcid: 0009-0003-1775-8627
   - name: Nastasia Klevak
   - name: Gustavo Santiago-Reyes
+    orcid: 0009-0005-3764-3215
   - name: Anna Xu
   
 - group: Research Staff
