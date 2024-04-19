@@ -38,7 +38,15 @@ website:
               - labguide/environment/working_remotely.md
               - labguide/environment/survey.md
           - labguide/general_lab_policies.md
-          - labguide/computing/computing.md
+          - section: "Computing"
+            contents:
+              - labguide/computing/etiquette.md
+              - section: "Sherlock"
+                contents:
+                - labguide/computing/access-and-resources.md
+                - labguide/computing/job-submission.md
+                - labguide/computing/data-management.md
+              - labguide/computing/tacc.md
           - section: "Research practices"
             contents:
               - labguide/research/human_subjects.md
