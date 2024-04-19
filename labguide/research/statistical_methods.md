@@ -12,7 +12,7 @@
     the preregistration document.
 - The nature of grouping for
     multiple testing corrections (e.g., parameter within single models,
-    sets ot models, etc) should be pre-specified.
+    sets of models, etc) should be pre-specified.
 - For fMRI data, if using
     cluster-based thresholding the cluster forming threshold must be Z ≥
     3.1 if using parametric thresholding.  There are no restrictions on
