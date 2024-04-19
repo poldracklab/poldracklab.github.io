@@ -4,7 +4,7 @@ All products of research at Stanford (including data and code) are the property 
 
 As discussed in the section on [data management and sharing](https://poldracklab.github.io/research/data_management.html), all data collected within our laboratory is meant to be shared upon submission of the related paper.  In cases where these data can be deidentified they will be shared under a public domain dedication (CC0), which places no restrictions on their use by other researchers.  Thus, any researcher can continue to use those data once they leave the lab. In other cases it may be necessary to restrict data sharing (e.g. when the data cannot be deidentified), in which case researchers will need to obtain a data use agreement from Stanford in order to access those data at their new institution. Dr. Poldrack commits to supporting any such requests, unless they violate other obligations of his or the University.
 
-In many cases we use data within the lab under Data Use Agreements (such as the ABCD or HCP datasets), and any researcher wishing to use such datasets must be explcitly listed on the DUA.  Once a researcher is no longer included in the Stanford DUA for a particular dataset, they must no longer access the dataset via Stanford computer systems.
+In many cases we use data within the lab under Data Use Agreements (such as the ABCD or HCP datasets), and any researcher wishing to use such datasets must be explicitly listed on the DUA.  Once a researcher is no longer included in the Stanford DUA for a particular dataset, they must no longer access the dataset via Stanford computer systems.
 
 ## Research ideas
 
