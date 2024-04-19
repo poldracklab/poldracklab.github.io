@@ -8,11 +8,32 @@ format:
 
 Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive [MIT License](http://opensource.org/licenses/MIT)
 
-For additional information on our organized software development projects, see [here](projects.md).
+For additional information on our organized software development projects,
+see [Informatics projects](projects.md#informatics-projects).
 
 ## Github repositories
-- [Poldracklab Github organization](https://github.com/poldracklab)
-- [Russ Poldrack's Github page](http://github.com/poldrack)
+
+The Poldrack lab manages several GitHub organizations:
+
+- [Poldrack Lab at Stanford](https://github.com/poldracklab)
+- [OpenNeuro.org](https://github.com/OpenNeuroOrg)
+- [The Experiment Factory](https://github.com/expfactory)
+- [The Cognitive Atlas](https://github.com/CognitiveAtlas)
+
+We are currently or have been heavily involved in the following organizations:
+
+- [Brain Imaging Data Structure](https://github.com/bids-standard)
+- [NeuroVault](https://github.com/neurovault)
+- [NiPreps](https://github.com/nipreps)
+- [TemplateFlow](https://github.com/templateflow)
+
+We also contribute to greater and lesser extents to many other projects, including:
+
+- [The Nipy community](https://github.com/nipy)
+- [Nipype](https://github.com/nipype)
+- [Nilearn](https://github.com/nilearn)
+
+For individual members' GitHub profiles, see [Lab members](people.md).
 
 ## Software for tasks used in lab publications
 - Many of our recent tasks are housed in the [Experiment Factory](https://expfactory.github.io/)
