@@ -812,5 +812,16 @@
     "title": "Lab volunteers",
     "section": "",
     "text": "If you are a Stanford undergraduate interested in volunteering as a research assistant in the Poldrack Lab, you can sign up here.  Please note that we do not accept minors as volunteers in the laboratory."
+  },
+  {
+    "objectID": "positions.html",
+    "href": "positions.html",
+    "title": "Open Positions",
+    "section": "",
+    "text": "The Poldrack lab is always looking for talented graduate students and postdoctoral researchers interested in our core research topics. See our current list of research projects to learn more about the lab’s ongoing work, and the lab mentoring policies to learn more about the graduate programs that the laboratory is affiliated with and Dr. Poldrack’s mentoring philosophy.",
+    "crumbs": [
+      "Getting involved",
+      "Open Positions"
+    ]
   }
 ]
