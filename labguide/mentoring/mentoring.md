@@ -5,11 +5,11 @@ This section of the guide is a first-person perspective from Dr. Poldrack.
 ## Graduate study
 
 ### What graduate programs are you affiliated with?
-- I am affiliated with three
-    graduate programs at Stanford: 
+- I am affiliated with several graduate programs at Stanford: 
     - [Psychology](https://psychology.stanford.edu/phd-program)
     - [Neuroscience](https://med.stanford.edu/neurogradprogram.html)
-    - [Biomedical Informatics](http://bmi.stanford.edu/prospective-students/PhD-degree-biomedical-informatics.html) (BMI)
+    - [Bioengineering](https://bioengineering.stanford.edu/academics-admission/graduate-programs)
+    - [Biomedical Data Science]https://dbds.stanford.edu/) (BMI)
 
 ### How do I choose a program?
 
