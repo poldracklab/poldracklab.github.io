@@ -9,14 +9,15 @@
     through existing grants. In this case, the postdoc must spend a significant portion of
     their time working on that project. However, the lab also provides
     postdocs the room to develop their own ideas.
-
-We have the opportunity to
+- We have the opportunity to
     request [Diversity
     Supplements](https://grants.nih.gov/grants/guide/pa-files/pa-20-222.html)
     for our NIH grants. If you qualify for such a fellowship (which
     includes individuals from underrepresented racial/ethnic groups,
     disadvantaged backgrounds, or rural/low-income areas), please
     contact Dr. Poldrack to discuss your interest.
+
+Postdocs should pay close attention to the details of their funding arrangement. For example, F32 NIH funding to the university comes with a financial account where the institutional allowance is included. Stanford taps this allowance for 'university insurance', so one should be aware that funds will deplete faster than may be presumed.
 
 # Postdoctoral funding opportunities
 
