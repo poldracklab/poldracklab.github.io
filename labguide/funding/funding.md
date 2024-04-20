@@ -1,4 +1,4 @@
-# Funding
+# Trainee Funding
 
 ## How are postdocs in the lab funded?
 
@@ -18,10 +18,12 @@ We have the opportunity to
     disadvantaged backgrounds, or rural/low-income areas), please
     contact Dr. Poldrack to discuss your interest.
 
-# Programs that have funded previous or current Poldracklab postdocs
+# Programs that have funded or could fund Poldracklab postdocs
 
 - [NIH F32](https://researchtraining.nih.gov/programs/fellowships/f32)
+- [Wu Tsai Neuroscience Institute Postdoctoral Scholar Award](https://neuroscience.stanford.edu/programs/training-programs-and-fellowships/neurosciences-postdoctoral-scholar-awards)
 - [Human Frontier Science Program](https://www.hfsp.org/)
 - [BBRF Young Investigator Grant](https://www.bbrfoundation.org/grants-prizes/bbrf-young-investigator-grants)
-- Sir Henry Wellcome Trust Fellowship (necessitates UK host institution)
-- BBSRC Future Leader Fellowship (necessitates UK host institution)
+- [BWF's Career Awards at the Scientific Interface](https://www.bwfund.org/funding-opportunities/interfaces-in-science/career-awards-at-the-scientific-interface/)
+- [Sir Henry Wellcome Trust Fellowship](https://wellcome.org/grant-funding/schemes/sir-henry-wellcome-postdoctoral-fellowships) (requires UK host institution)
+- [BBSRC Future Leader Fellowship](https://www.ukri.org/what-we-do/developing-people-and-skills/bbsrc/fellowships/fellowships-available/) (requires UK host institution)
