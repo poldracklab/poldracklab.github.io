@@ -118,7 +118,7 @@ particularly important for admission to my lab:
     cognitive task and measure how your own behavior changes from day to
     day). If you don’t currently know how to program, see my post on
     [learning to program from
-    scratch](http://www.russpoldrack.org/2016/05/advice-for-learning-to-code-from-scratch.html),
+    scratch](https://russpoldrack.blogspot.com/2016/05/advice-for-learning-to-code-from-scratch.html),
     and get going!
 3.  c. *Risk taking and resilience:*
     If we are doing interesting science then things are going to fail,
