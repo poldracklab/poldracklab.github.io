@@ -7,18 +7,26 @@ format:
 
 ## Administrative requests
 
-The assigned administrative
-    assistant for the lab (currently Diana Savastio) should be the default
-    person to send any administrative requests. In the past, we have had
-    issues where requests were coming from multiple members of our lab
-    and/or to multiple administrative staff, which was not being
-    sufficiently mindful of time and busy schedules of the
-    administrative staff. Therefore, in general, you should not directly
-    contact other departmental administrators with requests unless
-    directed by the administrative assistant or Dr. Poldrack. However,
-    there may be exceptions to this that justify contacting other staff
-    directly (e.g., CNI-related questions directly to CNI staff like
-    Laima Baltusis).  
+The laboratory has several administrative contacts:
+
+Diana Savastio is our departmental administrator.  She is responsible for the following for individuals in the lab:
+
+- Travel arragements
+- Purchasing
+- Reimbursement for purchases or travel
+- Visas and immigration documents
+
+Sarah Reboli is Dr. Poldrack's executive assistant.  She is responsible for:
+
+- Meeting scheduling and organization
+- Data use agreements
+- IRB protocols
+
+Justin Dixon is the Psychology Department front office administrator.  He is responsible for:
+
+- Room scheduling
+- Shipping/receiving
+
 
 ## Lab procedures
 
