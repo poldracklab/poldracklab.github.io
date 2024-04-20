@@ -4,7 +4,7 @@
     "href": "software.html",
     "title": "Poldracklab Software and Data",
     "section": "",
-    "text": "Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive MIT License\nFor additional information on our organized software development projects, see here.",
+    "text": "Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive MIT License\nFor additional information on our organized software development projects, see Informatics projects.",
     "crumbs": [
       "Code/Data"
     ]
@@ -14,7 +14,7 @@
     "href": "software.html#github-repositories",
     "title": "Poldracklab Software and Data",
     "section": "Github repositories",
-    "text": "Github repositories\n\nPoldracklab Github organization\nRuss Poldrack’s Github page",
+    "text": "Github repositories\nThe Poldrack lab manages several GitHub organizations:\n\nPoldrack Lab at Stanford\nOpenNeuro.org\nThe Experiment Factory\nThe Cognitive Atlas\n\nWe are currently or have been heavily involved in the following organizations:\n\nBrain Imaging Data Structure\nNeuroVault\nNiPreps\nTemplateFlow\n\nWe also contribute to greater and lesser extents to many other projects, including:\n\nThe Nipy community\nNipype\nNilearn\n\nFor individual members’ GitHub profiles, see Lab members.",
     "crumbs": [
       "Code/Data"
     ]
