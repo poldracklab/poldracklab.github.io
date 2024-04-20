@@ -4,7 +4,7 @@
     "href": "labguide/general_lab_policies.html",
     "title": "General lab policies",
     "section": "",
-    "text": "The assigned administrative assistant for the lab (currently Diana Savastio) should be the default person to send any administrative requests. In the past, we have had issues where requests were coming from multiple members of our lab and/or to multiple administrative staff, which was not being sufficiently mindful of time and busy schedules of the administrative staff. Therefore, in general, you should not directly contact other departmental administrators with requests unless directed by the administrative assistant or Dr. Poldrack. However, there may be exceptions to this that justify contacting other staff directly (e.g., CNI-related questions directly to CNI staff like Laima Baltusis).",
+    "text": "The laboratory has several administrative contacts:\nDiana Savastio is our departmental administrator. She is responsible for the following for individuals in the lab:\n\nTravel arragements\nPurchasing\nReimbursement for purchases or travel\nVisas and immigration documents\n\nSarah Reboli is Dr. Poldrack’s executive assistant. She is responsible for:\n\nMeeting scheduling and organization\nData use agreements\nIRB protocols\n\nJustin Dixon is the Psychology Department front office administrator. He is responsible for:\n\nRoom scheduling\nShipping/receiving",
     "crumbs": [
       "Lab guide",
       "General lab policies"
@@ -15,7 +15,7 @@
     "href": "labguide/general_lab_policies.html#administrative-requests",
     "title": "General lab policies",
     "section": "",
-    "text": "The assigned administrative assistant for the lab (currently Diana Savastio) should be the default person to send any administrative requests. In the past, we have had issues where requests were coming from multiple members of our lab and/or to multiple administrative staff, which was not being sufficiently mindful of time and busy schedules of the administrative staff. Therefore, in general, you should not directly contact other departmental administrators with requests unless directed by the administrative assistant or Dr. Poldrack. However, there may be exceptions to this that justify contacting other staff directly (e.g., CNI-related questions directly to CNI staff like Laima Baltusis).",
+    "text": "The laboratory has several administrative contacts:\nDiana Savastio is our departmental administrator. She is responsible for the following for individuals in the lab:\n\nTravel arragements\nPurchasing\nReimbursement for purchases or travel\nVisas and immigration documents\n\nSarah Reboli is Dr. Poldrack’s executive assistant. She is responsible for:\n\nMeeting scheduling and organization\nData use agreements\nIRB protocols\n\nJustin Dixon is the Psychology Department front office administrator. He is responsible for:\n\nRoom scheduling\nShipping/receiving",
     "crumbs": [
       "Lab guide",
       "General lab policies"
@@ -358,7 +358,7 @@
     "href": "software.html",
     "title": "Poldracklab Software and Data",
     "section": "",
-    "text": "Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive MIT License\nFor additional information on our organized software development projects, see here.",
+    "text": "Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive MIT License\nFor additional information on our organized software development projects, see Informatics projects.",
     "crumbs": [
       "Code/Data"
     ]
@@ -368,7 +368,7 @@
     "href": "software.html#github-repositories",
     "title": "Poldracklab Software and Data",
     "section": "Github repositories",
-    "text": "Github repositories\n\nPoldracklab Github organization\nRuss Poldrack’s Github page",
+    "text": "Github repositories\nThe Poldrack lab manages several GitHub organizations:\n\nPoldrack Lab at Stanford\nOpenNeuro.org\nThe Experiment Factory\nThe Cognitive Atlas\n\nWe are currently or have been heavily involved in the following organizations:\n\nBrain Imaging Data Structure\nNeuroVault\nNiPreps\nTemplateFlow\n\nWe also contribute to greater and lesser extents to many other projects, including:\n\nThe Nipy community\nNipype\nNilearn\n\nFor individual members’ GitHub profiles, see Lab members.",
     "crumbs": [
       "Code/Data"
     ]
