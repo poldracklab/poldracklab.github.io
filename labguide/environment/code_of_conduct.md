@@ -12,7 +12,7 @@ Conduct](https://adminguide.stanford.edu/chapter-1/subchapter-1/policy-1-1-1).
 For definitions of an act of intolerance & hate crime escalation policy
 please see this page on University [AOI](https://deanofstudents.stanford.edu/acts-intolerance-protocol/overview/definitions).
 If you wish to speak with someone outside of the lab regarding an
-incident that occured in or outside of the lab, the university has
+incident that occurred in or outside of the lab, the university has
 this[ list of
 resources.](https://deanofstudents.stanford.edu/acts-intolerance-protocol/talk-someone)
 
