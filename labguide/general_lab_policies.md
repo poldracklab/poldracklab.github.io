@@ -22,7 +22,8 @@ The assigned administrative
 
 ## Onboarding
 
-New members of the lab will be provided with a detailed list of
-    onboarding procedures as well as access to the lab’s Google Drive
-    which contains internal lab documentation.
+Onboarding procedures for new lab members are available via [this Google Doc](https://docs.google.com/document/d/1aAwvMg5888baJNTw9I2QW69V9E-iTAY_smNSPh_SR98/edit?usp=sharing) (requires permission to access).
+
+Offboarding procedures for departing lab members are available via [this Google Doc](https://docs.google.com/document/d/1X5mf0G1OLp8kRzdRdHzqDPsOK7CqPof1XRJQPRIwNJ0/edit?usp=sharing) (requires permission to access).
+
 
