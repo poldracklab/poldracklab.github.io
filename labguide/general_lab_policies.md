@@ -11,7 +11,7 @@ The laboratory has several administrative contacts:
 
 Diana Savastio is our departmental administrator.  She is responsible for the following for individuals in the lab:
 
-- Travel arragements
+- Travel arrangements
 - Purchasing
 - Reimbursement for purchases or travel
 - Visas and immigration documents
