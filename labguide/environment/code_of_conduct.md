@@ -67,4 +67,4 @@ inappropriate physical contact, and unwelcome sexual attention.
     whenever possible, keeping in mind that this may be more achievable
     for senior versus junior lab members.
 
-Adapted from https://en-us.confcodeofconduct.com/.
+Adapted from [https://en-us.confcodeofconduct.com/](https://en-us.confcodeofconduct.com/).
