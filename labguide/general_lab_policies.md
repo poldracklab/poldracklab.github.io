@@ -14,7 +14,7 @@ Diana Savastio is our departmental administrator.  She is responsible for the fo
 - Travel arrangements
 - Purchasing
 - Reimbursement for purchases or travel
-- Visas and immigration documents
+- Visitor Appointments
 
 Sarah Reboli is Dr. Poldrack's executive assistant.  She is responsible for:
 
