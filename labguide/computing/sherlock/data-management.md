@@ -21,4 +21,4 @@ There are several useful commands for assessing current storage usage on Sherloc
         [Documentation is provided on their wiki](https://www.sherlock.stanford.edu/docs/storage/?h=sh_quota#checking-quotas).
     - `ncdu` provides an interactive explorer for current storage usage within a given directory.
         This can be useful when identifying where quota usage is being allocated. 
-        Sherlock [reccomends running it in an interactive job](https://www.sherlock.stanford.edu/docs/storage/?h=ncdu#locating-large-directories). 
+        Sherlock [recommends running it in an interactive job](https://www.sherlock.stanford.edu/docs/storage/?h=ncdu#locating-large-directories). 

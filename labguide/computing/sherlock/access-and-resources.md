@@ -22,7 +22,7 @@ fi
 read -p "Enter the username: " user_name
 
 # set restrictions
-echo -e "Setting restictions for ${user_name} as rxw for folder: /n ${dir_name"
+echo -e "Setting restrictions for ${user_name} as rxw for folder: /n ${dir_name"
 setfacl -R -m u:$user_name:rwx $dir_name
 setfacl -R -d -m u:$user_name:rwx $dir_name
 
