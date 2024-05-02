@@ -1,4 +1,7 @@
-all: render-site push-site
+all: spellcheck render-site push-site
+
+spellcheck:
+	codespell *.md
 
 render-site:
 	quarto render .
