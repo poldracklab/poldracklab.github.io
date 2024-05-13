@@ -21,6 +21,8 @@ Write code such that it can be reviewed as individual "units," each of which hav
 - Functions should do a single thing that is clearly expressed in the name of the function
 - Functions should include a docstring that clearly specifies input and output
 
+Here is one example of code that would be difficult to understand and review in a larger script:
+
 ```python
 sc=[]
 for i in range(data.shape[1]):
@@ -83,5 +85,5 @@ More detailed recommendations on testing---including testing frameworks such as 
 
 ## Python packaging
 
-For projects that aim to develop pip-installable packages should follow current best-practices in Python Packing.
+For projects that aim to develop pip-installable packages should follow current best-practices in Python Packaging.
 As of May 2024, this is outlined in [this blog post](https://effigies.gitlab.io/posts/python-packaging-2023/) by lab member Chris Markiewicz.
