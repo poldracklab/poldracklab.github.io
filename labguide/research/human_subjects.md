@@ -5,6 +5,8 @@
     [CITI](https://researchcompliance.stanford.edu/panels/hs/forms/training/citi).
     A detailed list of relevant training courses is provided to new
     members as part of the lab’s internal onboarding materials.  
+-   If unsure if you are doing human subjects research, you can use the 
+    [NIH Decision Tool](https://grants.nih.gov/policy/humansubjects/hs-decision.htm)
 -   No personal identifiers
     should ever be associated with data recorded in the laboratory. This
     includes the [18 identifiers specified by
@@ -24,3 +26,6 @@
     the research coordinators or the person leading the project.  
 -   All projects considered a
     clinical trial should be posted on ClinicalTrials.gov
+-   For more information on ethics regarding human subject research,
+    you can watch Stanford's 
+    [MED 255 videos on Biomedical Ethics](https://med.stanford.edu/bioethics/education/rcr/med-255-videos.html)
