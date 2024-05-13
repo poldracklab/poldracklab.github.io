@@ -2,7 +2,8 @@
 
 ## Pre-registration
 
-Pre-registration is a mechanism in which one places a detailed description of a planned study into a repository where it is timestamped and will remain immutable.  For more background information, see [here](https://help.osf.io/article/145-preregistration).
+Pre-registration is a mechanism in which one places a detailed description of a planned study into a repository where it is timestamped and will remain immutable.  
+For more background information, see [here](https://help.osf.io/article/145-preregistration).
 
 - All empirical projects will be
 pre-registered, preferably using the Open Science Framework.
@@ -65,7 +66,9 @@ pre-registration should specify:
 
 Whenever possible, we support the submission of Registered Reports.
 
-Registered reports are a publication mechanism in which one submits a manuscript that contains an Introduction and Methods section that describe a study prior to execution of the research; it is essential a written version of a pre-registration.  The manuscript is reviewed on the strength of the rationale and methods, and if deemed sufficient it is given an "in-principle acceptance" such that the journal guarantees to publish the paper regardless of the results, as long as the approved methods were followed.
+Registered reports are a publication mechanism in which one submits a manuscript that contains an Introduction and Methods section that describe a study prior to execution of the research; it is essential a written version of a pre-registration.  
+The manuscript is reviewed on the strength of the rationale and methods, and if deemed sufficient it is given an "in-principle acceptance" such that the journal guarantees to publish the paper regardless of the results, as long as the approved methods were followed.
 
-There are currently [over 300 journals](https://www.cos.io/initiatives/registered-reports#tabid2) that accept Registered Report submissions.  In addition, Registered Reports can be submitted to [PCI-RR](https://rr.peercommunityin.org/), which is a community project that reviews preprint Registered Reports.
+There are currently [over 300 journals](https://www.cos.io/initiatives/registered-reports#tabid2) that accept Registered Report submissions.  
+In addition, Registered Reports can be submitted to [PCI-RR](https://rr.peercommunityin.org/), which is a community project that reviews preprint Registered Reports.
 
