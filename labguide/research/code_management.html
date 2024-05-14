@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -253,7 +253,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../labguide/research/preregistration.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pre-registration</span></a>
+ <span class="menu-text">Pre-registration and Registered Reports</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -385,17 +385,21 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 <section id="code-management" class="level2">
 <h2 class="anchored" data-anchor-id="code-management">Code management</h2>
 <ul>
-<li><p>All code should be managed using a version control system, preferably git.</p>
+<li>All code should be managed using a version control system, preferably git.
 <ul>
 <li>There are many resources online for learning git. A good starting point is <a href="https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide">Git for beginners: The definitive practical guide</a>.</li>
 <li>Git questions can be addressed to the #git channel on the Poldracklab Slack.</li>
 </ul></li>
-<li><p>Code should be regularly pushed to a remote server, preferably Github.</p>
+<li>Code should be regularly pushed to a remote server, preferably Github.
 <ul>
 <li>Our default is that all repositories for research projects will be public, unless there is a strong reason to keep it private.</li>
 </ul></li>
-<li><p>Any substantive code copied or adapted from another source (e.g.&nbsp;stackoverflow) should be attributed to the source (including the URL of the source).</p></li>
-<li><p>Care must be taken to avoid sharing identifiable data, private passwords, AWS credentials, and other confidential information when using Github.</p>
+<li>Any substantive code copied or adapted from another source (e.g.&nbsp;stackoverflow) should be attributed to the source (including the URL of the source).
+<ul>
+<li>References to the copied or adapted sources should be added to the script files where they are written (preferably on the line before the source).</li>
+<li>Create a <code>notices.md</code> <a href="https://github.com/github/opensource.guide/blob/main/notices.md">following this template</a> to reference larger portions of code that were copied or adapted to your project.</li>
+</ul></li>
+<li>Care must be taken to avoid sharing identifiable data, private passwords, AWS credentials, and other confidential information when using Github.
 <ul>
 <li>Any private information should be stored in a separate text file that is read in by the code, and those files should be added to the <code>.gitignore</code> file so that they will not be checked in.</li>
 <li>Any accidental breach should be dealt with and reported to Dr.&nbsp;Poldrack and other relevant parties immediately.</li>
