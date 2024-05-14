@@ -6,7 +6,7 @@
 
 If you are a new member of a lab at stanford, you will need to have your PI email Sherlock's support to get your SUNet account configured for use with computing resources. See the [Sherlock getting started guide](https://www.sherlock.stanford.edu/docs/getting-started/#prerequisites) for details.
 
-Once you have an account set up with your SUNet ID `<username>`, you can access Sherlock via any SSH client slient. If you are using a UNIX-like system (e.g., MacOS) and you are using terminal to connect to sherlock, a useful resource is to set up an ssh config file. You can do this by editing or creating the file `~/.ssh/config`, and adding the following lines:
+Once you have an account set up with your SUNet ID `<username>`, you can access Sherlock via any SSH client client. If you are using a UNIX-like system (e.g., MacOS) and you are using terminal to connect to sherlock, a useful resource is to set up an ssh config file. You can do this by editing or creating the file `~/.ssh/config`, and adding the following lines:
 
 ```
 Host sherlock
