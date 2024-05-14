@@ -13,7 +13,9 @@ to a remote server, preferably Github.
 
 - Any substantive code copied or
 adapted from another source (e.g. stackoverflow) should be attributed to
-the source (including the URL of the source).
+the source (including the URL of the source). 
+    - References to the copied or adapted sources should be added to the script files where they are written (preferably on the line before the source). 
+    - Create a `notices.md` [following this template](https://github.com/github/opensource.guide/blob/main/notices.md) to reference larger portions of code that were copied or adapted to your project.
 
 -  Care must be taken to avoid
 sharing identifiable data, private passwords, AWS credentials, and other confidential
