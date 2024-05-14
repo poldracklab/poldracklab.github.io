@@ -5,6 +5,22 @@ Login nodes are shared among many users and therefore must not be used to run co
 Those should be submitted to the scheduler which will dispatch them on compute nodes.
 :::
 
+### Determining where to submit your jobs
+
+You can check available resources with the `sh_part` command:
+
+```
+$ sh_part
+     QUEUE STA   FREE  TOTAL   FREE  TOTAL RESORC  OTHER MAXJOBTIME    CORES       NODE   GRES
+ PARTITION TUS  CORES  CORES  NODES  NODES PENDNG PENDNG  DAY-HR:MN    /NODE     MEM-GB (COUNT)
+    normal   *    153   1792      0     84    23k    127    7-00:00    20-24    128-191 -
+    bigmem         29     88      0      2      0      8    1-00:00    32-56   512-3072 -
+       dev         31     40      0      2      0      0    0-02:00       20        128 -
+       gpu         47    172      0      8    116      1    7-00:00    20-24    191-256 gpu:4(S:0-1)(2),gpu:4(S:0)(6)
+```
+This will list out the compute resources available to you, so that you can determine the optimal resource to use. 
+
+
 ### Running interactive jobs with `sh_dev`
 
 `sh_dev` sessions run on dedicated compute nodes, ensuring minimal wait times when you need to access a node for testing script, debug code or any kind of interactive work.
@@ -42,7 +58,7 @@ We briefly highlight why each axis is important below, as well as how to evaluat
 - **Memory:** Evaluating memory requirements of completed jobs is straightforward tools such as `sacct` (see @sec-acct).
   Requesting excessive memory and not using it will count against your [FairShare score](https://www.sherlock.stanford.edu/docs/glossary/#fairshare).
 
-- **Parallelization:** Evaluating how well the job perfomance scales with added CPUs can be done using `seff` (see @sec-seff).
+- **Parallelization:** Evaluating how well the job performance scales with added CPUs can be done using `seff` (see @sec-seff).
   Requesting CPUs then not using them will still count against your [FairShare score](https://www.sherlock.stanford.edu/docs/glossary/#fairshare).
     
 - **Run Time:** Requesting excess time for your jobs will _not_ count against your [FairShare score](https://www.sherlock.stanford.edu/docs/glossary/#fairshare), but it will affect how quickly the scheduler allocates resources to your job.
