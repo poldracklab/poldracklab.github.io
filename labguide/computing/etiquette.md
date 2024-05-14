@@ -3,6 +3,7 @@ title: "Computing"
 format:
   html:
     page-layout: full
+number-sections: true
 ---
 
 ##  Computer security
