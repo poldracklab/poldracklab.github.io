@@ -2,6 +2,11 @@
 
 This section of the guide is a first-person perspective from Dr. Poldrack.
 
+## Undergraduate study
+
+We are always looking for undergraduate students to get involved on a variety of projects! 
+If you are a Stanford affiliate and in the area, feel free to fill out this [form](https://redcap.stanford.edu/surveys/?s=cN6fbYiPfp) and we will reach out to you.
+
 ## Graduate study
 
 ### What graduate programs are you affiliated with?
@@ -9,7 +14,7 @@ This section of the guide is a first-person perspective from Dr. Poldrack.
     - [Psychology](https://psychology.stanford.edu/phd-program)
     - [Neuroscience](https://med.stanford.edu/neurogradprogram.html)
     - [Bioengineering](https://bioengineering.stanford.edu/academics-admission/graduate-programs)
-    - [Biomedical Data Science]https://dbds.stanford.edu/) (BMI)
+    - [Biomedical Data Science](https://dbds.stanford.edu/) (BMI)
 
 ### How do I choose a program?
 
@@ -181,10 +186,8 @@ more generally, as time permits.
 
 ### Weekly report
 
-Graduate students in the lab
-    are expected to keep a running document (preferably a Google Doc) in
-    which they report their progress every week along with any problems
-    encountered.
+Graduate students in the lab are expected to keep suitable documentation 
+    for all research activities (i.e. a github log, a google doc, etc).
 
 ### Scheduling meetings with me
 
