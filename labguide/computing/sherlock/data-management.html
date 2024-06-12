@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Poldrack Lab @Stanford - Computing</title>
+<title>The Poldrack Lab @Stanford</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -77,7 +111,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -89,7 +123,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../labguide/mission_statement.html">Lab guide</a></li><li class="breadcrumb-item"><a href="../../labguide/computing/computing.html">Computing</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../labguide/mission_statement.html">Lab guide</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/etiquette.html">Computing</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/sherlock/access-and-resources.html">Sherlock</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/sherlock/data-management.html">Data management on Sherlock</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -99,12 +133,12 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../">The Poldrack Lab @Stanford</a> 
+      <a href="../../../">The Poldrack Lab @Stanford</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -116,31 +150,31 @@ gtag('config', '379246033', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../people.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../people.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab members</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../projects.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../projects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../publications.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../software.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../software.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Code/Data</span></a>
   </div>
 </li>
@@ -155,13 +189,13 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../volunteer.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../volunteer.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Research subjects</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../positions.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../positions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Open Positions</span></a>
   </div>
 </li>
@@ -178,7 +212,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/mission_statement.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/mission_statement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mission statement</span></a>
   </div>
 </li>
@@ -193,31 +227,31 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/environment/code_of_conduct.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/code_of_conduct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Code of conduct</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/environment/work_life_balance.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/work_life_balance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Work/life balance</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/environment/expectations.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/expectations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Expectations of lab engagement</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/environment/working_remotely.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/working_remotely.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working remotely</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/environment/survey.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/survey.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Annual environment survey</span></a>
   </div>
 </li>
@@ -225,76 +259,116 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/general_lab_policies.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/general_lab_policies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">General lab policies</span></a>
   </div>
 </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Computing</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/computing/computing.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../labguide/computing/etiquette.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Computing</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
- <span class="menu-text">Research practices</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text">Sherlock</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/human_subjects.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/computing/sherlock/access-and-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Access and resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../labguide/computing/sherlock/job-submission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Job submission on Sherlock</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../labguide/computing/sherlock/data-management.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data management on Sherlock</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+ <span class="menu-text">Research practices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../labguide/research/human_subjects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Human subjects research</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/preregistration.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/preregistration.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pre-registration and Registered Reports</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/documentation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/documentation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Documenting research activities</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/code_management.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/code_management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Code management and sharing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/coding_standards.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/coding_standards.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Coding standards</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/data_management.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/data_management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data management and sharing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/data_analysis_procedures.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/data_analysis_procedures.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data analysis procedures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/statistical_methods.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/statistical_methods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Statistical methods</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/research/intellectual_property.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/intellectual_property.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Intellectual property</span></a>
   </div>
 </li>
@@ -302,40 +376,40 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
  <span class="menu-text">Publication and dissemination</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/publication/authorship.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/authorship.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Authorship</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/publication/openaccess.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/openaccess.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Open access and preprints</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/publication/addressing_errors.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/addressing_errors.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Addressing errors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/publication/science_communication.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/science_communication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Science communication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/publication/conferences.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/conferences.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Conferences</span></a>
   </div>
 </li>
@@ -343,13 +417,13 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/funding/funding.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/funding/funding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainee Funding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/mentoring/mentoring.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/mentoring/mentoring.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Training and Mentorship</span></a>
   </div>
 </li>
@@ -365,73 +439,56 @@ gtag('config', '379246033', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#computer-security" id="toc-computer-security" class="nav-link active" data-scroll-target="#computer-security">Computer security</a></li>
-  <li><a href="#shared-computing-platforms" id="toc-shared-computing-platforms" class="nav-link" data-scroll-target="#shared-computing-platforms">Shared computing platforms</a>
-  <ul class="collapse">
-  <li><a href="#shared-computing-etiquette" id="toc-shared-computing-etiquette" class="nav-link" data-scroll-target="#shared-computing-etiquette">Shared computing etiquette</a></li>
-  </ul></li>
+  <li><a href="#data-management-on-sherlock" id="toc-data-management-on-sherlock" class="nav-link active" data-scroll-target="#data-management-on-sherlock">Data management on Sherlock</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/computing/computing.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/computing/sherlock/data-management.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../labguide/mission_statement.html">Lab guide</a></li><li class="breadcrumb-item"><a href="../../labguide/computing/computing.html">Computing</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Computing</h1>
+
+
+
+<section id="data-management-on-sherlock" class="level2">
+<h2 class="anchored" data-anchor-id="data-management-on-sherlock">Data management on Sherlock</h2>
+<p>This section describes how the lab manages datasets on Sherlock, including setting permissions (i.e., who else in the lab can access the dataset).</p>
+<p>Datasets that are considered to be common lab assets (which includes any new studies within the lab and any openly shared datasets) should be placed into the primary data directory on the relevant filesystem. Datasets that are in process of acquisition should go into the “inprocess” directory. Once the dataset is finalized, it should be moved into the “data” directory.</p>
+<p>Once a dataset has been installed in the data directory, it should be changed to be read-only for owner and group, using the following commands:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">find</span> <span class="op">&lt;</span>directory name<span class="op">&gt;</span> -type d <span class="at">-exec</span> chmod 550</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">find</span> <span class="op">&lt;</span>directory name<span class="op">&gt;</span> -type f <span class="at">-exec</span> chmod 440</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Datasets that are temporary, or files generated for analyses that are not intended to be reused or shared, should be placed within the user directory.</p>
+<section id="restricting-access" class="level4">
+<h4 class="anchored" data-anchor-id="restricting-access">Restricting access</h4>
+<p>Some data resources cannot be shared across the lab and instead need to be restricted to lab members with Data Usage Agreement (DUA) access. This can be done via access control lists (ACLs), which allow a resource to be owned by a particular owner/group, but applies an additional more specific set of permissions. The following can be adapted to restrict ACLs to an appropriate subset of lab members:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>protect_access.sh</strong></pre>
 </div>
-
-
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="computer-security" class="level2">
-<h2 class="anchored" data-anchor-id="computer-security">Computer security</h2>
-<p>Any servers managed by lab members for research purposes must meet the <a href="https://uit.stanford.edu/guide/securitystandards/cookbooks">Stanford Minimum Security Standards</a>.</p>
-</section>
-<section id="shared-computing-platforms" class="level2">
-<h2 class="anchored" data-anchor-id="shared-computing-platforms">Shared computing platforms</h2>
-<p>We use two primary shared computing platforms:</p>
-<ul>
-<li><a href="https://srcc.stanford.edu/">Stanford Research Computing Center</a></li>
-<li><a href="https://www.tacc.utexas.edu/">Texas Advanced Computing Center</a></li>
-</ul>
-<p>The decision regarding which platform to use will depend upon the specific needs of the project, and can be discussed with Dr.&nbsp;Poldrack or other experienced researchers in the lab.</p>
-<section id="shared-computing-etiquette" class="level3">
-<h3 class="anchored" data-anchor-id="shared-computing-etiquette">Shared computing etiquette</h3>
-<p>Lab members should follow good shared computing etiquette:</p>
-<ul>
-<li>Never run a computing job on the login node
-<ul>
-<li>For testing purposes, you can access a development node.</li>
-</ul></li>
-<li>Keep in mind that our allocation on these systems is limited.</li>
-<li>Run a small test job before starting a large job</li>
-<li>Ensure that your jobs are efficiently using the system resources - if you aren’t sure, then ask for help!</li>
-<li>On systems where the lab has a specific allocation of cores (e.g.&nbsp;Sherlock), don’t use all of the cores at once unless having first discussed your needs at the lab meeting or via the lab mailing list or Slack.</li>
-<li>Be sure to set up your environment properly:
-<ul>
-<li>Always set your umask to allow group read/write; otherwise you may create files that can’t be modified by others in the group.</li>
-</ul></li>
-<li>Share your wisdom
-<ul>
-<li>If you encounter a problem that is not documented in the lab’s internal documentation, then add it to the documentation once you have solved it</li>
-<li>If you encounter an error in the documentation, then flag it and/or fix it</li>
-<li>You can refer to <a href="https://www.sherlock.stanford.edu/docs/overview/introduction/">this website</a> for more information on Sherlock, and if you have any further questions you can contact the Sherlock admis via email/Slack or meet during specific Office Hours as specified<a href="https://www.sherlock.stanford.edu/docs/overview/introduction/#office-hours">here</a>.</li>
-</ul></li>
-<li>Each TACC system has its own dedicated user guide that provides substantial information about how to use the system.</li>
-<li>Users of shared systems should clean up directories as projects are completed, removing intermediate files that are not necessary to keep. The storage of redundant data should be avoided, except where required for backups.</li>
-</ul>
+<div class="sourceCode" id="cb2" data-filename="protect_access.sh"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Using ACLs to restrict folder access on oak for russpold folders"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="at">-e</span> <span class="st">"\t https://www.sherlock.stanford.edu/docs/storage/data-sharing/#posix-acls "</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">sleep</span> 1</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># get user input for directory + user</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="bu">read</span> <span class="at">-p</span> <span class="st">"Enter the folder path: "</span> <span class="va">dir_name</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-d</span> <span class="st">"</span><span class="va">$dir_name</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Error: </span><span class="va">${dir_name}</span><span class="st"> doesn't exist"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">exit</span> 1</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="bu">read</span> <span class="at">-p</span> <span class="st">"Enter the username: "</span> <span class="va">user_name</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># set restrictions, repeating once for each desired user</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="at">-e</span> <span class="st">"Setting restrictions for </span><span class="va">${user_name}</span><span class="st"> as rxw for folder: /n </span><span class="va">${dir_name}</span><span class="st">"</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="ex">setfacl</span> <span class="at">-R</span> <span class="at">-m</span> u:<span class="va">$user_name</span>:rwx <span class="va">$dir_name</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="ex">setfacl</span> <span class="at">-R</span> <span class="at">-d</span> <span class="at">-m</span> u:<span class="va">$user_name</span>:rwx <span class="va">$dir_name</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co"># repeat the above commands, replacing $user_name with the usernames</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co"># for additional members</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co"># rm default permissions for the group -- oak_russpold</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ex">setfacl</span> <span class="at">-m</span> d::group:oak_russpold:--- <span class="va">$dir_name</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>
@@ -855,7 +912,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/computing/computing.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/computing/sherlock/data-management.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
