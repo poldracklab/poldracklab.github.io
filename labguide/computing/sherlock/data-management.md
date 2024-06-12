@@ -6,7 +6,7 @@ Once the dataset is finalized, it should be moved into the “data” directory.
 
 Once a dataset has been installed in the data directory, it should be changed to be read-only for owner and group, using the following commands:
 
-```
+```bash
 find <directory name> -type d -exec chmod 550
 find <directory name> -type f -exec chmod 440
 ```

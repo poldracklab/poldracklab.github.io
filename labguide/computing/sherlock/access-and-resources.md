@@ -8,7 +8,7 @@ If you are a new member of a lab at stanford, you will need to have your PI emai
 
 Once you have an account set up with your SUNet ID `<username>`, you can access Sherlock via any SSH client client. If you are using a UNIX-like system (e.g., MacOS) and you are using terminal to connect to sherlock, a useful resource is to set up an ssh config file. You can do this by editing or creating the file `~/.ssh/config`, and adding the following lines:
 
-```
+```{.default filename="~/.ssh/config"}
 Host sherlock
     HostName login.sherlock.stanford.edu
 	User <username>
@@ -16,7 +16,8 @@ Host sherlock
 ```
 
 Navigating to terminal, you can login to Sherlock using:
-```
+
+```bash
 $ ssh sherlock
 ```
 
@@ -32,10 +33,10 @@ Sherlock has fixed allocations for the storage of individuals and groups. As suc
 
 To check your quotas for your group `<groupname>`, you can use the `sh_quota` command:
 
-```
+```default
 $ sh_quota
 +---------------------------------------------------------------------------+
-| Disk usage for user <username> (group: <groupname>)                                 |
+| Disk usage for user <username> (group: <groupname>)                       |
 +---------------------------------------------------------------------------+
 |   Filesystem |  volume /   limit                  | inodes /  limit       |
 +---------------------------------------------------------------------------+
@@ -51,13 +52,13 @@ When your home directory begins to get filled, it may be valuable to consider mo
 
 Another useful tool is the disk usage command `du`. A useful and more interacrtive version of this command is `ncdu`. To use `ncdu`, add the following line to the bottom of your `~/.bash_profile`, which will load the `ncdu` module each time you log in to Sherlock:
 
-```
-ml system ncdu
+```bash
+$ ml system ncdu
 ```
 
 Next, re log-in and access the `ncdu` command:
 
-```
+```bash
 $ ncdu <folder>
 ```
 
@@ -70,7 +71,7 @@ which will launch an interactive window for monitoring directory sizes from the 
 Some data resources cannot be shared across the lab and instead need to be restricted to lab members with Data Usage Agreement (DUA) access.
 The following can be adapted to restrict ACLs (access control list) to only the appropriate subset of lab members:
 
-```
+```{.bash filename="protect_access.sh"}
 #!/bin/bash
 
 echo "Using ACLs to restrict folder access on oak for russpold folders"
@@ -87,7 +88,7 @@ fi
 read -p "Enter the username: " user_name
 
 # set restrictions
-echo -e "Setting restrictions for ${user_name} as rxw for folder: /n ${dir_name"
+echo -e "Setting restrictions for ${user_name} as rxw for folder: /n ${dir_name}"
 setfacl -R -m u:$user_name:rwx $dir_name
 setfacl -R -d -m u:$user_name:rwx $dir_name
 

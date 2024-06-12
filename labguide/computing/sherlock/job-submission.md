@@ -9,7 +9,7 @@ Those should be submitted to the scheduler which will dispatch them on compute n
 
 You can check available resources with the `sh_part` command:
 
-```
+```default
 $ sh_part
      QUEUE STA   FREE  TOTAL   FREE  TOTAL RESORC  OTHER MAXJOBTIME    CORES       NODE   GRES
  PARTITION TUS  CORES  CORES  NODES  NODES PENDNG PENDNG  DAY-HR:MN    /NODE     MEM-GB (COUNT)
@@ -103,7 +103,7 @@ Since lab members will often submit many fMRIPrep jobs at the same time, it is b
 
 We provide an example fMRIPrep array job script below for running 5 individual subjects.
 
-```
+```{.bash filename="submit_fmriprep_array.sh"}
 #!/bin/bash
 #
 #SBATCH --job-name=fMRIPrep
