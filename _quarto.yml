@@ -43,10 +43,10 @@ website:
               - labguide/computing/etiquette.md
               - section: "Sherlock"
                 contents:
-                - labguide/computing/access-and-resources.md
-                - labguide/computing/job-submission.md
-                - labguide/computing/data-management.md
-              - labguide/computing/tacc.md
+                - labguide/computing/sherlock/access-and-resources.md
+                - labguide/computing/sherlock/job-submission.md
+                - labguide/computing/sherlock/data-management.md
+              #- labguide/computing/tacc.md
           - section: "Research practices"
             contents:
               - labguide/research/human_subjects.md
