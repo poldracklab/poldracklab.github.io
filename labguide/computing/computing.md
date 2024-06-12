@@ -50,7 +50,7 @@ environment properly:
   - If you encounter an error in the documentation, then flag it and/or fix it
   - You can refer to [this website](https://www.sherlock.stanford.edu/docs/overview/introduction/)
     for more information on Sherlock, and if you have any further
-    questions you can contact the Sherlock admis via email/Slack or meet
+    questions you can contact the Sherlock admins via email/Slack or meet
     during specific Office Hours as specified[here](https://www.sherlock.stanford.edu/docs/overview/introduction/#office-hours).
 -   Each TACC system has its own
     dedicated user guide that provides substantial information about how
