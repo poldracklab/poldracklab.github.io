@@ -67,10 +67,19 @@ A useful and more interacrtive version of this command is `ncdu`.
 To use `ncdu`, add the following line to the bottom of your `~/.bash_profile`, which will load the `ncdu` module each time you log in to Sherlock:
 
 ```bash
-$ ml system ncdu
+ml system ncdu
 ```
 
-In future login session, you can access the `ncdu` command via
+and then update your `~/.bash_profile` for the current session with:
+
+```bash
+$ source ~/.bash_profile
+```
+
+which will allow the current session to load the new module updated in your bash profile for `ncdu`.
+For future login sessions, re-sourcing your `~/.bash_profile` is unnecessary.
+
+In the present and future login sessions, you can access the `ncdu` command via:
 
 ```bash
 $ ncdu <folder>

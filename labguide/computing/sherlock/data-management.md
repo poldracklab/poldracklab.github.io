@@ -18,7 +18,8 @@ Datasets that are temporary, or files generated for analyses that are not intend
 #### Restricting access
 
 Some data resources cannot be shared across the lab and instead need to be restricted to lab members with Data Usage Agreement (DUA) access.
-The following can be adapted to restrict ACLs (access control list) to only the appropriate subset of lab members:
+This can be done via access control lists (ACLs), which allow a resource to be owned by a particular owner/group, but applies an additional  more specific set of permissions.
+The following can be adapted to restrict ACLs to an appropriate subset of lab members:
 
 ```{.bash filename="protect_access.sh"}
 #!/bin/bash
@@ -36,10 +37,12 @@ fi
 
 read -p "Enter the username: " user_name
 
-# set restrictions
+# set restrictions, repeating once for each desired user
 echo -e "Setting restrictions for ${user_name} as rxw for folder: /n ${dir_name}"
 setfacl -R -m u:$user_name:rwx $dir_name
 setfacl -R -d -m u:$user_name:rwx $dir_name
+# repeat the above commands, replacing $user_name with the usernames
+# for additional members
 
 # rm default permissions for the group -- oak_russpold
 setfacl -m d::group:oak_russpold:--- $dir_name
