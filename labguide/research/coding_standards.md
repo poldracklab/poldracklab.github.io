@@ -36,17 +36,17 @@ Compare this with a modularized refactoring:
 
 ```python
 def extract_surveys_from_behavioral_data(behavioral_data_raw):
-   """
-   Extract survey data from behavioral data.
-   survey variables are labeled <survey_name>_survey.<variable name>
-   so filter on variables that include "_survey" in their name
+    """
+    Extract survey data from behavioral data.
+    survey variables are labeled <survey_name>_survey.<variable name>
+    so filter on variables that include "_survey" in their name
 
-   Parameters
-   ----------
-   behavioral_data_raw : pandas.DataFrame
-   """
+    Parameters
+    ----------
+    behavioral_data_raw : pandas.DataFrame
+    """
     survey_variables = [i for i in behavioral_data_raw.columns if i.find('_survey') > -1]
-    return(behavioral_data_raw[survey_variables])
+    return behavioral_data_raw[survey_variables]
 ```
 
 ## Code should be portable
@@ -68,7 +68,7 @@ Compare this with a modular, portable refactoring:
 ```python
 # load health data
 def load_health_data(datadir, filename='health.csv'):
-    return(pd.read_csv(os.path.join(datadir, filename), index_col=0))
+    return pd.read_csv(os.path.join(datadir, filename), index_col=0)
 ```
 
 ## Important functions should be tested
