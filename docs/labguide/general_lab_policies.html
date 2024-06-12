@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.5.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Poldrack Lab @Stanford - General lab policies</title>
+<title>The Poldrack Lab \@Stanford – General lab policies</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -344,7 +344,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../labguide/funding/funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Funding</span></a>
+ <span class="menu-text">Trainee Funding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -366,7 +366,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#administrative-requests" id="toc-administrative-requests" class="nav-link active" data-scroll-target="#administrative-requests">Administrative requests</a></li>
-  <li><a href="#onboarding" id="toc-onboarding" class="nav-link" data-scroll-target="#onboarding">Onboarding</a></li>
+  <li><a href="#lab-procedures" id="toc-lab-procedures" class="nav-link" data-scroll-target="#lab-procedures">Lab procedures</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/general_lab_policies.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -394,11 +394,35 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 
 <section id="administrative-requests" class="level2">
 <h2 class="anchored" data-anchor-id="administrative-requests">Administrative requests</h2>
-<p>The assigned administrative assistant for the lab (currently Diana Savastio) should be the default person to send any administrative requests. In the past, we have had issues where requests were coming from multiple members of our lab and/or to multiple administrative staff, which was not being sufficiently mindful of time and busy schedules of the administrative staff. Therefore, in general, you should not directly contact other departmental administrators with requests unless directed by the administrative assistant or Dr.&nbsp;Poldrack. However, there may be exceptions to this that justify contacting other staff directly (e.g., CNI-related questions directly to CNI staff like Laima Baltusis).</p>
+<p>The laboratory has several administrative contacts:</p>
+<p>Diana Savastio is our departmental administrator. She is responsible for the following for individuals in the lab:</p>
+<ul>
+<li>Travel arrangements</li>
+<li>Purchasing</li>
+<li>Reimbursement for purchases or travel</li>
+<li>Visitor Appointments</li>
+</ul>
+<p>Sarah Reboli is Dr.&nbsp;Poldrack’s executive assistant. She is responsible for:</p>
+<ul>
+<li>Meeting scheduling and organization</li>
+<li>Data use agreements</li>
+<li>IRB protocols</li>
+</ul>
+<p>Justin Dixon is the Psychology Department front office administrator. He is responsible for:</p>
+<ul>
+<li>Room scheduling</li>
+<li>Shipping/receiving</li>
+</ul>
 </section>
-<section id="onboarding" class="level2">
-<h2 class="anchored" data-anchor-id="onboarding">Onboarding</h2>
-<p>New members of the lab will be provided with a detailed list of onboarding procedures as well as access to the lab’s Google Drive which contains internal lab documentation.</p>
+<section id="lab-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="lab-procedures">Lab procedures</h2>
+<p>Internal information about lab procedures are available via a set of Google docs (all of which require permission to access):</p>
+<ul>
+<li><a href="https://docs.google.com/document/d/1_oT0BUf4DACLc1_6Aw55gBrKC5R6QjWnlPs_apjQnHs/edit?usp=sharing">Financial procedures</a></li>
+<li><a href="https://docs.google.com/document/d/10G0cc6wAdvfheM3CZcdt4JMUeesK-05h8fb8iX4YCvY/edit?usp=sharing">Travel procedures</a></li>
+<li><a href="https://docs.google.com/document/d/1aAwvMg5888baJNTw9I2QW69V9E-iTAY_smNSPh_SR98/edit?usp=sharing">Onboarding procedures for new lab members</a></li>
+<li><a href="https://docs.google.com/document/d/1X5mf0G1OLp8kRzdRdHzqDPsOK7CqPof1XRJQPRIwNJ0/edit?usp=sharing">Offboarding procedures for departing lab members</a></li>
+</ul>
 
 
 </section>
@@ -439,18 +463,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -482,7 +495,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -517,7 +570,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

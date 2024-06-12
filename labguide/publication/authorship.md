@@ -5,6 +5,7 @@ format:
     page-layout: full
 ---
 
+## Authorship policies
 
 - The lab’s policy follows the
 IJCME recommendations on [Defining the Role of Authors
@@ -29,20 +30,20 @@ assistants in our lab often end up being coauthors on our publications.
 - Criterion \#1 also implies
     that Dr. Poldrack will *not* accept authorship on any work that he
     has not played a substantial role in either designing, analyzing, or
-    interpreting.<span class="Apple-converted-space">  </span>Please do
+    interpreting. Please do
     not send completed manuscripts with a request for him to be a
     coauthor.
 - The sharing of data is
 not considered to be sufficient on its own to warrant authorship;
 instead, credit should be given through citation of a data descriptor
-and/or dataset DOI.<span class="Apple-converted-space">  </span>However,
+and/or dataset DOI. However,
 authorship is appropriate in cases where the dataset owner provides
 substantial input into the research, or when required by the data use
 agreement.
 
 ## Affiliation
 
-1. The listed affiliation should
+The listed affiliation for a publication should
 include any institutions where one was affiliated while completing the
 work.   
     - Any work completed at

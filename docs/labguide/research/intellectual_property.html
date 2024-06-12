@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.5.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Poldrack Lab @Stanford</title>
+<title>The Poldrack Lab \@Stanford – intellectual_property</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -344,7 +344,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../labguide/funding/funding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Funding</span></a>
+ <span class="menu-text">Trainee Funding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -380,9 +380,9 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 
 <section id="intellectual-property" class="level1">
 <h1>Intellectual property</h1>
-<p>All products of research at Stanford (including data and code) are the property of the University. However, faculty have wide latitude to release software as open source under the University’s <a href="https://otl.stanford.edu/open-source-stanford">open source policy</a>, as long as it doesn’t conflict with any other obligations. Students are allowed to release code under an open source license at Stanford with faculty permission; students in the Poldracklab have blanket permission to do so, as all of our code is intended to be made open available, as discussed in the section on <a href="https://poldracklab.github.io/research/code_management.html">code sharing</a>. After leaving the lab, trainees can continue to reuse any code or other research materials (e.g.&nbsp;stimuli) developed as part of their work in the lab as long as the code has been released under an open source license and they continue to abide by the terms of the license.</p>
-<p>As discussed in the section on <a href="https://poldracklab.github.io/research/data_management.html">data management and sharing</a>, all data collected within our laboratory is meant to be shared upon submission of the related paper. In cases where these data can be deidentified they will be shared under a public domain dedication (CC0), which places no restrictions on their use by other researchers. Thus, any researcher can continue to use those data once they leave the lab. In other cases it may be necessary to restrict data sharing (e.g.&nbsp;when the data cannot be deidentified), in which case researchers will need to obtain a data use agreement from Stanford in order to access those data at their new institution. Dr.&nbsp;Poldrack commits to supporting any such requests, unless they violate other obligations of his or the University.</p>
-<p>In many cases we use data within the lab under Data Use Agreements (such as the ABCD or HCP datasets), and any researcher wishing to use such datasets must be explcitly listed on the DUA. Once a researcher is no longer included in the Stanford DUA for a particular dataset, they must no longer access the dataset via Stanford computer systems.</p>
+<p>All products of research at Stanford (including data and code) are the property of the University. However, faculty have wide latitude to release software as open source under the University’s <a href="https://otl.stanford.edu/software">open source policy</a>, as long as it doesn’t conflict with any other obligations. Students are allowed to release code under an open source license at Stanford with faculty permission; students in the Poldracklab have blanket permission to do so, as all of our code is intended to be made open available, as discussed in the section on <a href="https://poldracklab.github.io/labguide/research/code_management.html">code sharing</a>. After leaving the lab, trainees can continue to reuse any code or other research materials (e.g.&nbsp;stimuli) developed as part of their work in the lab as long as the code has been released under an open source license and they continue to abide by the terms of the license.</p>
+<p>As discussed in the section on <a href="https://poldracklab.github.io/labguide/research/data_management.html">data management and sharing</a>, all data collected within our laboratory is meant to be shared upon submission of the related paper. In cases where these data can be deidentified they will be shared under a public domain dedication (CC0), which places no restrictions on their use by other researchers. Thus, any researcher can continue to use those data once they leave the lab. In other cases it may be necessary to restrict data sharing (e.g.&nbsp;when the data cannot be deidentified), in which case researchers will need to obtain a data use agreement from Stanford in order to access those data at their new institution. Dr.&nbsp;Poldrack commits to supporting any such requests, unless they violate other obligations of his or the University.</p>
+<p>In many cases we use data within the lab under Data Use Agreements (such as the ABCD or HCP datasets), and any researcher wishing to use such datasets must be explicitly listed on the DUA. Once a researcher is no longer included in the Stanford DUA for a particular dataset, they must no longer access the dataset via Stanford computer systems.</p>
 <section id="research-ideas" class="level2">
 <h2 class="anchored" data-anchor-id="research-ideas">Research ideas</h2>
 <p>When a trainee leaves the lab, there is often uncertainty about which ideas are theirs to pursue independently and which must be pursued in collaboration with their former mentor. It is difficult to specify a blanket policy on this issue, as it will depend on many different circumstances. Trainees are encouraged to discuss this issue openly with Dr.&nbsp;Poldrack prior to departing the lab, to prevent any misunderstandings. In many cases Dr.&nbsp;Poldrack will be happy for the trainee to take the ideas and pursue them independently in their new position; this has happened on a number of occasions. In other cases, particularly when the ideas were developed in close collaboration with Dr.&nbsp;Poldrack, there may be an expectation that further development of the ideas will occur through collaborative efforts.</p>
@@ -427,18 +427,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -470,7 +459,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -505,7 +534,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

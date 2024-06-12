@@ -1,0 +1,7 @@
+[codespell]
+# Ref: https://github.com/codespell-project/codespell#using-a-config-file
+# ./labguide/research is generated from .md
+skip = .git*,*.pdf,*.css,*.min.*,.codespellrc,site_libs,search.json,publications.html,additional_pubs.csv,./docs/labguide/*/*.html,./academicdb/*.csv
+check-hidden = true
+ignore-regex = \bNichols TE\b
+ignore-words-list = bui

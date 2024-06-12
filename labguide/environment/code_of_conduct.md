@@ -12,8 +12,8 @@ Conduct](https://adminguide.stanford.edu/chapter-1/subchapter-1/policy-1-1-1).
 For definitions of an act of intolerance & hate crime escalation policy
 please see this page on University [AOI](https://deanofstudents.stanford.edu/acts-intolerance-protocol/overview/definitions).
 If you wish to speak with someone outside of the lab regarding an
-incident that occured in or outside of the lab, the university has
-this[ list of
+incident that occurred in or outside of the lab, the university has
+this [list of
 resources.](https://deanofstudents.stanford.edu/acts-intolerance-protocol/talk-someone)
 
 ## Statement of intent
@@ -36,9 +36,7 @@ verbal comments related to a person’s identity or presentation of
 their identity. This can include denigrating comments,
 microaggressions, or consistent interruption during talks or
 presentations
-2. [Sexual
-harassment
-includes](https://adminguide.stanford.edu/chapter-1/subchapter-7/policy-1-7-1):
+2. [Sexual harassment includes](https://adminguide.stanford.edu/chapter-1/subchapter-7/policy-1-7-1):
 displays of sexual images in public lab spaces, deliberate
 intimidation, stalking/ following, coerced photography or recording,
 inappropriate physical contact, and unwelcome sexual attention.
@@ -52,13 +50,9 @@ inappropriate physical contact, and unwelcome sexual attention.
 2. If you are being harassed,
     notice that someone else is being harassed, or have any other
     concerns, please contact Dr. Poldrack as soon as possible. Anonymous
-    comments may also be made to Dr. Poldrack using[
-    this
-    form](https://poldracklab.wufoo.com/forms/z5hpmzx1uf8hce/).
+    comments may also be made to Dr. Poldrack using [this form](https://poldracklab.wufoo.com/forms/z5hpmzx1uf8hce/).
     If you are not comfortable contacting him directly, you may report
-    your concerns to one of the [relevant Stanford
-    University
-    offices](https://diversityandaccess.stanford.edu/reporting-discrimination-concern)
+    your concerns to one of the [relevant Stanford University offices](https://diversityandaccess.stanford.edu/reporting-discrimination-concern)
     that are prepared to respond to harassment complaints.
 3.  We expect lab members to
     follow this code of conduct at conferences and workshops and related
@@ -73,4 +67,4 @@ inappropriate physical contact, and unwelcome sexual attention.
     whenever possible, keeping in mind that this may be more achievable
     for senior versus junior lab members.
 
-Adapted from https://en-us.confcodeofconduct.com/.
+Adapted from [https://en-us.confcodeofconduct.com/](https://en-us.confcodeofconduct.com/).

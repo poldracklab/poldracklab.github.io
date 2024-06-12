@@ -2,14 +2,19 @@
 
 This section of the guide is a first-person perspective from Dr. Poldrack.
 
+## Undergraduate study
+
+We are always looking for undergraduate students to get involved on a variety of projects! 
+If you are a Stanford affiliate and in the area, feel free to fill out this [form](https://redcap.stanford.edu/surveys/?s=cN6fbYiPfp) and we will reach out to you.
+
 ## Graduate study
 
 ### What graduate programs are you affiliated with?
-- I am affiliated with three
-    graduate programs at Stanford: 
+- I am affiliated with several graduate programs at Stanford: 
     - [Psychology](https://psychology.stanford.edu/phd-program)
     - [Neuroscience](https://med.stanford.edu/neurogradprogram.html)
-    - [Biomedical Informatics](http://bmi.stanford.edu/prospective-students/PhD-degree-biomedical-informatics.html) (BMI)
+    - [Bioengineering](https://bioengineering.stanford.edu/academics-admission/graduate-programs)
+    - [Biomedical Data Science](https://dbds.stanford.edu/) (BMI)
 
 ### How do I choose a program?
 
@@ -118,7 +123,7 @@ particularly important for admission to my lab:
     cognitive task and measure how your own behavior changes from day to
     day). If you don’t currently know how to program, see my post on
     [learning to program from
-    scratch](http://www.russpoldrack.org/2016/05/advice-for-learning-to-code-from-scratch.html),
+    scratch](https://russpoldrack.blogspot.com/2016/05/advice-for-learning-to-code-from-scratch.html),
     and get going!
 3.  c. *Risk taking and resilience:*
     If we are doing interesting science then things are going to fail,
@@ -181,10 +186,8 @@ more generally, as time permits.
 
 ### Weekly report
 
-Graduate students in the lab
-    are expected to keep a running document (preferably a Google Doc) in
-    which they report their progress every week along with any problems
-    encountered.
+Graduate students in the lab are expected to keep suitable documentation 
+    for all research activities (i.e. a github log, a google doc, etc).
 
 ### Scheduling meetings with me
 
