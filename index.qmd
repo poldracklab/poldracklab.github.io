@@ -4,7 +4,12 @@ format:
     page-layout: full
 ---
 
-<center><a><img src="images/stanford-line2-8.png" alt="Poldracklab logo" width="50%"/></a></center>
+<center>
+  <a>
+    <img src="images/stanford-line2-8.png" alt="Poldracklab logo" width="50%" class="only-light" />
+    <img src="images/stanford-line2-8-dark.png" alt="Poldracklab logo" width="50%" class="only-dark" style="display: none" />
+  </a>
+</center>
 
 <br>
 <br>
