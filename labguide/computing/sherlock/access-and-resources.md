@@ -1,12 +1,17 @@
 ## Access and resources
 
+This section describes getting initial access to Sherlock and monitoring available resources.
+
 ### Compute basics
 
 #### Acquiring an account and logging in
 
-If you are a new member of a lab at stanford, you will need to have your PI email Sherlock's support to get your SUNet account configured for use with computing resources. See the [Sherlock getting started guide](https://www.sherlock.stanford.edu/docs/getting-started/#prerequisites) for details.
+If you are a new member of a lab at stanford, you will need to have your PI email Sherlock's support to get your SUNet account configured for use with computing resources.
+See the [Sherlock getting started guide](https://www.sherlock.stanford.edu/docs/getting-started/#prerequisites) for details.
 
-Once you have an account set up with your SUNet ID `<username>`, you can access Sherlock via any SSH client client. If you are using a UNIX-like system (e.g., MacOS) and you are using terminal to connect to sherlock, a useful resource is to set up an ssh config file. You can do this by editing or creating the file `~/.ssh/config`, and adding the following lines:
+Once you have an account set up with your SUNet ID `<username>`, you can access Sherlock via any SSH client client.
+If you are using a UNIX-like system (e.g., MacOS) and you are using terminal to connect to sherlock, a useful resource is to set up an ssh config file.
+You can do this by editing or creating the file `~/.ssh/config`, and adding the following lines:
 
 ```{.default filename="~/.ssh/config"}
 Host sherlock
@@ -25,11 +30,15 @@ and then follow the remainder of the instructions [Sherlock connection guide](ht
 
 #### Storage Monitoring
 
-The Stanford filesystems have fixed allocations for individuals and groups. As such, it will be useful for you to be able to determine how much space you/the group have, so that you can optimally manage your resources. For extended details on storage with Sherlock, check out [Sherlock storage guide](https://www.sherlock.stanford.edu/docs/storage/#quotas-and-limits).
+The Stanford filesystems have fixed allocations for individuals and groups.
+As such, it will be useful for you to be able to determine how much space you/the group have, so that you can optimally manage your resources.
+For extended details on storage with Sherlock, check out [Sherlock storage guide](https://www.sherlock.stanford.edu/docs/storage/#quotas-and-limits).
 
-There are several commands that we find extremely useful for working on Sherlock. We will go over several of them.
+There are several commands that we find extremely useful for working on Sherlock.
+We will go over several of them.
 
-Sherlock has fixed allocations for the storage of individuals and groups. As such, you will be required to properly manage your storage allocations, re-allocating data to group-level directories as necessary.
+Sherlock has fixed allocations for the storage of individuals and groups.
+As such, you will be required to properly manage your storage allocations, re-allocating data to group-level directories as necessary.
 
 To check your quotas for your group `<groupname>`, you can use the `sh_quota` command:
 
@@ -48,50 +57,25 @@ $ sh_quota
 +---------------------------------------------------------------------------+
 ```
 
-When your home directory begins to get filled, it may be valuable to consider moving files to scratch directories, or group directories. `HOME`, `GROUP_HOME`, and `OAK` are persistent storage; `*SCRATCH` directories are subject to purging.
+`sh_quota` is a Sherlock-specific command that provides a general overview for all partitions a user has access to.
+[Documentation is provided on their wiki](https://www.sherlock.stanford.edu/docs/storage/?h=sh_quota#checking-quotas).
+When your home directory begins to get filled, it may be valuable to consider moving files to scratch directories, or group directories.
+`HOME`, `GROUP_HOME`, and `OAK` are persistent storage; `*SCRATCH` directories are subject to purging.
 
-Another useful tool is the disk usage command `du`. A useful and more interacrtive version of this command is `ncdu`. To use `ncdu`, add the following line to the bottom of your `~/.bash_profile`, which will load the `ncdu` module each time you log in to Sherlock:
+Another useful tool is the disk usage command `du`.
+A useful and more interacrtive version of this command is `ncdu`.
+To use `ncdu`, add the following line to the bottom of your `~/.bash_profile`, which will load the `ncdu` module each time you log in to Sherlock:
 
 ```bash
 $ ml system ncdu
 ```
 
-Next, re log-in and access the `ncdu` command:
+In future login session, you can access the `ncdu` command via
 
 ```bash
 $ ncdu <folder>
 ```
 
 which will launch an interactive window for monitoring directory sizes from the folder specified by `<folder>`.
-
-### Data access
-
-#### Restricting access
-
-Some data resources cannot be shared across the lab and instead need to be restricted to lab members with Data Usage Agreement (DUA) access.
-The following can be adapted to restrict ACLs (access control list) to only the appropriate subset of lab members:
-
-```{.bash filename="protect_access.sh"}
-#!/bin/bash
-
-echo "Using ACLs to restrict folder access on oak for russpold folders"
-echo -e "\t https://www.sherlock.stanford.edu/docs/storage/data-sharing/#posix-acls "
-sleep 1
-echo
-# get user input for directory + user
-read -p "Enter the folder path: " dir_name
-if [ ! -d "$dir_name" ]; then
-	echo "Error: ${dir_name} doesn't exist"
-	exit 1
-fi
-
-read -p "Enter the username: " user_name
-
-# set restrictions
-echo -e "Setting restrictions for ${user_name} as rxw for folder: /n ${dir_name}"
-setfacl -R -m u:$user_name:rwx $dir_name
-setfacl -R -d -m u:$user_name:rwx $dir_name
-
-# rm default permissions for the group -- oak_russpold
-setfacl -m d::group:oak_russpold:--- $dir_name
-```
+Sherlock [recommends running it in an interactive job](https://www.sherlock.stanford.edu/docs/storage/?h=ncdu#locating-large-directories).
+This can be useful when identifying where quota usage is being allocated.

@@ -46,7 +46,6 @@ website:
                 - labguide/computing/sherlock/access-and-resources.md
                 - labguide/computing/sherlock/job-submission.md
                 - labguide/computing/sherlock/data-management.md
-              #- labguide/computing/tacc.md
           - section: "Research practices"
             contents:
               - labguide/research/human_subjects.md
