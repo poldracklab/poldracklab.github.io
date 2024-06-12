@@ -17,8 +17,8 @@ Datasets that are temporary, or files generated for analyses that are not intend
 
 There are several useful commands for assessing current storage usage on Sherlock:
 
-    - `sh_quota` is a Sherlock-specific command that provides a general overview for all partitions a user has access to.
-        [Documentation is provided on their wiki](https://www.sherlock.stanford.edu/docs/storage/?h=sh_quota#checking-quotas).
-    - `ncdu` provides an interactive explorer for current storage usage within a given directory.
-        This can be useful when identifying where quota usage is being allocated. 
-        Sherlock [recommends running it in an interactive job](https://www.sherlock.stanford.edu/docs/storage/?h=ncdu#locating-large-directories). 
+- `sh_quota` is a Sherlock-specific command that provides a general overview for all partitions a user has access to.
+  [Documentation is provided on their wiki](https://www.sherlock.stanford.edu/docs/storage/?h=sh_quota#checking-quotas).
+- `ncdu` provides an interactive explorer for current storage usage within a given directory.
+  This can be useful when identifying where quota usage is being allocated.
+  Sherlock [recommends running it in an interactive job](https://www.sherlock.stanford.edu/docs/storage/?h=ncdu#locating-large-directories).
