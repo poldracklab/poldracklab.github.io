@@ -6,8 +6,9 @@ We expect that lab members write code with the intention of it being reviewed (a
 To help in this, all lab members should be familiar with principles of clean code.
 Dr. Poldrack has a [presentation on this topic](https://github.com/poldrack/clean_coding/blob/master/CleanCoding_Python.pdf) that we encourage you to review.
 For a more in-depth introduction, two particularly useful recommendations here are:
-   - [Art of Readable Code](https://www.oreilly.com/library/view/the-art-of/9781449318482/)
-   - [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
+
+- [Art of Readable Code](https://www.oreilly.com/library/view/the-art-of/9781449318482/)
+- [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
 
 When writing readable code, many different design patterns can be followed.
 We therefore provide some general purpose recommendations below as well as some Python examples taken from [Dr. Poldrack's clean code tutorial](https://github.com/poldrack/clean_coding/tree/master/python_example).
@@ -16,7 +17,7 @@ We also recommend checking out relevant tutorials, like the [Good Research Code 
 
 ## Code should be modular
 
-Write code such that it can be reviewed as individual "units," each of which have one well-scoped function.
+Write code such that it can be reviewed as individual units, each of which has one well-scoped function.
 
 - Functions should do a single thing that is clearly expressed in the name of the function
 - Functions should include a docstring that clearly specifies input and output
