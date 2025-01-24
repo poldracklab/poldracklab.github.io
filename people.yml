@@ -13,6 +13,10 @@
     orcid: 0000-0003-0854-9404
   - name: Joshua Buckholtz
     orcid: 0000-0002-9418-8686
+  - name: Michael Demidenko
+    website: https://michaeldemidenko.com/
+    orcid: 0000-0001-9270-0124
+    github: demidenm
   - name: Chris Markiewicz
     website: https://effigies.gitlab.io
     orcid: 0000-0002-6533-164X
@@ -27,31 +31,17 @@
   - name: Eric Bridgeford
     website: https://ericwb.me/
     orcid: 0000-0001-6115-719X
-  - name: Michael Demidenko
-    website: https://michaeldemidenko.com/
-    orcid: 0000-0001-9270-0124
-    github: demidenm
-  - name: Elizabeth DuPre
-    website: https://elizabeth-dupre.com/
-    orcid: 0000-0003-1358-196X
-    github: emdupre
-  - name: Paul Jaffe
-    orcid: 0000-0003-0680-3923
-    github: pauljaffe
   - name: Anita Jwa
     orcid: 0000-0002-1462-424X
 
   
 - group: Graduate Students
   members:
-  - name: Rastko Ciric
-    orcid: 0000-0001-6347-7939
   - name: Lynde Folsom
     orcid: 0000-0003-4484-5120
-  - name: Grace Huckins
-    orcid: 0009-0003-1775-8627
   - name: Nastasia Klevak
     orcid: 0009-0004-1000-9532
+  - name: Jocelyn Ricard
   - name: Gustavo Santiago-Reyes
     orcid: 0009-0005-3764-3215
   - name: Anna Xu
@@ -59,20 +49,21 @@
   
 - group: Research Staff
   members:
+  - name: Kriti Achyutuni
   - name: Logan Bennett
-  - name: Jaime Rios
-  - name: Sunjae Shim
+  - name: Margot Mitchell
   - name: Joe Wexler
   
 - group: Software Developers
   members:
   - name: Ross Blair
-  - name: Nell Hardcastle
-    orcid: 0000-0002-3837-0707
-    github: nellh
   - name: Mathias Goncalves
     orcid: 0000-0002-7252-7771
     github: mgxd
+  - name: Nell Hardcastle
+    orcid: 0000-0002-3837-0707
+    github: nellh
+  - name: Greg Noack
 
 - group: Lab Alumni
   members:
@@ -86,12 +77,16 @@
     website: https://www.linkedin.com/in/mei-yen-chen-22937787/
   - name: Naomi Cherne
     website: https://www.exponent.com/people/naomi-cherne
+  - name: Rastko Ciric
+    website: https://www.linkedin.com/in/rastko-ciric/
   - name: Jessica Cohen
     website: https://cohenlab.web.unc.edu/
   - name: Eliza Congdon
     website: https://neurogen.semel.ucla.edu/eliza-congdon-phd/
   - name: Tyler Davis
     website: https://www.linkedin.com/in/tyler-davis-453a1a75/
+  - name: Elizabeth DuPre
+    website: https://www.linkedin.com/in/elizabeth-dupre/
   - name: Joke Durnez
     website: https://www.linkedin.com/in/joke-durnez/
   - name: Ian Eisenberg
@@ -110,6 +105,10 @@
     website: https://www.semel.ucla.edu/profile/dara-ghahremani-phd
   - name: Chris Gorgolewski
     website: https://chrisgorgolewski.org/
+  - name: Grace Huckins
+    website: https://www.linkedin.com/in/grace-huckins/
+  - name: Paul Jaffe
+    website: https://www.linkedin.com/in/paul-jaffe-0a4858199
   - name: Koji Jimura
     website: https://en.jimuralab.org/
   - name: Don Kalar
@@ -132,14 +131,18 @@
     github: mnoergaard
   - name: Rajeev Raizada
     website: https://rajeevraizada.github.io/
+  - name: Jaime Rios
+    website: https://www.linkedin.com/in/jaime-rios-7031571a3/
   - name: Angela Rizk-Jackson
     website: https://www.linkedin.com/in/angela-rizk-jackson/
   - name: Ajay Satpute
     website: https://web.northeastern.edu/affectiveandbrainscienceslab/
   - name: Tom Schonberg
     website: https://www.schonberglab.sites.tau.ac.il/
+  - name: Sunjae Shim
+    website: https://www.linkedin.com/in/sunjae-shim-50550315b/
   - name: Mac Shine
-    website: https://www.schonberglab.sites.tau.ac.il/
+    website: https://shine-lab.org/people/
   - name: Vanessa Sochat
     website: https://vsoch.github.io/
   - name: Elena Stover
