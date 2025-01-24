@@ -229,21 +229,61 @@ gtag('config', '379246033', { 'anonymize_ip': true});
  <span class="menu-text">General lab policies</span></a>
   </div>
 </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Computing</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../labguide/computing/computing.html" class="sidebar-item-text sidebar-link">
+  <a href="../../labguide/computing/etiquette.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Computing</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Research practices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Sherlock</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../labguide/computing/sherlock/access-and-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Access and resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../labguide/computing/sherlock/job-submission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Job submission on Sherlock</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../labguide/computing/sherlock/data-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data management on Sherlock</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Research practices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../labguide/research/human_subjects.html" class="sidebar-item-text sidebar-link">
@@ -302,13 +342,13 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
  <span class="menu-text">Publication and dissemination</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../labguide/publication/authorship.html" class="sidebar-item-text sidebar-link">
@@ -385,17 +425,21 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 <section id="code-management" class="level2">
 <h2 class="anchored" data-anchor-id="code-management">Code management</h2>
 <ul>
-<li><p>All code should be managed using a version control system, preferably git.</p>
+<li>All code should be managed using a version control system, preferably git.
 <ul>
 <li>There are many resources online for learning git. A good starting point is <a href="https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide">Git for beginners: The definitive practical guide</a>.</li>
 <li>Git questions can be addressed to the #git channel on the Poldracklab Slack.</li>
 </ul></li>
-<li><p>Code should be regularly pushed to a remote server, preferably Github.</p>
+<li>Code should be regularly pushed to a remote server, preferably Github.
 <ul>
 <li>Our default is that all repositories for research projects will be public, unless there is a strong reason to keep it private.</li>
 </ul></li>
-<li><p>Any substantive code copied or adapted from another source (e.g.&nbsp;stackoverflow) should be attributed to the source (including the URL of the source).</p></li>
-<li><p>Care must be taken to avoid sharing identifiable data, private passwords, AWS credentials, and other confidential information when using Github.</p>
+<li>Any substantive code copied or adapted from another source (e.g.&nbsp;stackoverflow) should be attributed to the source (including the URL of the source).
+<ul>
+<li>References to the copied or adapted sources should be added to the script files where they are written (preferably on the line before the source).</li>
+<li>Create a <code>notices.md</code> <a href="https://github.com/github/opensource.guide/blob/main/notices.md">following this template</a> to reference larger portions of code that were copied or adapted to your project.</li>
+</ul></li>
+<li>Care must be taken to avoid sharing identifiable data, private passwords, AWS credentials, and other confidential information when using Github.
 <ul>
 <li>Any private information should be stored in a separate text file that is read in by the code, and those files should be added to the <code>.gitignore</code> file so that they will not be checked in.</li>
 <li>Any accidental breach should be dealt with and reported to Dr.&nbsp;Poldrack and other relevant parties immediately.</li>

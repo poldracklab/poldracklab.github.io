@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Poldracklab Software and Data – The Poldrack Lab @Stanford</title>
+<title>data-management – The Poldrack Lab \@Stanford</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9a72e21b71d0a144d3287e70d692211f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-9a72e21b71d0a144d3287e70d692211f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -77,7 +111,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -89,7 +123,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./software.html">Code/Data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../labguide/mission_statement.html">Lab guide</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/etiquette.html">Computing</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/sherlock/access-and-resources.html">Sherlock</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/sherlock/data-management.html">Data management on Sherlock</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -99,12 +133,12 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">The Poldrack Lab @Stanford</a> 
+      <a href="../../../">The Poldrack Lab @Stanford</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -116,31 +150,31 @@ gtag('config', '379246033', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./people.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../people.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab members</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../projects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./publications.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./software.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../software.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Code/Data</span></a>
   </div>
 </li>
@@ -155,13 +189,13 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./volunteer.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../volunteer.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Research subjects</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./positions.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../positions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Open Positions</span></a>
   </div>
 </li>
@@ -178,7 +212,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/mission_statement.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/mission_statement.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mission statement</span></a>
   </div>
 </li>
@@ -193,31 +227,31 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/environment/code_of_conduct.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/code_of_conduct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Code of conduct</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/environment/work_life_balance.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/work_life_balance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Work/life balance</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/environment/expectations.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/expectations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Expectations of lab engagement</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/environment/working_remotely.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/working_remotely.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Working remotely</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/environment/survey.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/environment/survey.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Annual environment survey</span></a>
   </div>
 </li>
@@ -225,49 +259,49 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/general_lab_policies.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/general_lab_policies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">General lab policies</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">Computing</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/computing/etiquette.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/computing/etiquette.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Computing</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
  <span class="menu-text">Sherlock</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/computing/sherlock/access-and-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/computing/sherlock/access-and-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Access and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/computing/sherlock/job-submission.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/computing/sherlock/job-submission.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Job submission on Sherlock</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/computing/sherlock/data-management.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/computing/sherlock/data-management.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Data management on Sherlock</span></a>
   </div>
 </li>
@@ -286,55 +320,55 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/human_subjects.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/human_subjects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Human subjects research</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/preregistration.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/preregistration.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pre-registration and Registered Reports</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/documentation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/documentation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Documenting research activities</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/code_management.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/code_management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Code management and sharing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/coding_standards.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/coding_standards.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Coding standards</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/data_management.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/data_management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data management and sharing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/data_analysis_procedures.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/data_analysis_procedures.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data analysis procedures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/statistical_methods.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/statistical_methods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Statistical methods</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/research/intellectual_property.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/research/intellectual_property.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Intellectual property</span></a>
   </div>
 </li>
@@ -351,31 +385,31 @@ gtag('config', '379246033', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/publication/authorship.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/authorship.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Authorship</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/publication/openaccess.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/openaccess.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Open access and preprints</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/publication/addressing_errors.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/addressing_errors.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Addressing errors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/publication/science_communication.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/science_communication.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Science communication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/publication/conferences.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/publication/conferences.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Conferences</span></a>
   </div>
 </li>
@@ -383,13 +417,13 @@ gtag('config', '379246033', { 'anonymize_ip': true});
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/funding/funding.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/funding/funding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Trainee Funding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./labguide/mentoring/mentoring.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../labguide/mentoring/mentoring.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Training and Mentorship</span></a>
   </div>
 </li>
@@ -405,168 +439,59 @@ gtag('config', '379246033', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#github-repositories" id="toc-github-repositories" class="nav-link active" data-scroll-target="#github-repositories">Github repositories</a></li>
-  <li><a href="#software-for-tasks-used-in-lab-publications" id="toc-software-for-tasks-used-in-lab-publications" class="nav-link" data-scroll-target="#software-for-tasks-used-in-lab-publications">Software for tasks used in lab publications</a></li>
-  <li><a href="#task-software-used-in-consortium-for-neuropsychiatric-phenomics-cnp" id="toc-task-software-used-in-consortium-for-neuropsychiatric-phenomics-cnp" class="nav-link" data-scroll-target="#task-software-used-in-consortium-for-neuropsychiatric-phenomics-cnp">Task software used in Consortium for Neuropsychiatric Phenomics (CNP)</a></li>
-  <li><a href="#datacodeosf-pages-for-published-papers" id="toc-datacodeosf-pages-for-published-papers" class="nav-link" data-scroll-target="#datacodeosf-pages-for-published-papers">Data/code/OSF pages for published papers</a></li>
+  <li><a href="#data-management-on-sherlock" id="toc-data-management-on-sherlock" class="nav-link active" data-scroll-target="#data-management-on-sherlock">Data management on Sherlock</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/computing/sherlock/data-management.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../labguide/mission_statement.html">Lab guide</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/etiquette.html">Computing</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/sherlock/access-and-resources.html">Sherlock</a></li><li class="breadcrumb-item"><a href="../../../labguide/computing/sherlock/data-management.html">Data management on Sherlock</a></li></ol></nav></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Poldracklab Software and Data</h1>
+
+
+
+<section id="data-management-on-sherlock" class="level2">
+<h2 class="anchored" data-anchor-id="data-management-on-sherlock">Data management on Sherlock</h2>
+<p>This section describes how the lab manages datasets on Sherlock, including setting permissions (i.e., who else in the lab can access the dataset).</p>
+<p>Datasets that are considered to be common lab assets (which includes any new studies within the lab and any openly shared datasets) should be placed into the primary data directory on the relevant filesystem. Datasets that are in process of acquisition should go into the “inprocess” directory. Once the dataset is finalized, it should be moved into the “data” directory.</p>
+<p>Once a dataset has been installed in the data directory, it should be changed to be read-only for owner and group, using the following commands:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">find</span> <span class="op">&lt;</span>directory name<span class="op">&gt;</span> -type d <span class="at">-exec</span> chmod 550</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">find</span> <span class="op">&lt;</span>directory name<span class="op">&gt;</span> -type f <span class="at">-exec</span> chmod 440</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Datasets that are temporary, or files generated for analyses that are not intended to be reused or shared, should be placed within the user directory.</p>
+<section id="restricting-access" class="level4">
+<h4 class="anchored" data-anchor-id="restricting-access">Restricting access</h4>
+<p>Some data resources cannot be shared across the lab and instead need to be restricted to lab members with Data Usage Agreement (DUA) access. This can be done via access control lists (ACLs), which allow a resource to be owned by a particular owner/group, but applies an additional more specific set of permissions. The following can be adapted to restrict ACLs to an appropriate subset of lab members:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>protect_access.sh</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="protect_access.sh"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Using ACLs to restrict folder access on oak for russpold folders"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="at">-e</span> <span class="st">"\t https://www.sherlock.stanford.edu/docs/storage/data-sharing/#posix-acls "</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">sleep</span> 1</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># get user input for directory + user</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="bu">read</span> <span class="at">-p</span> <span class="st">"Enter the folder path: "</span> <span class="va">dir_name</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-d</span> <span class="st">"</span><span class="va">$dir_name</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Error: </span><span class="va">${dir_name}</span><span class="st"> doesn't exist"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">exit</span> 1</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="bu">read</span> <span class="at">-p</span> <span class="st">"Enter the username: "</span> <span class="va">user_name</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># set restrictions, repeating once for each desired user</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="at">-e</span> <span class="st">"Setting restrictions for </span><span class="va">${user_name}</span><span class="st"> as rxw for folder: /n </span><span class="va">${dir_name}</span><span class="st">"</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="ex">setfacl</span> <span class="at">-R</span> <span class="at">-m</span> u:<span class="va">$user_name</span>:rwx <span class="va">$dir_name</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="ex">setfacl</span> <span class="at">-R</span> <span class="at">-d</span> <span class="at">-m</span> u:<span class="va">$user_name</span>:rwx <span class="va">$dir_name</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co"># repeat the above commands, replacing $user_name with the usernames</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co"># for additional members</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co"># rm default permissions for the group -- oak_russpold</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ex">setfacl</span> <span class="at">-m</span> d::group:oak_russpold:--- <span class="va">$dir_name</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Our lab endeavors to make all of our research code openly available. None of this code is guaranteed to work outside of our local environment, and most of it is not built for portability, but if you use it and find any bugs, please let us know. Unless otherwise noted, all code is released under the unrestrictive <a href="http://opensource.org/licenses/MIT">MIT License</a></p>
-<p>For additional information on our organized software development projects, see <a href="./projects.html#informatics-projects">Informatics projects</a>.</p>
-<section id="github-repositories" class="level2">
-<h2 class="anchored" data-anchor-id="github-repositories">Github repositories</h2>
-<p>The Poldrack lab manages several GitHub organizations:</p>
-<ul>
-<li><a href="https://github.com/poldracklab">Poldrack Lab at Stanford</a></li>
-<li><a href="https://github.com/OpenNeuroOrg">OpenNeuro.org</a></li>
-<li><a href="https://github.com/expfactory">The Experiment Factory</a></li>
-<li><a href="https://github.com/CognitiveAtlas">The Cognitive Atlas</a></li>
-</ul>
-<p>We are currently or have been heavily involved in the following organizations:</p>
-<ul>
-<li><a href="https://github.com/bids-standard">Brain Imaging Data Structure</a></li>
-<li><a href="https://github.com/neurovault">NeuroVault</a></li>
-<li><a href="https://github.com/nipreps">NiPreps</a></li>
-<li><a href="https://github.com/templateflow">TemplateFlow</a></li>
-</ul>
-<p>We also contribute to greater and lesser extents to many other projects, including:</p>
-<ul>
-<li><a href="https://github.com/nipy">The Nipy community</a></li>
-<li><a href="https://github.com/nipype">Nipype</a></li>
-<li><a href="https://github.com/nilearn">Nilearn</a></li>
-</ul>
-<p>For individual members’ GitHub profiles, see <a href="./people.html">Lab members</a>.</p>
 </section>
-<section id="software-for-tasks-used-in-lab-publications" class="level2">
-<h2 class="anchored" data-anchor-id="software-for-tasks-used-in-lab-publications">Software for tasks used in lab publications</h2>
-<ul>
-<li>Many of our recent tasks are housed in the <a href="https://expfactory.github.io/">Experiment Factory</a></li>
-<li><a href="http://web.stanford.edu/group/poldracklab/software/mixed_gambles_task.zip">mixed gambles task</a> (demo and scanning script from task used in Tom et al., 2007)</li>
-</ul>
-</section>
-<section id="task-software-used-in-consortium-for-neuropsychiatric-phenomics-cnp" class="level2">
-<h2 class="anchored" data-anchor-id="task-software-used-in-consortium-for-neuropsychiatric-phenomics-cnp">Task software used in Consortium for Neuropsychiatric Phenomics (CNP)</h2>
-<ul>
-<li>​Users of these tasks should include the following acknowledgment in any resulting publications: Development of this software was supported by the Consortium for Neuropsychiatric Phenomics (NIH Roadmap for Medical Research grants UL1-DE019580, RL1MH083269, RL1DA024853, PL1MH083271.</li>
-<li><a href="http://web.stanford.edu/group/poldracklab/software/BART.zip">Balloon Analog Risk task</a> (demo and scanning script)</li>
-<li><a href="http://web.stanford.edu/group/poldracklab/software/BHT.zip">Breath holding task</a></li>
-<li>Paired Associate Memory</li>
-<li><a href="http://web.stanford.edu/group/poldracklab/software/SCAP.zip">Spatial working memory capacity</a></li>
-<li><a href="http://web.stanford.edu/group/poldracklab/software/STOPSIG.zip">Stop Signal task</a></li>
-<li><a href="http://web.stanford.edu/group/poldracklab/software/TASKSWITCH.zip">Task switching</a></li>
-</ul>
-</section>
-<section id="datacodeosf-pages-for-published-papers" class="level2">
-<h2 class="anchored" data-anchor-id="datacodeosf-pages-for-published-papers">Data/code/OSF pages for published papers</h2>
-<div id="9fef5ffd" class="cell" data-message="false" data-execution_count="1">
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">2024</h3>
-<p>Mumford JA, Bissett PG, Jones HM, Shim S, Rios JAH, Poldrack RA (2024). The response time paradox in functional magnetic resonance imaging analyses. <em>Nature Human Behaviour, 8</em>, 349-360. <a href="https://doi.org/10.1038/s41562-023-01760-0">DOI</a> <a href="https://neurovault.org/collections/13656/">Data</a> <a href="https://doi.org/10.5281/zenodo.8083510">Code</a></p>
-</section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1">2023</h3>
-<p>Bissett PG, Jones HM, Hagen MP, Bui TT, Li JK, Rios JAH, Mumford JA, Shine JM, Poldrack RA (2023). A dual-task approach to inform the taxonomy of inhibition-related processes. <em>Journal of Experimental Psychology: Human Perception and Performance, 49</em>, 277-289. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/10257953">OA</a> <a href="https://doi.org/10.1037/xhp0001073">DOI</a> <a href="https://zenodo.org/records/7012827">Data</a> <a href="https://zenodo.org/records/7012827">Code</a> <a href="https://osf.io/g8qpd">OSF</a></p>
-<p>Jaffe PI, Poldrack RA, Schafer RJ, Bissett PG (2023). Modelling human behaviour in cognitive tasks with latent dynamical systems. <em>Nature Human Behaviour, 7</em>, 986-1000. <a href="https://doi.org/10.1038/s41562-022-01510-8">DOI</a> <a href="https://doi.org/10.5281/zenodo.6368412">Data</a> <a href="https://github.com/pauljaffe/task-dyva">Code</a></p>
-<p>Thomas AW, Ré C, Poldrack RA (2023). Benchmarking explanation methods for mental state decoding with deep learning models. <em>NeuroImage, 273</em>, 120109. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/10258563">OA</a> <a href="https://doi.org/10.1016/j.neuroimage.2023.120109">DOI</a> <a href="https://github.com/athms/xai-brain-decoding-benchmark">Code</a></p>
-</section>
-<section id="section-2" class="level3">
-<h3 class="anchored" data-anchor-id="section-2">2021</h3>
-<p>Beam E, Potts C, Poldrack RA, Etkin A (2021). A data-driven framework for mapping domains of human neurobiology. <em>Nature Neuroscience, 24</em>, 1733-1744. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/8761068">OA</a> <a href="https://doi.org/10.1038/s41593-021-00948-9">DOI</a> <a href="http://github.com/ehbeam/neuro-knowledge-engine">Data</a> <a href="http://github.com/ehbeam/neuro-knowledge-engine">Code</a></p>
-<p>Bissett PG, Hagen MP, Jones HM, Poldrack RA (2021). Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study. <em>eLife, 10</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/7997655">OA</a> <a href="https://doi.org/10.7554/elife.60185">DOI</a> <a href="https://zenodo.org/records/4458428">Code</a></p>
-<p>Bissett PG, Jones HM, Poldrack RA, Logan GD (2021). Severe violations of independence in response inhibition tasks. <em>Science Advances, 7</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/7968836">OA</a> <a href="https://doi.org/10.1126/sciadv.abf4355">DOI</a> <a href="https://zenodo.org/record/4432816">Data</a> <a href="https://zenodo.org/record/4432816">Code</a></p>
-<p>Mazza GL, Smyth HL, Bissett PG et al.&nbsp;(2021). Correlation Database of 60 Cross-Disciplinary Surveys and Cognitive Tasks Assessing Self-Regulation. <em>Journal of Personality Assessment, 103</em>, 238-245. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/7483539">OA</a> <a href="https://doi.org/10.1080/00223891.2020.1732994">DOI</a> <a href="https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data">Data</a></p>
-</section>
-<section id="section-3" class="level3">
-<h3 class="anchored" data-anchor-id="section-3">2020</h3>
-<p>Bielczyk NZ, Ando A, Badhwar A et al.&nbsp;(2020). Effective Self-Management for Early Career Researchers in the Natural and Life Sciences. <em>Neuron, 106</em>, 212-217. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/7665085">OA</a> <a href="https://doi.org/10.1016/j.neuron.2020.03.015">DOI</a> <a href="https://osf.io/w6emk/">OSF</a></p>
-<p>Lurie DJ, Kessler D, Bassett DS et al.&nbsp;(2020). Questions and controversies in the study of time-varying functional connectivity in resting fMRI. <em>Network Neuroscience, 4</em>, 30-69. <a href="https://doi.org/10.1162/netn_a_00116">DOI</a> <a href="https://osf.io/fa6zr/">OSF</a></p>
-</section>
-<section id="section-4" class="level3">
-<h3 class="anchored" data-anchor-id="section-4">2019</h3>
-<p>Aridan N, Malecek NJ, Poldrack RA, Schonberg T (2019). Neural correlates of effort-based valuation with prospective choices. <em>NeuroImage, 185</em>, 446-454. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6289638">OA</a> <a href="https://doi.org/10.1016/j.neuroimage.2018.10.051">DOI</a> <a href="https://openneuro.org/datasets/ds001167/versions/00002">Data</a></p>
-<p>Botvinik-Nezer R, Iwanir R, Holzmeister F, Huber J, Johannesson M, Kirchler M, Dreber A, Camerer CF, Poldrack RA, Schonberg T (2019). fMRI data of mixed gambles from the Neuroimaging Analysis Replication and Prediction Study. <em>Scientific Data, 6</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6602933">OA</a> <a href="https://doi.org/10.1038/s41597-019-0113-7">DOI</a> <a href="https://openneuro.org/datasets/ds001734/versions/1.0.5">Data</a></p>
-<p>Eisenberg IW, Bissett PG, Zeynep Enkavi A, Li J, MacKinnon DP, Marsch LA, Poldrack RA (2019). Uncovering the structure of self-regulation through data-driven ontology discovery. <em>Nature Communications, 10</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6534563">OA</a> <a href="https://doi.org/10.1038/s41467-019-10301-1">DOI</a> <a href="https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data">Data</a> <a href="https://github.com/IanEisenberg/Self_Regulation_Ontology">Code</a> <a href="https://osf.io/zk6w9/">OSF</a></p>
-<p>Enkavi AZ, Eisenberg IW, Bissett PG, Mazza GL, MacKinnon DP, Marsch LA, Poldrack RA (2019). Large-scale analysis of test–retest reliabilities of self-regulation measures. <em>Proceedings of the National Academy of Sciences, 116</em>, 5472-5477. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6431228">OA</a> <a href="https://doi.org/10.1073/pnas.1818430116">DOI</a> <a href="https://github.com/IanEisenberg/Self_Regulation_Ontology/tree/master/Data">Data</a> <a href="https://osf.io/5mjns/">OSF</a></p>
-<p>King M, Hernandez-Castillo CR, Poldrack RA, Ivry RB, Diedrichsen J (2019). Functional boundaries in the human cerebellum revealed by a multi-domain task battery. <em>Nature Neuroscience, 22</em>, 1371-1378. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/8312478">OA</a> <a href="https://doi.org/10.1038/s41593-019-0436-x">DOI</a> <a href="https://openneuro.org/datasets/ds002105/versions/1.1.0">Data</a></p>
-</section>
-<section id="section-5" class="level3">
-<h3 class="anchored" data-anchor-id="section-5">2018</h3>
-<p>Bakkour A, Botvinik-Nezer R, Cohen N, Hover AM, Poldrack RA, Schonberg T (2018). Spacing of cue-approach training leads to better maintenance of behavioral change. <em>PLOS ONE, 13</em>, e0201580. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6066248">OA</a> <a href="https://doi.org/10.1371/journal.pone.0201580">DOI</a> <a href="https://osf.io/fdvrk/">OSF</a></p>
-<p>Eisenberg IW, Bissett PG, Canning JR et al.&nbsp;(2018). Applying novel technologies and methods to inform the ontology of self-regulation. <em>Behaviour Research and Therapy, 101</em>, 46-57. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/5801197">OA</a> <a href="https://doi.org/10.1016/j.brat.2017.09.014">DOI</a> <a href="https://osf.io/amxpv/">OSF</a></p>
-<p>Lam M, Trampush JW, Yu J et al.&nbsp;(2018). Multi-Trait Analysis of GWAS and Biological Insights Into Cognition: A Response to Hill (2018). <em>Twin Research and Human Genetics, 21</em>, 394-397. <a href="https://doi.org/10.1017/thg.2018.46">DOI</a> <a href="https://osf.io/t5kzx/">OSF</a></p>
-<p>Poldrack RA, Monahan J, Imrey PB, Reyna V, Raichle ME, Faigman D, Buckholtz JW (2018). Predicting Violent Behavior: What Can Neuroscience Add?. <em>Trends in Cognitive Sciences, 22</em>, 111-123. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/5794654">OA</a> <a href="https://doi.org/10.1016/j.tics.2017.11.003">DOI</a> <a href="https://osf.io/tgknp/">OSF</a></p>
-<p>Wimmer GE, Li JK, Gorgolewski KJ, Poldrack RA (2018). Reward Learning over Weeks Versus Minutes Increases the Neural Representation of Value in the Human Brain. <em>The Journal of Neuroscience, 38</em>, 7649-7666. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6113901">OA</a> <a href="https://doi.org/10.1523/jneurosci.0075-18.2018">DOI</a> <a href="https://osf.io/z2gwf/">OSF</a></p>
-</section>
-<section id="section-6" class="level3">
-<h3 class="anchored" data-anchor-id="section-6">2017</h3>
-<p>Esteban O, Birman D, Schaer M, Koyejo OO, Poldrack RA, Gorgolewski KJ (2017). MRIQC: Advancing the automatic prediction of image quality in MRI from unseen sites. <em>PLOS ONE, 12</em>, e0184661. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/5612458">OA</a> <a href="https://doi.org/10.1371/journal.pone.0184661">DOI</a> <a href="https://osf.io/haf97/">OSF</a></p>
-<p>Poldrack RA, Baker CI, Durnez J, Gorgolewski KJ, Matthews PM, Munafò MR, Nichols TE, Poline J, Vul E, Yarkoni T (2017). Scanning the horizon: towards transparent and reproducible neuroimaging research. <em>Nature Reviews Neuroscience, 18</em>, 115-126. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6910649">OA</a> <a href="https://doi.org/10.1038/nrn.2016.167">DOI</a> <a href="https://osf.io/spr9a/">OSF</a></p>
-</section>
-<section id="section-7" class="level3">
-<h3 class="anchored" data-anchor-id="section-7">2016</h3>
-<p>Poldrack R, Congdon E, Triplett W et al.&nbsp;(2016). A phenome-wide examination of neural and cognitive function. <em>Scientific Data, 3</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/5139672">OA</a> <a href="https://doi.org/10.1038/sdata.2016.110">DOI</a> <a href="https://openneuro.org/datasets/ds000030/versions/1.0.0">Data</a></p>
-</section>
-<section id="section-8" class="level3">
-<h3 class="anchored" data-anchor-id="section-8">2015</h3>
-<p>Laumann T, Gordon E, Adeyemo B et al.&nbsp;(2015). Functional System and Areal Organization of a Highly Sampled Individual Human Brain. <em>Neuron, 87</em>, 657-670. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/4642864">OA</a> <a href="https://doi.org/10.1016/j.neuron.2015.06.037">DOI</a> <a href="https://openneuro.org/datasets/ds000031/versions/00001">Data</a></p>
-<p>Poldrack RA (2015). Is “efficiency” a useful concept in cognitive neuroscience?. <em>Developmental Cognitive Neuroscience, 11</em>, 12-17. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/6989750">OA</a> <a href="https://doi.org/10.1016/j.dcn.2014.06.001">DOI</a> <a href="https://github.com/poldrack/rtmodel">Code</a></p>
-<p>Poldrack RA, Laumann TO, Koyejo O et al.&nbsp;(2015). Long-term neural and physiological phenotyping of a single human. <em>Nature Communications, 6</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/4682164">OA</a> <a href="https://doi.org/10.1038/ncomms9885">DOI</a> <a href="https://openneuro.org/datasets/ds000031/versions/00001">Data</a> <a href="https://github.com/poldrack/myconnectome">Code</a></p>
-</section>
-<section id="section-9" class="level3">
-<h3 class="anchored" data-anchor-id="section-9">2014</h3>
-<p>Davis T, LaRocque KF, Mumford JA, Norman KA, Wagner AD, Poldrack RA (2014). What do differences between multi-voxel and univariate analysis mean? How subject-, voxel-, and trial-level variance impact fMRI analysis. <em>NeuroImage, 97</em>, 271-283. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/4115449">OA</a> <a href="https://doi.org/10.1016/j.neuroimage.2014.04.037">DOI</a> <a href="https://github.com/poldracklab/DLMNP_simulations">Code</a></p>
-<p>Helfinstein SM, Schonberg T, Congdon E, Karlsgodt KH, Mumford JA, Sabb FW, Cannon TD, London ED, Bilder RM, Poldrack RA (2014). Predicting risky choices from brain activity patterns. <em>Proceedings of the National Academy of Sciences, 111</em>, 2470-2475. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/3932884">OA</a> <a href="https://doi.org/10.1073/pnas.1321728111">DOI</a> <a href="https://openneuro.org/datasets/ds000030/versions/1.0.0">Data</a></p>
-<p>White CN, Congdon E, Mumford JA, Karlsgodt KH, Sabb FW, Freimer NB, London ED, Cannon TD, Bilder RM, Poldrack RA (2014). Decomposing Decision Components in the Stop-signal Task: A Model-based Approach to Individual Differences in Inhibitory Control. <em>Journal of Cognitive Neuroscience, 26</em>, 1601-1614. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/4119005">OA</a> <a href="https://doi.org/10.1162/jocn_a_00567">DOI</a> <a href="https://openneuro.org/datasets/ds000030/versions/1.0.0">Data</a></p>
-<p>White CN, Poldrack RA (2014). Decomposing bias in different types of simple decisions. <em>Journal of Experimental Psychology: Learning, Memory, and Cognition, 40</em>, 385-398. <a href="https://doi.org/10.1037/a0034851">DOI</a> <a href="https://web.stanford.edu/group/poldracklab/data/WhitePoldrack2014.zip">Data</a> <a href="https://web.stanford.edu/group/poldracklab/data/WhitePoldrack2014.zip">Code</a></p>
-</section>
-<section id="section-10" class="level3">
-<h3 class="anchored" data-anchor-id="section-10">2012</h3>
-<p>Poldrack RA, Mumford JA, Schonberg T, Kalar D, Barman B, Yarkoni T (2012). Discovering Relations Between Mind, Brain, and Mental Disorders Using Topic Mapping. <em>PLoS Computational Biology, 8</em>, e1002707. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/3469446">OA</a> <a href="https://doi.org/10.1371/journal.pcbi.1002707">DOI</a> <a href="https://github.com/poldrack/LatentStructure">Code</a></p>
-<p>Schonberg T, Fox CR, Mumford JA, Congdon E, Trepel C, Poldrack RA (2012). Decreasing Ventromedial Prefrontal Cortex Activity During Sequential Risk-Taking: An fMRI Investigation of the Balloon Analog Risk Task. <em>Frontiers in Neuroscience, 6</em>. <a href="https://doi.org/10.3389/fnins.2012.00080">DOI</a> <a href="https://openneuro.org/datasets/ds000001/versions/1.0.0">Data</a></p>
-</section>
-<section id="section-11" class="level3">
-<h3 class="anchored" data-anchor-id="section-11">2008</h3>
-<p>Xue G, Aron AR, Poldrack RA (2008). Common Neural Substrates for Inhibition of Spoken and Manual Responses. <em>Cerebral Cortex, 18</em>, 1923-1932. <a href="https://doi.org/10.1093/cercor/bhm220">DOI</a> <a href="https://openneuro.org/datasets/ds000007/versions/00001">Data</a></p>
-</section>
-<section id="section-12" class="level3">
-<h3 class="anchored" data-anchor-id="section-12">2007</h3>
-<p>Tom SM, Fox CR, Trepel C, Poldrack RA (2007). The Neural Basis of Loss Aversion in Decision-Making Under Risk. <em>Science, 315</em>, 515-518. <a href="https://doi.org/10.1126/science.1134239">DOI</a> <a href="https://openneuro.org/datasets/ds000008/versions/00001">Data</a></p>
-</section>
-<section id="section-13" class="level3">
-<h3 class="anchored" data-anchor-id="section-13">2006</h3>
-<p>Aron AR, Gluck MA, Poldrack RA (2006). Long-term test–retest reliability of functional MRI in a classification learning task. <em>NeuroImage, 29</em>, 1000-1006. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/1630684">OA</a> <a href="https://doi.org/10.1016/j.neuroimage.2005.08.010">DOI</a> <a href="https://openneuro.org/datasets/ds000017/versions/00001">Data</a></p>
-<p>Foerde K, Knowlton BJ, Poldrack RA (2006). Modulation of competing memory systems by distraction. <em>Proceedings of the National Academy of Sciences, 103</em>, 11778-11783. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/1544246">OA</a> <a href="https://doi.org/10.1073/pnas.0602659103">DOI</a> <a href="https://openneuro.org/datasets/ds000011/versions/00001">Data</a></p>
-</section>
-<section id="section-14" class="level3">
-<h3 class="anchored" data-anchor-id="section-14">2001</h3>
-<p>Poldrack RA, Clark J, Paré-Blagoev EJ, Shohamy D, Creso Moyano J, Myers C, Gluck MA (2001). Interactive memory systems in the human brain. <em>Nature, 414</em>, 546-550. <a href="https://doi.org/10.1038/35107080">DOI</a> <a href="https://openneuro.org/datasets/ds000052/versions/00001">Data</a></p>
-</section>
-</div>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -995,7 +920,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/poldracklab/poldracklab.github.io/edit/main/labguide/computing/sherlock/data-management.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/poldracklab/poldracklab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
