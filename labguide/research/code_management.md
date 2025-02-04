@@ -26,8 +26,15 @@ with and reported to Dr. Poldrack and other relevant parties immediately.
 
 ## Code review
 
-- All coding projects should be
-    reviewed prior to paper submission.
+- All coding projects should undergo a review before paper submission. 
+- When writing code, keep in mind that it will be shared with others. This mindset improves readability and encourages careful development practices.
+- At the very least, your code should:
+    - Be version-controlled and have a straightforward installation process for dependencies.
+    - Include files that allow for testing.
+    - Be well-documented (e.g., comments in code) and clearly written.
+    - Contain a README.md file that explains the structure of your codebase.
+- Code review is an ongoing process rather than a final step, so there is no expectation for your code to be "perfect" at any stage.
+- Here are some useful resources on code review: (Awesome Code Review)[https://github.com/joho/awesome-code-review], (Blog post)[https://www.djmannion.net/code_review/]. 
 
 ## Code sharing
 
