@@ -29,6 +29,19 @@ format:
   - [Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study](https://elifesciences.org/articles/60185)
 
 
+## Women's Brain Health Projects
+
+Our lab is part of the [Ann S. Bowers Women's Brain Health Initiative](https://wbhi.ucsb.edu/).
+
+#### WBHI Data Coordinating Center
+  - A project to coordinate data from several University of California Imaging Centers in service of better understanding women's brain health.
+  - Current funding: Noyce Foundation
+
+#### Longitudinal neurocognitive and hormonal phenotyping
+  - A project collecting imaging, hormone and reproductive health information to understand the neural mechanisms that drive changes in mood and cognition across the menstrual cycle.
+  - Noyce Foundation
+
+
 ## Informatics/analysis projects
 
 #### [OpenNeuro](http://openneuro.org)
@@ -59,7 +72,7 @@ format:
 
 #### [Neurosynth](http://neurosynth.org)
   - A platform for coordinate-based meta-analysis on neuroimaging data
-  - Previous funding: [5R01MH096906](https://reporter.nih.gov/project-details/10543105)
+  - Current funding: [5R01MH096906](https://reporter.nih.gov/project-details/10982264)
   - Representative publications:
     - [Large-scale automated synthesis of human functional neuroimaging data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146590/)
 
@@ -68,10 +81,6 @@ format:
   - Current funding [RF1MH121867](https://reporter.nih.gov/project-details/10513258)
   - Representative publications:
     - [fMRIPrep: a robust preprocessing pipeline for functional MRI](https://www.nature.com/articles/s41592-018-0235-4)
-
-#### [Women's Brain Health Initiative](https://wbhi.ucsb.edu/) Data Coordinating Center
-  - A project to coordinate data from several University of California Imaging Centers in service of better understanding women's brain health.
-  - Current funding: Noyce Foundation
 
 #### [Cognitive Atlas](http://cognitiveatlas.org)
   - An ontology for cognitive science
