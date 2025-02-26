@@ -178,10 +178,7 @@ more generally, as time permits.
     the lab, contact Dr. Poldrack directly. Be sure to send your CV, and
     explain in brief your research interests and why you think you would
     be a good fit for the lab.
-- We are particularly
-    interested in hiring postdocs who bring diversity to the lab, either
-    through their personal identity, research interests, or experience.
-
+    
 ## Mentoring practices
 
 ### Weekly report
