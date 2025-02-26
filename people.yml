@@ -58,10 +58,14 @@
   - name: Margot Mitchell
     orcid: 0009-0001-3048-2931
   - name: Joe Wexler
+    orcid: 0000-0001-6424-8740
+    github: jbwexler
   
 - group: Software Developers
   members:
   - name: Ross Blair
+    orcid: 0000-0003-3007-1056
+    github: rwblair
   - name: Mathias Goncalves
     orcid: 0000-0002-7252-7771
     github: mgxd
@@ -69,6 +73,8 @@
     orcid: 0000-0002-3837-0707
     github: nellh
   - name: Greg Noack
+    orcid: 0009-0000-4906-3246
+    github: thinknoack
 
 - group: Lab Alumni
   members:
@@ -84,6 +90,7 @@
     website: https://www.exponent.com/people/naomi-cherne
   - name: Rastko Ciric
     website: https://www.linkedin.com/in/rastko-ciric/
+    orcid: 0000-0001-6347-7939
   - name: Jessica Cohen
     website: https://cohenlab.web.unc.edu/
   - name: Eliza Congdon
@@ -91,7 +98,9 @@
   - name: Tyler Davis
     website: https://www.linkedin.com/in/tyler-davis-453a1a75/
   - name: Elizabeth DuPre
-    website: https://www.linkedin.com/in/elizabeth-dupre/
+    website: https://elizabeth-dupre.com/
+    orcid: 0000-0003-1358-196X
+    github: emdupre
   - name: Joke Durnez
     website: https://www.linkedin.com/in/joke-durnez/
   - name: Ian Eisenberg
@@ -112,8 +121,11 @@
     website: https://chrisgorgolewski.org/
   - name: Grace Huckins
     website: https://www.linkedin.com/in/grace-huckins/
+    orcid: 0009-0003-1775-8627
   - name: Paul Jaffe
     website: https://www.linkedin.com/in/paul-jaffe-0a4858199
+    orcid: 0000-0003-0680-3923
+    github: pauljaffe
   - name: Koji Jimura
     website: https://en.jimuralab.org/
   - name: Don Kalar
