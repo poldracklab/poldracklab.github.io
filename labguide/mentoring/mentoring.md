@@ -14,7 +14,6 @@ If you are a Stanford affiliate and in the area, feel free to fill out this [for
     - [Psychology](https://psychology.stanford.edu/phd-program)
     - [Neuroscience](https://med.stanford.edu/neurogradprogram.html)
     - [Bioengineering](https://bioengineering.stanford.edu/academics-admission/graduate-programs)
-    - [Biomedical Data Science](https://dbds.stanford.edu/) (BMI)
 
 ### How do I choose a program?
 
@@ -23,9 +22,8 @@ In choosing a program, there are several important differences:
 1.  *Research:* While most of
     these programs are fairly flexible, there are generally some
     expectations regarding the kind of research you will do, depending
-    on the specific program. For example, if you are joining the BMI program then your
-    work is expected to have at least some focus on novel data analysis or
-    informatics methods, whereas if you are joining Psychology your work
+    on the specific program. For example, if you are joining the Bioengineering program then your
+    work is expected to have at least some focus on novel computational or data acquisition methods, whereas if you are joining Psychology your work
     is expected to make some contact with psychological function. Having
     said that, most of what we do in our lab could be done by a student
     in any of these programs.
@@ -35,9 +33,8 @@ In choosing a program, there are several important differences:
     a number of core courses in different areas of psychology
     (cognitive, neuroscience, social, affective, developmental). In the neuroscience program
     you will take a set of core modules spanning different areas of
-    neuroscience (including one on cognitive neuroscience that Justin
-    Gardner and I teach), whereas in BMI you take core courses around
-    informatics-related topics. In each program you will also take elective courses (often
+    neuroscience (including one on cognitive neuroscience), whereas in Bioengineering you take core courses around
+    biomedical engineering topics. In each program you will also take elective courses (often
     outside the department) that establish complementary core knowledge
     that is important for your particular research; for example, you can
     take courses in our world-class statistics department regardless of
@@ -49,7 +46,7 @@ In choosing a program, there are several important differences:
     Psychology, students generally jump straight into a specific lab (or
     a collaboration between labs), and spend their first year doing a
     first-year project that they present to their area meeting at the
-    end of the year. In Neuroscience and BMI, students do rotations in
+    end of the year. In Neuroscience and Bioengineering, students do rotations in
     multiple labs in their first year, and are expected to pick a lab by
     the end of their first year. 
 4.  *Admissions*: All of these
