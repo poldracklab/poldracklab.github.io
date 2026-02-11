@@ -1,7 +1,10 @@
-all: spellcheck render-site push-site
+all: spellcheck copy-publications render-site push-site
 
 spellcheck:
 	codespell *.md
+
+copy-publications:
+	cp /Users/poldrack/.cache/academicdb/publications.json .
 
 render-site:
 	quarto render .
