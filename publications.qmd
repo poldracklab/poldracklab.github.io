@@ -1,5 +1,5 @@
 ---
-title: "Russ Poldrack - Publications"
+title: "Poldracklab Publications"
 format:
   html:
     page-layout: full
