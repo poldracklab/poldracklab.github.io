@@ -18,7 +18,7 @@ from pathlib import Path
 import os
 
 # Read publications from JSON file
-json_file = Path.home() / '.cache' / 'academicdb' / 'publications.json'
+json_file = Path('publications.json')
 
 if not json_file.exists():
     raise FileNotFoundError(
