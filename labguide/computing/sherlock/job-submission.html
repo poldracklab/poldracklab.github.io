@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -67,14 +67,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../../">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-1052f5b4b311c2c761c59b895cf891a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-4b40df306c19f63bce3d1f9b52ed30ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -171,7 +172,7 @@ gtag('config', '379246033', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../publications.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publications</span></a>
+ <span class="menu-text">Russ Poldrack - Publications</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -475,13 +476,13 @@ Important
 <section id="determining-where-to-submit-your-jobs" class="level3">
 <h3 class="anchored" data-anchor-id="determining-where-to-submit-your-jobs">Determining where to submit your jobs</h3>
 <p>You can check available resources with the <code>sh_part</code> command:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>$ sh_part</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>$ sh_part</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>     QUEUE STA   FREE  TOTAL   FREE  TOTAL RESORC  OTHER MAXJOBTIME    CORES       NODE   GRES</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a> PARTITION TUS  CORES  CORES  NODES  NODES PENDNG PENDNG  DAY-HR:MN    /NODE     MEM-GB (COUNT)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    normal   *    153   1792      0     84    23k    127    7-00:00    20-24    128-191 -</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    bigmem         29     88      0      2      0      8    1-00:00    32-56   512-3072 -</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>       dev         31     40      0      2      0      0    0-02:00       20        128 -</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>       gpu         47    172      0      8    116      1    7-00:00    20-24    191-256 gpu:4(S:0-1)(2),gpu:4(S:0)(6)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>       gpu         47    172      0      8    116      1    7-00:00    20-24    191-256 gpu:4(S:0-1)(2),gpu:4(S:0)(6)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This will list out the compute resources available to you, so that you can determine the optimal resource to use.</p>
 </section>
 <section id="running-interactive-jobs-with-sh_dev" class="level3">
@@ -491,7 +492,7 @@ Important
 <section id="interactive-jobs-from-existing-scripts-salloc" class="level4">
 <h4 class="anchored" data-anchor-id="interactive-jobs-from-existing-scripts-salloc">Interactive jobs from existing scripts: <code>salloc</code></h4>
 <p>If you prefer to submit an existing job script or other executable as an interactive job, you can use the <code>salloc</code> command:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">salloc</span> script.sh</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">salloc</span> script.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><code>salloc</code> will start a Slurm job and allocate resources for it, but it will not automatically connect you to the allocated node(s). It will only start a new shell on the same node you launched salloc from, and set up the appropriate <code>$SLURM_*</code> environment variables.</p>
 </section>
 </section>
@@ -515,16 +516,16 @@ Important
 <section id="using-squeue" class="level5">
 <h5 class="anchored" data-anchor-id="using-squeue">Using <code>squeue</code></h5>
 <p>Users can monitor the status of their currently running jobs on Sherlock with <code>squeue</code>:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">squeue</span> <span class="at">-u</span> <span class="va">$USER</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">squeue</span> <span class="at">-u</span> <span class="va">$USER</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This command will monitor how long a job has been sitting on queue or actively running, depending on status.</p>
 </section>
 <section id="using-clush" class="level5">
 <h5 class="anchored" data-anchor-id="using-clush">Using <code>clush</code></h5>
 <p>More detailed information on running jobs can be found using <a href="https://www.sherlock.stanford.edu/docs/software/using/clustershell/"><code>clush</code></a>, which can be loaded via the module system:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ml</span> system py-clustershell</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">clush</span> <span class="at">-N</span> <span class="at">-w</span> @job:<span class="op">&lt;</span>your Job ID<span class="op">&gt;</span> top <span class="at">-b</span> <span class="at">-n</span> 1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">ml</span> system py-clustershell</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">clush</span> <span class="at">-N</span> <span class="at">-w</span> @job:<span class="op">&lt;</span>your Job ID<span class="op">&gt;</span> top <span class="at">-b</span> <span class="at">-n</span> 1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>On Sherlock, it provides an easy way to run commands on nodes your jobs are running on, and collect back information. In the above example, we use <code>clush</code> to execute the <code>top</code> command, which provides real-time monitoring of job resource usage. Many other uses are possible; for example,</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">clush</span> <span class="at">-w</span> @j:<span class="op">&lt;</span>your Job ID<span class="op">&gt;</span> ps <span class="at">-u</span><span class="va">$USER</span> <span class="at">-o%cpu,rss,cmd</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">clush</span> <span class="at">-w</span> @j:<span class="op">&lt;</span>your Job ID<span class="op">&gt;</span> ps <span class="at">-u</span><span class="va">$USER</span> <span class="at">-o%cpu,rss,cmd</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Will return the CPU and memory usage of all processes for a given job ID.</p>
 </section>
 </section>
@@ -536,7 +537,7 @@ Important
 <div class="code-with-filename-file">
 <pre><strong>submit_fmriprep_array.sh</strong></pre>
 </div>
-<div class="sourceCode" id="cb6" data-filename="submit_fmriprep_array.sh"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" data-filename="submit_fmriprep_array.sh"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --job-name=fMRIPrep</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --output=fmriprep.%j.out</span></span>
@@ -569,7 +570,7 @@ Important
 <span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">--output-space</span> MNI152NLin2009cAsym:res-2 <span class="dt">\</span></span>
 <span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">-w</span> /out/workdir <span class="dt">\</span></span>
 <span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">--notrack</span> <span class="dt">\</span></span>
-<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>        <span class="at">--fs-license-file</span> /license/license.txt </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>        <span class="at">--fs-license-file</span> /license/license.txt </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -579,13 +580,13 @@ Important
 <section id="sec-seff" class="level4">
 <h4 class="anchored" data-anchor-id="sec-seff">Using <code>seff</code></h4>
 <p>Nominally, the fastest and easiest way to get a summary report, for a given job, is the “SLURM efficiency” tool, <code>seff</code>. This tool returns a simple, human-readable format report that includes both allocated as well as actually used resources (nodes, CPUs, memory, wall time).</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">seff</span> <span class="op">&lt;</span>your Job ID<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">seff</span> <span class="op">&lt;</span>your Job ID<span class="op">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Generally speaking, <code>seff</code> reports can be used to determine how well (if at all) a job parallelizes, how much memory to request for future implementations of the job, and how much time to request. More granular reporting, however, is possible using the <code>sacct</code> command.</p>
 </section>
 <section id="sec-sacct" class="level4">
 <h4 class="anchored" data-anchor-id="sec-sacct">Using <code>sacct</code></h4>
 <p>More rigorous resource analysis can be performed after a job has completed by using SLURM accounting, or <code>sacct</code>. Again, SLURM provides a rigorous documentation, including using <code>--format=</code> to define which columns to output and the various options that can constrain a query.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">sacct</span> <span class="at">--user</span><span class="op">=</span><span class="va">$USER</span> <span class="at">--start</span><span class="op">=</span>2023-09-01 <span class="at">--end</span><span class="op">=</span>2023-09-03 <span class="at">--format</span><span class="op">=</span>jobid,jobname,partition,account,nnodes,ncpus,reqmem,maxrss,elapsed,totalcpu,state,reason</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">sacct</span> <span class="at">--user</span><span class="op">=</span><span class="va">$USER</span> <span class="at">--start</span><span class="op">=</span>2023-09-01 <span class="at">--end</span><span class="op">=</span>2023-09-03 <span class="at">--format</span><span class="op">=</span>jobid,jobname,partition,account,nnodes,ncpus,reqmem,maxrss,elapsed,totalcpu,state,reason</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
@@ -644,13 +645,14 @@ Important
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
