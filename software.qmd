@@ -60,7 +60,7 @@ For individual members' GitHub profiles, see [Lab members](people.md).
 import json
 import os
 
-pubfile = os.path.expanduser('~/.cache/academicdb/publications.json')
+pubfile = 'publications.json'
 
 with open(pubfile) as f:
     data = json.load(f)
