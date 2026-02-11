@@ -57,31 +57,58 @@ For individual members' GitHub profiles, see [Lab members](people.md).
 #| warning: false
 #| message: false
 
-# this code uses academicdb to put together a list of publications
-# with data/code/osf pages
+import json
 import os
-try:
-    from datetime import date
-    from contextlib import suppress
-    from academicdb.dbbuilder import setup_db
-    from academicdb.utils import escape_characters_for_latex
-    from academicdb.render_pubs import get_publications
-    import logging
-    import argparse
 
-    configfile = 'config.toml'
-    if not os.path.exists(configfile):
-        raise FileNotFoundError(
-            f'You must first set up the config.toml file'
-        )
+pubfile = os.path.expanduser('~/.cache/academicdb/publications.json')
 
-    db = setup_db(configfile)
+with open(pubfile) as f:
+    data = json.load(f)
 
-    pubs = [i for i in db.get_collection('publications') if 'links' in i]
+# filter to publications that have resource links
+pubs_with_links = [
+    pub for pub in data['publications']
+    if pub.get('links') and pub['links'].get('resources')
+]
 
-    print(get_publications(pubs))
-except Exception:
-    if not os.getenv("POLDRACKLAB_IGNORE_FAILURE"):
-        raise
+# sort by year descending, then by title
+pubs_with_links.sort(key=lambda p: (-p.get('year', 0), p.get('title', '')))
 
+
+def format_authors(authors):
+    names = [a['name'] for a in authors]
+    if len(names) > 5:
+        return ', '.join(names[:5]) + ', et al.'
+    return ', '.join(names)
+
+
+def format_publication(pub):
+    authors = format_authors(pub.get('authors', []))
+    title = pub.get('title', '').rstrip('.')
+    journal = pub.get('publication_name', '')
+    year = pub.get('year', '')
+    output = f'{authors} ({year}). {title}. *{journal}*.'
+
+    # DOI link
+    doi = pub.get('doi')
+    if doi and 'nodoi' not in doi:
+        output += f' [DOI](https://doi.org/{doi})'
+
+    # PMC link
+    pmcid = pub.get('identifiers', {}).get('pmcid')
+    if pmcid:
+        output += f' [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid})'
+
+    # Resource links (Data, Code, OSF)
+    resources = pub.get('links', {}).get('resources', [])
+    link_map = {r['type']: r['url'] for r in resources}
+    for link_type in ['Data', 'Code', 'OSF']:
+        if link_type in link_map and link_map[link_type]:
+            output += f' [{link_type}]({link_map[link_type]})'
+
+    return output
+
+
+lines = [format_publication(pub) for pub in pubs_with_links]
+print('\n\n'.join(lines))
 ```
