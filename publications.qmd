@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Russ Poldrack - Publications"
 format:
   html:
     page-layout: full
@@ -11,34 +11,93 @@ format:
 #| warning: false
 #| message: false
 
+# this code reads publications from a JSON file and formats them for display
+from datetime import date
+import json
+from pathlib import Path
 import os
 
-# this code uses academicdb to put together a list of publications
-try:
-    from datetime import date
-    from contextlib import suppress
-    from academicdb.dbbuilder import setup_db
-    from academicdb.utils import escape_characters_for_latex
-    from academicdb.render_pubs import get_publications
-    import logging
-    import argparse
+# Read publications from JSON file
+json_file = Path.home() / '.cache' / 'academicdb' / 'publications.json'
 
-    configfile = 'config.toml'
-    if not os.path.exists(configfile):
-        raise FileNotFoundError(
-            f'You must first set up the config.toml file'
-        )
+if not json_file.exists():
+    raise FileNotFoundError(
+        f'Publications JSON file not found at {json_file}'
+    )
 
-    db = setup_db(configfile)
+with open(json_file) as f:
+    data = json.load(f)
 
-    print(get_publications(
-            db.get_collection('publications'),
-        ))
+publications = data['publications']
 
-    print('\ \n\ \n')
-    print(f'*Updated: {date.today()} - Publication list created using [autocv](https://github.com/poldrack/academicdb)*')
-except Exception:
-    if not os.getenv("POLDRACKLAB_IGNORE_FAILURE"):
-        raise
+# Group publications by year (descending)
+pubs_by_year = {}
+for pub in publications:
+    if pub.get('is_ignored', False):
+        continue
+    year = pub.get('year', 'Unknown')
+    if year not in pubs_by_year:
+        pubs_by_year[year] = []
+    pubs_by_year[year].append(pub)
+
+# Sort years in descending order
+sorted_years = sorted(pubs_by_year.keys(), reverse=True)
+
+# Format and print publications
+for year in sorted_years:
+    print(f'\n## {year}\n')
+    for pub in pubs_by_year[year]:
+        # Format authors
+        authors = pub.get('authors', [])
+        if authors:
+            author_names = [author.get('name', '') for author in authors]
+            author_str = ', '.join(author_names)
+        else:
+            author_str = ''
+
+        # Get title
+        title = pub.get('title', 'Untitled')
+
+        # Get publication venue
+        venue = pub.get('publication_name', '')
+
+        # Build publication string
+        pub_parts = []
+        if author_str:
+            pub_parts.append(author_str)
+
+        # Add title with link if DOI exists
+        doi = pub.get('doi', '')
+        if doi:
+            pub_parts.append(f'[{title}](https://doi.org/{doi})')
+        else:
+            pub_parts.append(f'*{title}*')
+
+        # Add venue info
+        venue_parts = []
+        if venue:
+            if pub.get('is_preprint', False):
+                venue_parts.append(f'{venue} (preprint)')
+            else:
+                venue_parts.append(venue)
+
+        volume = pub.get('volume')
+        if volume:
+            venue_parts.append(f'*{volume}*')
+
+        page_range = pub.get('page_range')
+        if page_range:
+            venue_parts.append(page_range)
+
+        if venue_parts:
+            pub_parts.append(', '.join(venue_parts))
+
+        # Print the publication
+        print('- ' + '. '.join(pub_parts) + '.')
+        print()
+
+print('\ \n\ \n')
+print(f'*Updated: {date.today()} - Publication list generated from local JSON file*')
+
 
 ```
