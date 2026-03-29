@@ -69,9 +69,13 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme:
+      dark: darkly
+      light: flatly
     css: styles.css
     toc: true
+    include-in-header:
+      - toggle.js
 
 
 
