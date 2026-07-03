@@ -49,6 +49,7 @@ website:
           - section: "Research practices"
             contents:
               - labguide/research/human_subjects.md
+              - labguide/research/ai_policy.md
               - labguide/research/preregistration.md
               - labguide/research/documentation.md
               - labguide/research/code_management.md
