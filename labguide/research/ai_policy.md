@@ -19,4 +19,4 @@ It is also the researcher's responsibility to disclose to collaborators which ou
 
 LLMs should be used to review all manuscripts prior to journal submission, preferably with an admonition that the LLM should not rewrite the text; rather, the author should rewrite relevant sections manually based on LLM feedback.
 
-We expect all collaborators (internal and external) to adhere to this policy unless explicitly discussed prior to the collaboration.
+We expect all collaborators (internal and external) to adhere to this policy; any deviations must be explicitly discussed prior to the collaboration.
