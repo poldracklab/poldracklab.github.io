@@ -15,8 +15,7 @@ It is the researcher's ultimately responsiblity to vouch for any AI-generated ou
 
 For all collaborations (internal and external), the policies for AI usage should be discussed prior to undertaking any work.  
 
-It is also the researcher's responsibility to disclose to collaborators which outputs relied upon AI tools, and also to outline the steps that were taken to validate the AI-generated outputs.  
-For any output, it needs to be clear what human is willing to stand by the output.
+It is also the researcher's responsibility to disclose to collaborators which outputs relied upon AI tools, and also to outline the steps that were taken to validate the AI-generated outputs.  For any output, it needs to be clear what human is willing to stand by the output.
 
 LLMs should be used to review all manuscripts prior to journal submission, preferably with an admonition that the LLM should not rewrite the text; rather, the author should rewrite relevant sections manually based on LLM feedback.
 
