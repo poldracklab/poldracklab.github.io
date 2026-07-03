@@ -9,9 +9,9 @@ Our lab's AI usage polices are based on a set of guiding principles:
 - AI usage for any aspect of a research project is a first-class decision that should be discussed beforehand.
 - Because many journals require disclosure of AI usage, it is essential to record all of the ways in which AI is used in research project.
 
-AI tools may be used for any part of the research process except for the drafting of narrative text for manuscripts. Lab members are expected to manually draft all of the text that they put into a paper; no copying and pasting of text from an LLM into a manuscript is allowed with explicit discussion and agreement.
+AI tools may be used for any part of the research process except for the drafting of narrative text for manuscripts. Lab members are expected to manually draft all of the text that they put into a paper; no copying and pasting of text from an LLM into a manuscript is allowed without explicit discussion and agreement.
 
-It is the researcher's ultimate responsiblity to vouch for any AI-generated outputs, so those outputs should be validated and verified just as one would for an output from an untrusted research assistant.
+It is the researcher's ultimate responsiblity to vouch for any AI-generated outputs, so those outputs should be validated and verified just as one would for an output from an research assistant.
 
 For all collaborations (internal and external), the policies for AI usage should be discussed prior to undertaking any work.  
 
