@@ -23,7 +23,7 @@ It is the researcher's ultimate responsiblity to vouch for any AI-generated outp
 
 ## Reference review
 
-All reference lists (regardless of how they are generated) should be double-checked to ensure that the bibliographic information is incorrect, since it is possible that hallucinated references may start to infiltrate non-AI reference databases, and the penalties for including hallucinated references are becoming steep.
+All reference lists (regardless of how they are generated) should be double-checked to ensure that the bibliographic information is correct, since it is possible that hallucinated references may start to infiltrate non-AI reference databases, and the penalties for including hallucinated references are becoming steep.
 
 ## LLM Review
 
