@@ -2,7 +2,7 @@
 
 Our lab's AI usage polices are based on a set of guiding principles:
 
-- Thinking is an esssential aspect of writing. If we offload our writing we thus offload our thinking, which is fundamentally in conflict with our role as scholars. 
+- Thinking is an essential aspect of writing. If we offload our writing we thus offload our thinking, which is fundamentally in conflict with our role as scholars. 
 - AI tools are meant to supplement and accelerate human expertise, not replace it.
 - A human must ultimately understand and take responsibility for all outputs that go into a publication.
 - AI usage for any aspect of a research project is a first-class decision that should be discussed beforehand.
