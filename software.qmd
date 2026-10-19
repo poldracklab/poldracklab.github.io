@@ -57,13 +57,13 @@ For individual members' GitHub profiles, see [Lab members](people.md).
 #| warning: false
 #| message: false
 
-import json
+import yaml
 import os
 
-pubfile = 'publications.json'
+pubfile = 'publications.yml'
 
 with open(pubfile) as f:
-    data = json.load(f)
+    data = yaml.safe_load(f)
 
 # filter to publications that have resource links
 pubs_with_links = [
