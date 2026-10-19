@@ -1,4 +1,163 @@
 publications:
+- doi: 10.31234/osf.io/cn59h_v2
+  title: Registered Reports as the default pathway for confirmatory publication
+  year: 2026
+  publication_date: '2026-10-15'
+  publication_name: null
+  publication_type: preprint
+  is_preprint: true
+  volume: null
+  page_range: null
+  authors:
+  - name: Topor, Marta
+  - name: Bamford, Joshua Silberstein
+  - name: Bazhydai, Marina
+  - name: Chen, Zhang
+  - name: Chuan-Peng, Hu
+  - name: Conry-Murray, Clare
+  - name: Costa, Thiago Leiros
+  - name: Culina, Antica
+  - name: Dalmaso, Mario
+  - name: Dienes, Zoltan
+  - name: Dunleavy, Daniel J.
+  - name: Edwards, Grace
+  - name: Elsherif, Mahmoud Medhat
+  - name: Eudave, Luis
+  - name: Evans, Thomas Rhys
+  - name: Fendel, Victoria B.
+  - name: Field, Sarahanne
+  - name: Fillon, Adrien Alejandro
+  - name: Flores-Kanter, Pablo Ezequiel
+  - name: Franceschiello, Benedetta
+  - name: Frischkorn, Gidon T.
+  - name: Grohmann, Kleanthes K.
+  - name: Guidali, Giacomo
+  - name: Haan, Bianca de
+  - name: Harris, Anthony
+  - name: Hartmann, Helena
+  - name: Hassan, Lobna
+  - name: Kalandadze, Tamara
+  - name: Kapoor, Hansika
+  - name: Kovacs, Lilla Nora
+  - name: Krenzer, William Leo Donald
+  - name: LASTRES-LÓPEZ, CRISTINA
+  - name: Laulan, Pierrick
+  - name: Learmonth, Gemma
+  - name: Leganes-Fonteneau, Mateo
+  - name: Legarreta, Jon Haitz
+  - name: Lelonkiewicz, Jaroslaw Roman
+  - name: Leongómez, Juan David
+  - name: Liberati, Giulia
+  - name: Lin, Zhicheng
+  - name: Lynam, Donald R
+  - name: Macartney, Erin
+  - name: Masciantonio, Alexandra
+  - name: Mattavelli, Giulia
+  - name: Mayor, Julien
+  - name: Mazza, Valeria
+  - name: McIntosh, Robert D
+  - name: Moore, Katherine
+  - name: Moore, Margaret Jane
+  - name: Moses, Louis J
+  - name: Najberg, Hugo
+  - name: Nebe, Stephan
+  - name: Neequaye, David A.
+  - name: Olugbodi, Mariam
+  - name: Papadatou-Pastou, Marietta
+  - name: Parada, Francisco J.
+  - name: Pennington, Charlotte Rebecca
+  - name: Cacciafoco, Francesco Perono
+  - name: Peyré-Tartaruga, Leonardo Alexandre
+  - name: Porter, Anna K
+  - name: Pownall, Madeleine
+  - name: Provins, Céline
+  - name: Pujol, Benoit
+  - name: Ramos-Hryb, Ana Belen
+  - name: Rebholz, Tobias R.
+  - name: Reggev, Niv
+  - name: Rossi, Alejandra
+  - name: Sachdeva, Chhavi
+  - name: Santos, Eduardo S. A.
+  - name: Savage, Patrick E.
+  - name: Schnepf, Julia
+  - name: Schoch, Sarah Fiona
+  - name: Sreekumar, Vishnu
+  - name: Steele, James
+  - name: Syed, Moin
+  - name: Szabo, Birgit
+  - name: Tennie, Claudio
+  - name: Turner, Erick
+  - name: Vaidis, David C.
+  - name: Vugt, Marieke K. van
+  - name: Wiart, Marlene
+  - name: Yamada, Yuki
+  - name: Young, Mark T.
+  - name: Zahedi, Anoushiravan
+  - name: Zhang, Yikang
+  - name: Poldrack, Russell A.
+  - name: Chambers, Christopher D
+  - name: Esteban, Oscar
+  identifiers: {}
+  links: {}
+  oa_url: https://doi.org/10.31234/osf.io/cn59h_v2
+- doi: 10.7554/elife.112683
+  title: 'Responsible Research Assessment of Faculty: maximizing quality, transparency, and trustworthiness of scientific research in Research-Performing Organizations'
+  year: 2026
+  publication_date: '2026-09-24'
+  publication_name: eLife
+  publication_type: preprint
+  is_preprint: true
+  volume: null
+  page_range: null
+  authors:
+  - name: Moher, David
+  - name: Cobey, Kelly D
+  - name: Brown, Annette N
+  - name: Armond, Anna Catharina V
+  - name: Cenci, Maximiliano S
+  - name: Chan, Leslie
+  - name: Fox, Susan H
+  - name: Gambelli, Lavinia
+  - name: Halas, Michael
+  - name: Hoffman, Michael
+  - name: Hrynaszkiewicz, Iain
+  - name: Jacobs, Neil
+  - name: Jalil, Banaz
+  - name: Kip, Miriam
+  - name: Lalu, Manoj M
+  - name: Macleod, Malcolm
+  - name: Flake, Jessica
+  - name: Manns, Braden
+  - name: Martone, Maryann E
+  - name: Ménard, Alixe
+  - name: Naudet, Florian
+  - name: Newton, Tim
+  - name: Ng, Jeremy Y
+  - name: Payne, Nicola
+  - name: Poldrack, Russell A
+  - name: Proulx, Laurie
+  - name: Ramos, Janina
+  - name: Smith, Danny
+  - name: Thombs, Brett D
+  - name: Wicherts, Jelte M
+  - name: Mellor, David
+  identifiers: {}
+  links: {}
+  oa_url: https://doi.org/10.7554/elife.112683
+- doi: 10.1007/s11229-026-05801-9
+  title: Understanding, prediction, and compression
+  year: 2026
+  publication_date: '2026-09-22'
+  publication_name: Synthese
+  publication_type: journal-article
+  is_preprint: false
+  volume: '208'
+  page_range: null
+  authors:
+  - name: Poldrack, Russell A.
+  identifiers: {}
+  links: {}
+  oa_url: null
 - doi: 10.1038/s41562-026-02559-5
   title: Anatomical white matter tracts span the cortical hierarchy to support cognitive diversity.
   year: 2026
@@ -36,6 +195,36 @@ publications:
     pmcid: PMC13662668
   links: {}
   oa_url: https://doi.org/10.1038/s41562-026-02559-5
+- doi: 10.48550/arxiv.2608.19902
+  title: 'Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis'
+  year: 2026
+  publication_date: '2026-08-20'
+  publication_name: arXiv (Cornell University)
+  publication_type: preprint
+  is_preprint: true
+  volume: null
+  page_range: null
+  authors:
+  - name: Chen, Zijiao
+  - name: Lu, Nicholas
+  - name: Li, Xinhui
+  - name: Ricard, Jocelyn A.
+  - name: Ju, Ce
+  - name: Wang, Huan H.
+  - name: Kindermann, Christian
+  - name: Mumford, Jeanette A.
+  - name: Dillmann, Steven
+  - name: Kent, James
+  - name: de la Vega, Alejandro
+  - name: Koyejo, Sanmi
+  - name: Calhoun, Vince D.
+  - name: Buckholtz, Joshua W.
+  - name: Zhou, Juan Helen
+  - name: Bollmann, Steffen
+  - name: Poldrack, Russell A.
+  identifiers: {}
+  links: {}
+  oa_url: https://arxiv.org/abs/2608.19902
 - doi: 10.31234/osf.io/7c8ap_v1
   title: Diagnostic scoring choices change the prevalence and correlates of mental illness in the ABCD Study
   year: 2026
@@ -167,6 +356,57 @@ publications:
     pmcid: PMC13228615
   links: {}
   oa_url: https://doi.org/10.1101/2025.10.13.682124
+- doi: 10.31222/osf.io/x64tn_v1
+  title: 'Neurobagel: building an international network for distributed data discovery'
+  year: 2026
+  publication_date: '2026-05-11'
+  publication_name: null
+  publication_type: preprint
+  is_preprint: true
+  volume: null
+  page_range: null
+  authors:
+  - name: Urchs, Sebastian Georg Wenzel
+  - name: Dai, Alyssa
+  - name: Jahanpour, Arman
+  - name: Wang, Michelle
+  - name: Dugré, Mathieu
+  - name: Bhagwat, Nikhil
+  - name: McPherson, Brent
+  - name: Pfarr, Julia-Katharina
+  - name: Heese, Eva van
+  - name: Laansma, Max A.
+  - name: d'Angremont, Emile
+  - name: Strasser-Kirchweger, Barbara
+  - name: MAUMET, Camille
+  - name: Grethe, Jeffrey Sean
+  - name: Taschereau-Dumouchel, Vincent
+  - name: Zehl, Lyuba
+  - name: Devenyi, Gabriel Allan
+  - name: Hutzler, Florian
+  - name: Hatton, Sean N
+  - name: Hanke, Michael
+  - name: Dickie, Erin W
+  - name: Jeanson, Francis
+  - name: Halchenko, Yaroslav O
+  - name: Markiewicz, Christopher Johnson
+  - name: Lavigne, Katie M.
+  - name: Jahanshad, Neda
+  - name: Thompson, Paul
+  - name: Keator, David
+  - name: Ghosh, Satrajit S
+  - name: Poldrack, Russell A.
+  - name: Lehéricy, Stéphane
+  - name: Bjaalie, Jan G.
+  - name: Pestilli, Franco
+  - name: Kennedy, David N.
+  - name: Werf, Ysbrand van der
+  - name: Glatard, Tristan
+  - name: Chakravarty, M. Mallar
+  - name: Poline, Jean-Baptiste
+  identifiers: {}
+  links: {}
+  oa_url: https://doi.org/10.31222/osf.io/x64tn_v1
 - doi: 10.1038/s41596-026-01352-y
   title: Quality assessment and control of unprocessed anatomical, functional and diffusion MRI of the human brain using MRIQC.
   year: 2026
@@ -804,6 +1044,989 @@ publications:
   identifiers: {}
   links: {}
   oa_url: https://doi.org/10.52294/001c.154162
+- doi: 10.1093/schizbullopen/sgag024
+  title: Relationship among Sleep Disturbance, Stress, and Suicidal Ideation in Clinical High Risk for Psychosis
+  year: 2026
+  publication_date: '2026-01-01'
+  publication_name: Schizophrenia Bulletin Open
+  publication_type: journal-article
+  is_preprint: false
+  volume: '7'
+  page_range: sgag024
+  authors:
+  - name: Wastler, Heather M
+  - name: Moe, Aubrey
+  - name: Blouin, Alexandra M
+  - name: Bozzay, Melanie
+  - name: Kilicoglu, Melissa F V
+  - name: Arango, Celso
+  - name: Bouix, Sylvain
+  - name: Broome, Matthew R
+  - name: Calkins, Monica E
+  - name: Conus, Philippe
+  - name: Corcoran, Cheryl M
+  - name: Crawford, Courtney
+  - name: Diaz-Caneja, Covadonga M
+  - name: Damiani, Stefano
+  - name: Fusar-Poli, Paolo
+  - name: Keshavan, Matcheri S
+  - name: Mittal, Vijay A
+  - name: Nguyen, Josh
+  - name: Schiffman, Jason
+  - name: Shah, Jai L
+  - name: Yassin, Walid
+  - name: Yung, Alison
+  - name: Addington, Jean
+  - name: Alameda, Luis
+  - name: Cadenhead, Kristin S
+  - name: Carrion, Ricardo E
+  - name: Castillo-Passi, Rolando I
+  - name: Chen, Eric Yu Hai
+  - name: Choi, Jimmy
+  - name: Cornblatt, Barbara A
+  - name: Ellman, Lauren M
+  - name: Gaspar, Pablo A
+  - name: Gerber, Carla
+  - name: Glenthøj, Louise Birkedal
+  - name: Horton, Leslie E
+  - name: Hui, Christy Lai Ming
+  - name: Kambeitz, Joseph
+  - name: Kambeitz-Ilankovic, Lana
+  - name: Kim, Minah
+  - name: Kim, Sung-Wan
+  - name: Koutsouleris, Nikolaos
+  - name: Kwon, Jun Soo
+  - name: Langbein, Kerstin
+  - name: Mamah, Daniel
+  - name: Mathalon, Daniel H
+  - name: Nordentoft, Merete
+  - name: Pearlson, Godfrey D
+  - name: Perez, Jesus
+  - name: Perkins, Diana O
+  - name: III, Albert R Powers
+  - name: Rogers, Jack
+  - name: Sabb, Fred W
+  - name: Silverstein, Steven M
+  - name: Smesny, Stefan
+  - name: Stone, William S
+  - name: Strauss, Gregory P
+  - name: Thompson, Judy L
+  - name: Upthegrove, Rachel
+  - name: Verma, Swapna
+  - name: Wang, Jijun
+  - name: Wolf, Daniel H
+  - name: Zhang, Tianhong
+  - name: Pasternak, Ofer
+  - name: Kahn, Rene S
+  - name: Shenton, Martha E
+  - name: McGorry, Patrick D
+  - name: Nelson, Barnaby
+  - name: Kane, John M
+  - name: Bearden, Carrie E
+  - name: Woods, Scott W
+  - name: SCZ), Accelerating Medicines Partnership® Schizophrenia (AMP®
+  - name: Addamo, Lauren
+  - name: Ahmed, Uzair
+  - name: Allott, Kelly
+  - name: Alvarez-Jimenez, Mario
+  - name: Amminger, G Paul
+  - name: Arnold, Rosie
+  - name: Beedham, Rebecca
+  - name: Beylot, Coco
+  - name: Bharal, Anusha
+  - name: Birch, Sonia
+  - name: Buccilli, Kate
+  - name: Butterworth, Elle
+  - name: Cameron, Eloise
+  - name: Chen, John
+  - name: Ching, Ann Ee
+  - name: Colton, Beau-Luke
+  - name: Conroy, Kate
+  - name: Cook, Brittany
+  - name: Cooke, Frederica
+  - name: D’Alfonso, Simon
+  - name: Digby, Thomas
+  - name: Dwyer, Dominic
+  - name: Formica, Melanie
+  - name: Gao, Caroline
+  - name: Germano, Carmela
+  - name: Getachew, Ruth
+  - name: Hendricks, Larry
+  - name: Huynh, Kevin
+  - name: Joseph, Sarah
+  - name: Kerr, Melissa J
+  - name: Lam, Wing Hei
+  - name: Langdon, Mahlee
+  - name: Lavoie, Suzie
+  - name: Lee, Clarice
+  - name: Llerena, Joshua
+  - name: McGorry, Patrick D
+  - name: McQueen, Brittany
+  - name: Mebrahtu, Yohannes
+  - name: Meurs, Inge
+  - name: Middleton, Genevieve
+  - name: Morrell, Neal
+  - name: Nasarudin, Adibah Amani
+  - name: Nelson, Barnaby
+  - name: Nguyen, Elle
+  - name: Nguyen, Josh
+  - name: O'Callaghan, Sally
+  - name: Omar, Mariam
+  - name: Partridge, Alice
+  - name: Phassouliotis, Christina
+  - name: Phung, Matthew
+  - name: Polari, Andrea
+  - name: Radosevic, Marta
+  - name: Reynolds, Kate
+  - name: Rudd, Keita
+  - name: Samnani, Shaheen
+  - name: Scott, Isabelle
+  - name: Schaumann, Romy
+  - name: Scheppokat, Angela
+  - name: Seychell, Raushaan
+  - name: Sherriff, Amber
+  - name: Shetty, Jashmina
+  - name: Snowball, Callum
+  - name: Spark, Jessica
+  - name: Still, Holly
+  - name: Thompson, Andrew
+  - name: Thwaites, Michael
+  - name: Tod, Sophie
+  - name: Tonkovic, Matilda
+  - name: Wannan, Cassandra M J
+  - name: Whitford, Thomas J
+  - name: Whitson, Sarah
+  - name: Williams, Scott
+  - name: Wood, Stephen J
+  - name: Ye, Rochelle Ruby
+  - name: Youn, Sarah
+  - name: Yuen, Hok Pan
+  - name: Yung, Alison R
+  - name: Clark, Scott R
+  - name: Früh, Marlene
+  - name: Izyurov, Igor
+  - name: Korittnik, Juliane
+  - name: Langbein, Kerstin
+  - name: Mann, Véronique
+  - name: Siegert, Constantin
+  - name: Smesny, Stefan
+  - name: Tekook, Frederick
+  - name: Andersen, Helle Gade
+  - name: Dahl, Anne Sofie Abildskov
+  - name: Ebdrup, Bjørn H
+  - name: Elk, Nikoline Rolver
+  - name: Feveile, Anna
+  - name: Glenthøj, Louise Birkedal
+  - name: Gundersen, Kristina Ballestad
+  - name: Lindberg, Ulrich
+  - name: Nielse, Anne Karen
+  - name: Nordentoft, Merete
+  - name: Schæbel, Helle
+  - name: Sørensen, Mikkel Erlang
+  - name: Sørensen, Sofie Amalie Ege
+  - name: Sulaiman, Daban K A
+  - name: Broome, Matthew R
+  - name: Clifford, Chloe
+  - name: Farrow, Elizabeth
+  - name: Hicks, Paul
+  - name: Johnson, Dechante
+  - name: Malaviya, Aanya
+  - name: Mavambu, Aissata
+  - name: Rogers, Jack
+  - name: Upthegrove, Rachel
+  - name: Alameda, Luis
+  - name: Aleman, Yasser
+  - name: Alerci, Livia
+  - name: Armando, Marco
+  - name: Baumgartner, Morgane
+  - name: Cleusix, Martine
+  - name: Conchon, Caroline
+  - name: Conus, Philippe
+  - name: Do, Kim Q
+  - name: Ines, Khadimallah
+  - name: Jenni, Raoul
+  - name: Jordan, Anastasie
+  - name: Klauser, Paul
+  - name: Ostertag, Emylène
+  - name: Petrova, Teya
+  - name: Jeon, DaHye
+  - name: Jo, Anna
+  - name: Kim, Sung-Wan
+  - name: Lee, MiYoung
+  - name: Park, ChaeWon
+  - name: Yoo, JiMin
+  - name: Ang, Mei San
+  - name: Chua, Yi Chian
+  - name: Dahjalarrajah, Darshan
+  - name: Koh, Hui En Lisa
+  - name: Koi, Jue Xin Janice
+  - name: Kok, Bing Cai
+  - name: Lau, Jia Ming
+  - name: Lee, Jimmy
+  - name: Lew, Voon Hao
+  - name: Lim, Yu Juan
+  - name: Liu, Siwei Cisy
+  - name: Loh, Wen Liang
+  - name: Iskandar, Amirah M
+  - name: Ng, Kwun Kei Eric
+  - name: Rekhi, Gurpreet
+  - name: Tang, Nathanael
+  - name: Tang, Yu Zheng Charmaine
+  - name: Teng, Yinghui
+  - name: Tham, Sin Yi Joice
+  - name: Tharumalingam, Pushpalata
+  - name: Verma, Swapna K
+  - name: Yee, Jie Yin
+  - name: Yeo, Hui Hui Michelle
+  - name: Zhang, Yichi
+  - name: Zhou, Juan Helen
+  - name: Chan, Candice Yu Hay
+  - name: Chen, Eric Yu Hai
+  - name: Hui, Lai Ming Christy
+  - name: Lo, Sonia Suet Ching
+  - name: Ng, Hui Lam
+  - name: So, Melody Miriam
+  - name: Suen, Yi Nam
+  - name: Tang, Ming Fung
+  - name: Yeung, Tsz Lam Miriam
+  - name: Bastürk, Öznur
+  - name: Böke, Annkathrin
+  - name: Chakraborty, Millennia
+  - name: Fengler, Sophie
+  - name: Kambeitz-Ilankovic, Lana
+  - name: Kambeitz, Joseph
+  - name: Müller, Sophie
+  - name: Wenzel, Julian
+  - name: Adasme, Tatiana
+  - name: Bruna, Alejandro
+  - name: Castillo-Passi, Rolando I
+  - name: Contreras, Pamela
+  - name: Corral, Sebastián
+  - name: Ramos, Pablo A Gaspar
+  - name: Maturana-Hurtado, Alejandro
+  - name: Mayol-Troncoso, Rocío
+  - name: Paz, Pamela
+  - name: Reyes, Manuel
+  - name: Salinas, Cesar
+  - name: Turra-Fariña, Gabriel
+  - name: Valle, Daniela
+  - name: Zamorano, Francisco
+  - name: Cotter, David
+  - name: Mongan, David
+  - name: Hartmann, Jessica
+  - name: Wray, Naomi
+  - name: Wigman, Hanneke
+  - name: Adery, Laura L
+  - name: Bearden, Carrie E
+  - name: Done, Monica E
+  - name: Hoftman, Gil D
+  - name: Hughes, Dylan E
+  - name: Laulette, Kristen
+  - name: Ruiz-Yu, Bernalyn
+  - name: Zinberg, Jamie L
+  - name: Ma, Rui
+  - name: Betancourt, Jennifer
+  - name: Grigoryan, Vardui
+  - name: Moondhra, Sparsh
+  - name: Calderon, Vanessa
+  - name: Kapler, Simon
+  - name: Karlsgodt, Katherine
+  - name: Espinosa, Andrea Vazquez
+  - name: Lopez, Daisy
+  - name: Flores, Oliver
+  - name: Richards, Misty C
+  - name: Amatya, Debha
+  - name: Denenny, Danielle
+  - name: Joo, Seohyun
+  - name: Salonga, Sheena
+  - name: Martinez, Emily
+  - name: McKinney, Rachel
+  - name: Gilbert, Jared
+  - name: Duron, Sergio
+  - name: Golchin, Maria
+  - name: Ruvalcaba, Lorena
+  - name: Cai, Grace
+  - name: Wong, Zachary
+  - name: Awad, Neda
+  - name: Lopez, Daisy
+  - name: Diaz, Tanya
+  - name: Rshtouni, Mary
+  - name: Kussman, Meghan
+  - name: Espana-Velasquez, Monica
+  - name: Salone, Sullivan
+  - name: Zhang, Wendy
+  - name: Rosen, Victoria
+  - name: Trinidad, Lauren
+  - name: Worthley, Alexis
+  - name: Jin, Angela
+  - name: Noveshen, Remy
+  - name: Bartolomeo, Lisa
+  - name: Hagar, Juliet
+  - name: Wang, Haley
+  - name: Byrne, Katherine
+  - name: Jalal, Rhideeta
+  - name: Kang, Jee Won
+  - name: Kotlyarevskiy, Masha
+  - name: Mingo, Dinisha
+  - name: Mordy, Arianna
+  - name: Yu, Lingyan
+  - name: Sy, Brittney
+  - name: Rupert, Petra
+  - name: Yen, Melodie
+  - name: Wolff, Brittany
+  - name: Bogomilsky, Ella
+  - name: Gerber, Carla
+  - name: Sabb, Fred W
+  - name: Smythe, Carli
+  - name: Swann, Nicole
+  - name: Davis-Reyes, Meghan
+  - name: Barnes, Brett
+  - name: Schultz, Kelsey
+  - name: Rockhill, Alexander
+  - name: McCoy, Caghain
+  - name: Brown, Daniel
+  - name: Smith, Jolinda
+  - name: Karekal, Apoorva
+  - name: Quesada, Vince
+  - name: Holmes, Alex
+  - name: Hudkins, Coleen
+  - name: Bolo, Nicolas R
+  - name: Byun, Andrew (Jin Soo)
+  - name: Keshavan, Matcheri
+  - name: Lane, Erlend
+  - name: Mikkelson, Jane
+  - name: Langholm, Carsten
+  - name: Parsa, Setari
+  - name: Santorelli, Gennarina
+  - name: Stone, William S
+  - name: Torous, John
+  - name: Friedman-Yakoobian, Michelle
+  - name: Evans, Camille
+  - name: Yassine, Walid
+  - name: Rich, Highsmith
+  - name: Bansal, Nikita
+  - name: Niznikiewicz, Margret
+  - name: Tucker, Lynda
+  - name: Potts, Colette
+  - name: Larsen, Danielle
+  - name: Tolstonog, Debra
+  - name: Sabeva, Kalina
+  - name: Crawford, Courtney
+  - name: He, Siyan
+  - name: Li, Siyu
+  - name: Aveson, Olivia
+  - name: Mesholam-Gately, Raquelle
+  - name: Addington, Jean
+  - name: Shalev, Amy
+  - name: Chintoh, Araba
+  - name: Goodyear, Bradley
+  - name: Jahraus, Cari
+  - name: Truscott, Emma
+  - name: Jones, Erin
+  - name: Liu, Lu
+  - name: Jungert, Karl
+  - name: Chu, Monica
+  - name: Romo, Paul
+  - name: Chao, Amanda
+  - name: Bonneville, Dominique
+  - name: Stowkowy, Jacqueline
+  - name: Brummitt, Kali
+  - name: Minara, Kristin
+  - name: Olsen, Ruth
+  - name: Michaels, Timothy
+  - name: He, Xiang
+  - name: Birnbaum, Michael
+  - name: Arnovitz, Mitchell
+  - name: Auther, Andrea
+  - name: Carrión, Ricardo E
+  - name: Cornblatt, Barbara A
+  - name: Kane, John M
+  - name: Marcy, Patricia J
+  - name: Matneja, Priya
+  - name: McLaughlin, Danielle
+  - name: Ray, Susan
+  - name: Serrano, Lauren
+  - name: Rivera-Reyes, Nilda
+  - name: Bleggi, Rachel F
+  - name: Jeffries, Clark D
+  - name: Perkins, Diana O
+  - name: Barbee, Jenna
+  - name: Gogineni, Sree
+  - name: Shuman, Abigail
+  - name: Neal, Amanda
+  - name: Sousa, Cecilia Pearson
+  - name: Bryan, Daphney
+  - name: McBride, Earl
+  - name: Pokowitz, Elena
+  - name: Kumar, Rohan
+  - name: Leinward, Amber
+  - name: Belger, Aysenil
+  - name: Weir, Brittany
+  - name: Holshouser, Calli
+  - name: Vallebona, Camila
+  - name: Santos, Christian
+  - name: Kutuzov, Daniel
+  - name: Hammer, Emily
+  - name: Baran, Idil
+  - name: Nieri, Jennifer
+  - name: Ecsedy, Karen
+  - name: Sheppard, Nicholas
+  - name: Bleggi, Rachel
+  - name: Yarlagadda, Shreeya
+  - name: Norbekova, Soliha
+  - name: Pincay, Victor
+  - name: Oake, Erica
+  - name: Goldman, Averi
+  - name: Powell, Emilie
+  - name: Mulea, Marissa
+  - name: Alexander, Asher
+  - name: Zapala, Ewa
+  - name: Mark, Jasper
+  - name: Aksoy, Sevde
+  - name: Allison, Erika
+  - name: Deen, Claire
+  - name: Chandrasekhar, Anjali
+  - name: Blumsack, Aidan
+  - name: List, Eliza
+  - name: Spencer, Catherine
+  - name: Pratt, Danielle
+  - name: Kuhney, Franchesca
+  - name: Olson, Gabrielle
+  - name: Frosch, Isabelle
+  - name: Ristanovic, Ivanka
+  - name: Fattal, Jessica
+  - name: Hernandez, Joanna
+  - name: Kwon, Julie
+  - name: Damme, Katherine
+  - name: Serra, Luz Maria Alliende
+  - name: Stevens, Madison
+  - name: Parmacek, Sophia
+  - name: Shankman, Stew
+  - name: Williams, Trevor
+  - name: Zarubin, Vanessa
+  - name: Mittal, Vijay
+  - name: Williams, Trevor
+  - name: Martinez, Cameron
+  - name: Krugel, Chloe
+  - name: Karp, Erica
+  - name: Ho, Gillian
+  - name: Park, Jadyn
+  - name: Osborne, Juston
+  - name: Moran, Kathy
+  - name: Bates, Kelly
+  - name: Giljen, Maksim
+  - name: Anderson, Zachary
+  - name: Cadenhead, Kristin S
+  - name: Lin, Jiayi
+  - name: Metry, Vereena
+  - name: Kennedy, Leda
+  - name: Mirzakhanian, Heline
+  - name: Akkari, Cherine
+  - name: Cannon, Tyrone D
+  - name: Cho, Youngsun T
+  - name: Santamauro, Nicole
+  - name: Lee, Kangjoo
+  - name: Rahmati, Masih
+  - name: Ji, Jie Lisa
+  - name: Mourgues, Catalina V
+  - name: Nunez, Angela R
+  - name: Ali, Munaza
+  - name: Anticevic, Alan
+  - name: Fonteneau, Clara
+  - name: Piovanetti, Karlos J Mate
+  - name: Enden, Holly
+  - name: Gannon, Jenna
+  - name: Etuka, Brandon Asika
+  - name: Pearlson, Godfrey D
+  - name: Powers, Albert R I I I
+  - name: Srihari, Vinod H
+  - name: Tamayo, Zailyn
+  - name: Farina, Emily
+  - name: Heneks, Mara
+  - name: Brege, Samuel
+  - name: Walsh, Barbara C
+  - name: Woods, Scott W
+  - name: Granados, Alvaro
+  - name: Lopez, Seyenah
+  - name: Camarro, Terry
+  - name: Cahill, John
+  - name: Hamilton, Holly K
+  - name: Mathalon, Daniel H
+  - name: Nicholas, Spero C
+  - name: Torregrossa, Lenie
+  - name: Dembo, Renée
+  - name: Rygg, Zoe
+  - name: Jear, Annalise
+  - name: Haft, Stephanie
+  - name: Parsons, Emily
+  - name: Herrera, Cindy
+  - name: Ruan, Marvin
+  - name: Marzke, Cassandra
+  - name: Hwang, Janet
+  - name: Eteminan, Sarah
+  - name: Elnegaard, Frederikke
+  - name: Lao, Chi C
+  - name: Betancourt, Paul A
+  - name: Mii, Akemi
+  - name: Perry, Chris
+  - name: Roach, Brian
+  - name: Stiavetti, Stephanie
+  - name: Stuart, Barbara
+  - name: Barnes, Alexandra
+  - name: Bathery, Alyssa
+  - name: Calkins, Monica E
+  - name: Gur, Raquel E
+  - name: Gur, Ruben C
+  - name: Kesselring, Irena
+  - name: Kohler, Christian G
+  - name: Roalf, David R
+  - name: Ruparel, Kosha
+  - name: Rush, Sage
+  - name: Savage, Chloe
+  - name: Turetsky, Bruce I
+  - name: Wolf, Daniel H
+  - name: Zoupou, Eirini
+  - name: Milkins, Julia
+  - name: Savage, Lily
+  - name: Sonsin-Diaz, Natalia
+  - name: Kales, Eli
+  - name: Shifman, Naomi
+  - name: Wellman, Nick
+  - name: Kim, Nicole
+  - name: Port, Allison
+  - name: Selloni, Alexandria
+  - name: Chu, Dewey
+  - name: Verma, Gaurav
+  - name: Garret, Margaret
+  - name: Parvaz, Muhammad
+  - name: Shaik, Riaz
+  - name: Herrera, Shaynna
+  - name: Landa, Yulia
+  - name: Sauermilch, Daniel
+  - name: Ramirez, Byron
+  - name: Yang, Violet (Jingyi)
+  - name: Holness, Tahlya
+  - name: Ray, Elizabeth
+  - name: Deng, Pojen
+  - name: Gogineni, Meghana
+  - name: Gu, Qiwen
+  - name: Fogarty, Abigayle
+  - name: Dokhoylan, Katherine
+  - name: Gabriel, Elana
+  - name: Shvarzman, Ronit
+  - name: Srivastava, Agrima
+  - name: Lu, Angela
+  - name: Phili, Antigone
+  - name: Sarac, Cansu
+  - name: Musey, Conrad
+  - name: Ellenberg, Ezra
+  - name: Gorman, Jane
+  - name: Norman, Julia
+  - name: Cotter, Matthew
+  - name: Mikelic, Maxwell
+  - name: Talasazan, Nahal
+  - name: Shuster, Sophia
+  - name: Bergson, Zachary
+  - name: Hays, Nicole
+  - name: Erjavc, Lea
+  - name: Corcoran, Cheryl M
+  - name: Kahn, Rene S
+  - name: McGowan, Alessia
+  - name: Reichenberg, Abraham
+  - name: Srivastava, Agrima
+  - name: Rossum, Inge Winter-van
+  - name: Gupta, Tina
+  - name: Horton, Leslie E
+  - name: McIlhenny, Rebecca
+  - name: Porter, Christian
+  - name: Peters, Charise
+  - name: Salisbury, Dean
+  - name: Headley, Emma
+  - name: Ferrarelli, Fabio
+  - name: Kirsch, Hannah
+  - name: Jalbrikowski, Maria
+  - name: Deam, Megan
+  - name: Thomas
+  - name: Villa, AnaKarina
+  - name: Gehan, Salsabil
+  - name: Barlow, Syndey
+  - name: McNemar, Sara
+  - name: Ellman, Lauren M
+  - name: Kinney, Kyle S
+  - name: McDonnell, Amelia
+  - name: Mervis, Joshua E
+  - name: Murty, Vishnu
+  - name: Mohyee, Raana
+  - name: Korenic, Stephanie
+  - name: Ogborn, Ian
+  - name: Burns, Brennan
+  - name: Lipner, Emily
+  - name: Furlan, Rachel
+  - name: Ningaiah, Anjani
+  - name: Elliot, Blake
+  - name: Estupinan, Bry
+  - name: Whitton, Ellen
+  - name: Smith, Emma
+  - name: Wurman, Jacqueline
+  - name: Hope, Jay
+  - name: O'Brien, Katey
+  - name: Towle, Lily
+  - name: Pike, Madeline
+  - name: Bertolami, Nina
+  - name: Garces, Olivia
+  - name: Capizzi, Riley
+  - name: Tkacik, Shelby
+  - name: Olino, Thomas
+  - name: Murty, Vishnu
+  - name: Huque, Zeeshan
+  - name: Mopuru, Ranesh
+  - name: Arora, Raayana
+  - name: Jarcho, Johanna M
+  - name: Bilgrami, Zarina R
+  - name: Henry, Tae'lar
+  - name: Li, Linying
+  - name: Walker, Elaine
+  - name: Wolff, Phillip
+  - name: Strauss, Gregory P
+  - name: Zollicoffer, Ashley
+  - name: Collins, Delaney
+  - name: Ayawvi, Gifty
+  - name: Arnold, Lauren
+  - name: Jennings, Lauren
+  - name: Bartolomeo, Lisa
+  - name: Zhang, Luyu
+  - name: McDowell, Melissa
+  - name: Jarvis, Sierraann
+  - name: Croyle, Stephanie
+  - name: James, Sydney
+  - name: Hardy, T J
+  - name: Carter, Zachary
+  - name: Zhang, Zhixin
+  - name: Faghankhani, Masoomeh
+  - name: Harms, Michael P
+  - name: Mamah, Daniel
+  - name: Patel, Aakash
+  - name: Anokhin, Andrey
+  - name: Woessner, Jacob
+  - name: Shimony, Joshua
+  - name: Imbula, Leonard
+  - name: Kanallakan, Malana
+  - name: Sneed, Megan
+  - name: Golosheykin, Semyon
+  - name: Chen, ShingShiun
+  - name: Nicol, Ginger
+  - name: Yarber, Alaina
+  - name: Meyer, Ashley
+  - name: Bijsterbosch, Janine
+  - name: Nashed, Jerome
+  - name: Smith, Miranda
+  - name: Korucuoglu, Ozlem
+  - name: Hakestad, Rebekka
+  - name: Hamidian, Reza
+  - name: Nimmagadda, Shalaka
+  - name: Rosen, Shayna
+  - name: Al-Hosni, Yazen
+  - name: Pritchard, Christina
+  - name: Callison, Lisa
+  - name: Ybarra, Ruben
+  - name: Preda, Adrian
+  - name: Boos, Alison
+  - name: Rollins, Brandi
+  - name: Martin, Elizabeth
+  - name: Petti, Emily
+  - name: Schiffman, Jason
+  - name: Coronado, Karen
+  - name: Snyder, Madeline
+  - name: Giljen, Maksim
+  - name: Villegas, Mia
+  - name: Bridgwater, Miranda
+  - name: Erp, Theo van
+  - name: Ryu, Yerim
+  - name: Healey, Lindsay
+  - name: Esquer, Monica
+  - name: Moring, Hannah
+  - name: Maldonado, Marco
+  - name: Zernick, Michelle
+  - name: Dominguez, Arlene
+  - name: Hegwood, Ceouna
+  - name: Richardson, Angelo
+  - name: Pechmann, Deirdre von
+  - name: King, Diana
+  - name: Pearlson, Godfrey D
+  - name: Collen, Jadwiga
+  - name: Scagliotti, Jennifer
+  - name: Zajac, Jennifer
+  - name: Charpentier, Jesse
+  - name: Stevens, Michael
+  - name: Graham, Patricia
+  - name: Starankewicz, Russell
+  - name: Putala, Sara
+  - name: Genereux, Isabelle
+  - name: Hendry, Elizabeth
+  - name: Begley, Caitlyn
+  - name: Choi, Jimmy
+  - name: Kotecha, Aarti
+  - name: Mosher, Laci-Ann
+  - name: Velarde, Frescia
+  - name: Aversa, Samantha
+  - name: Chakravarty, M Mallar
+  - name: Lepage, Martin
+  - name: Rabin, Rachel A
+  - name: Shah, Jai L
+  - name: Zavaglia, Elissa
+  - name: Beesley, Brianna
+  - name: Berisha, Fjolla
+  - name: Eid, Joelle
+  - name: Dai, Xing
+  - name: Proteau-Fortin, Felicia
+  - name: Ghanem, Joseph
+  - name: Berjaoui, Diana
+  - name: Barker, Gareth
+  - name: Kempton, Matthew
+  - name: Vasconcelos, Candida
+  - name: DeMicheli, Andrea
+  - name: Spencer, Tom
+  - name: Minichino, Amedeo
+  - name: Brodeur, Sebastien
+  - name: Toniol, Ilaria
+  - name: Estradé, Andrés
+  - name: Fusar-Poli, Paolo
+  - name: Kerins, Sarah
+  - name: Borgatti, Renato
+  - name: Damiani, Stefano
+  - name: Mensi, Martina Maria
+  - name: Pichiecchio, Anna
+  - name: Politi, Pierluigi
+  - name: Provenzani, Umberto
+  - name: Bonoldi, Ilaria
+  - name: Fusar-Poli, Paolo
+  - name: Arango, Celso
+  - name: Diaz-Caneja, Covadonga M
+  - name: Andreu-Bernabeu, Alvaro
+  - name: Capllonch, Adrian
+  - name: Sanchez-Camara, Ana
+  - name: Gil-Molina, Santiago
+  - name: Morales, Isabel
+  - name: Ordas, Celia
+  - name: Abrokwa, Hayford
+  - name: Galvan, Joaquin
+  - name: Prieto-Montalvo, Julio
+  - name: Suárez-Campayo, Jose
+  - name: Lucas, Maria
+  - name: Sepúlveda-Palomo, Marta
+  - name: Merchán-Naranjo, Jessica
+  - name: Andres-Camazon, Pablo
+  - name: Rodriguez, Raquel
+  - name: Alvarez-Linera, Juan
+  - name: Cavone, Vito
+  - name: Recio, Sandra
+  - name: Echevarria, Ana
+  - name: Casas, Violeta
+  - name: Toledano, Rebeca
+  - name: Ayora, Miriam
+  - name: Abregu-Crespo, Renzo
+  - name: Bollain, Teresa
+  - name: Galindo, Liliana
+  - name: Perez, Jesus
+  - name: Allan, Harri
+  - name: Batkovskyte, Izabele
+  - name: Hughes, James
+  - name: Szacilo, Julia
+  - name: Stolp, Laura
+  - name: Marshall, Nicola
+  - name: Bekinschtein, Tristan
+  - name: Lupson, Vicky
+  - name: Slade, Lucy
+  - name: Cook, Ben
+  - name: Koutsouleris, Nikolaos
+  - name: Tchinitchian, Alexandra
+  - name: Ruef, Anne
+  - name: Dornheim, Beate
+  - name: Plett, Caroline
+  - name: Eberle, Christopher
+  - name: Weyer, Clara
+  - name: Keeser, Daniel
+  - name: Fanning, John
+  - name: Neuner, Lisa-Maria
+  - name: Bieler, Nadia
+  - name: Obermuller, Nicole
+  - name: Pogarell, Oliver
+  - name: Zill, Peter
+  - name: Stohmann, Ronja
+  - name: Sirch, Sabine
+  - name: Jonge, Sylvia de
+  - name: Urquijo, Maria
+  - name: Sarisik, Elif
+  - name: Germanos, Nestor
+  - name: Kwon, Jun Soo
+  - name: Choe, Eugenie
+  - name: Oh, Harin
+  - name: Park, Inkyung
+  - name: Kim, Minah
+  - name: Ha, MinJi
+  - name: Rhee, Sang Jee
+  - name: Choi, Sunah
+  - name: Jang, Ji Seon
+  - name: Sung, Nayoung
+  - name: Kim, Heera
+  - name: Park, Sunghyun
+  - name: Hwang, Jun Seo
+  - name: Jang, Moonyoung
+  - name: Kim, Sori
+  - name: Park, HyunGyou
+  - name: Kim, Jong Rak
+  - name: Lee, Jungha
+  - name: Son, Jiwon
+  - name: Lee, Yeonjin
+  - name: Ham, Cho Won
+  - name: Shin, DongJin
+  - name: Kang, JongWhan
+  - name: Jeong, Sulim
+  - name: Yeo, Sumin
+  - name: Lee, SuYong
+  - name: Kim, TakWan
+  - name: Lee, Won
+  - name: Choi, Woori
+  - name: Hwang, WuJeong
+  - name: Kwak, YooBin
+  - name: Shim, YuRim
+  - name: An, SuJin
+  - name: Breitborde, Nicholas J K
+  - name: Tso, Ivy F
+  - name: Turner, Jessica A
+  - name: Wastler, Heather M
+  - name: Lundin, Nancy
+  - name: Hamilton, Sarah
+  - name: Hennes, Cassandra
+  - name: Srikanth, Vindhya
+  - name: Storey, Nichole
+  - name: Cowan, Raffles (Henry)
+  - name: Baughman, Catherine
+  - name: Blouin, Alexandra
+  - name: Moe, Aubrey
+  - name: Parris, Craig
+  - name: Craig, Sydney
+  - name: Orme, Callie
+  - name: Stearns, Walter
+  - name: Guigis, Hossam
+  - name: Kostayak, Amanda
+  - name: Thompson, Judy L
+  - name: Silverstein, Steven M
+  - name: Blose, Brittany
+  - name: Miller, Clifton
+  - name: Juskiewicz, Iwona
+  - name: Bertolace, Lyvia
+  - name: Tivarus, Madalina
+  - name: Zachary, Pamela
+  - name: Wall, Susan
+  - name: Eshetu, Tsion
+  - name: Oliver, Dominic
+  - name: Asgari-Targhi, Ameneh
+  - name: Belskis, Adrianna
+  - name: Billah, Tashrif
+  - name: Borders, Owen
+  - name: Brown, Lisa
+  - name: Gentis, Evan
+  - name: Campbell, Dylan
+  - name: Carrington, Holly
+  - name: Cetin-Karayumak, Suheyla
+  - name: Chan, Kelly Hay Yee
+  - name: Chen, Justine
+  - name: Chin, Kota
+  - name: Cho, Kang Ik K
+  - name: Coleman, Michael J
+  - name: Fadnavis, Shreyas
+  - name: Haidar, Anastasia
+  - name: Jacobs, Grace R
+  - name: John, Omar
+  - name: Kapur, Tina
+  - name: Kelly, Sinead
+  - name: Kim, Nicholas
+  - name: Kotler, Elana
+  - name: Kubicki, Marek
+  - name: Loy, Maria
+  - name: Mohandass, Dheshan
+  - name: Ning, Lipeng
+  - name: Pasternak, Ofer
+  - name: Penzel, Nora
+  - name: Prunier, Nicholas
+  - name: Rathi, Yogesh
+  - name: Reiter, Hannah
+  - name: Ridgewell, Caitlin
+  - name: Seitz-Holland, Johanna
+  - name: Shenton, Martha E
+  - name: Vangel, Mark
+  - name: Veale, Simone
+  - name: Wickham, Alana
+  - name: Baker, Justin T
+  - name: Chung, Yoonho
+  - name: Eichi, Habiballah Rahimi
+  - name: Ennis, Michaela
+  - name: Lewandowski, Kathryn E
+  - name: Liebenthal, Einat
+  - name: Lin, Eric
+  - name: Yao, Beier
+  - name: Corcoran, Cheryl M
+  - name: Kahn, Rene S
+  - name: McGowan, Alessia
+  - name: Reichenberg, Abraham
+  - name: Srivastava, Agrima
+  - name: Rossum, Inge Winter-van
+  - name: Bouix, Sylvain
+  - name: Glynn, Robert J
+  - name: Martin, Alicia
+  - name: Cerrato, Felecia
+  - name: Maglieri, Adrianna
+  - name: Majara, Lerato
+  - name: Goncalves, Mathias
+  - name: Markiewicz, Christopher
+  - name: Poldrack, Russell A
+  - name: Light, Gregory A
+  - name: Mathalon, Daniel H
+  - name: Nicholas, Spero C
+  - name: Agurto, Carla
+  - name: Castro, Eduardo
+  - name: Cecchi, Guillermo
+  - name: Polosecki, Pablo
+  - name: Reinen, Jenna M
+  - name: Li, Qingqin S
+  - name: Pandina, Gahan J
+  - name: Vairavan, Srinivasan
+  - name: Hopkins, Seth
+  - name: Roth, Sharin
+  - name: Sand, Michael S
+  - name: Brister, Terri
+  - name: Duckworth, Ken
+  - name: Larrauri, Carlos A
+  - name: Goltz, Christoph von der
+  - name: Wunderlich, Glen
+  - name: Shnider, Sara J
+  - name: Staglin, Brandon
+  - name: Frangou, Sophia
+  - name: Nagendra, Arundati
+  - name: Bilsland, Lynsey
+  - name: Ajagbe, Loni
+  - name: Pullagura, Sri Ramulu
+  - name: Sabandal, Martin
+  - name: Travaglia, Alessio
+  - name: Arean, Patricia
+  - name: Avenevoli, Shelli
+  - name: Brady, Linda
+  - name: Farber, Gregory
+  - name: Garcia, Suzanne
+  - name: Heinssen, Robert
+  - name: Lisanby, Sarah (Holly)
+  - name: Morris, Sarah
+  - name: Rowland, Laura
+  - name: Zhan, Ming
+  - name: Farchione, Tiffany
+  - name: Fischer, Bernard
+  - name: Mantua, Valentina
+  - name: Breitborde, Nicholas
+  identifiers:
+    pmid: '42459164'
+  links: {}
+  oa_url: https://doi.org/10.1093/schizbullopen/sgag024
 - doi: 10.64898/2026.05.06.722876
   title: 'Building an open ecosystem for molecular neuroimaging: standards and tools from the OpenNeuroPET initiative.'
   year: 2026
@@ -1318,31 +2541,6 @@ publications:
     pmcid: PMC12319779
   links: {}
   oa_url: https://doi.org/10.1162/imag_a_00508
-- doi: 10.1101/2024.09.10.612309
-  title: Predicting Task Activation Maps from Resting-State Functional Connectivity using Deep Learning.
-  year: 2025
-  publication_date: '2025-03-19'
-  publication_name: bioRxiv
-  publication_type: preprint
-  is_preprint: true
-  volume: null
-  page_range: null
-  authors:
-  - name: Madsen SJ
-  - name: Lee YE
-  - name: Uddin LQ
-  - name: Mumford JA
-  - name: Barch DM
-  - name: Fair DA
-  - name: Gotlib IH
-  - name: Poldrack RA
-  - name: Kuceyeski A
-  - name: Saggar M
-  identifiers:
-    pmid: '39314460'
-    pmcid: PMC11419026
-  links: {}
-  oa_url: null
 - doi: 10.7554/elife.98351
   title: An image-computable model of speeded decision-making.
   year: 2025
@@ -1451,34 +2649,6 @@ publications:
       url: https://github.com/marton-balazs-kovacs/retractionwatch_analysis
       title: ''
   oa_url: https://doi.org/10.1098/rsos.240844
-- doi: 10.1101/2024.10.21.619532
-  title: Quality assessment and control of unprocessed anatomical, functional, and diffusion MRI of the human brain using <i>MRIQC</i>.
-  year: 2024
-  publication_date: '2024-10-22'
-  publication_name: bioRxiv
-  publication_type: preprint
-  is_preprint: true
-  volume: null
-  page_range: null
-  authors:
-  - name: Hagen MP
-  - name: Provins C
-  - name: MacNicol E
-  - name: Li JK
-  - name: Gomez T
-  - name: Garcia M
-  - name: Seeley SH
-  - name: Legarreta JH
-  - name: Norgaard M
-  - name: Bissett PG
-  - name: Poldrack RA
-  - name: Rokem A
-  - name: Esteban O
-  identifiers:
-    pmid: '39484445'
-    pmcid: PMC11526949
-  links: {}
-  oa_url: null
 - doi: 10.1016/j.dcn.2024.101452
   title: 'Quantifying brain development in the HEALthy Brain and Child Development (HBCD) Study: The magnetic resonance imaging and spectroscopy protocol.'
   year: 2024
