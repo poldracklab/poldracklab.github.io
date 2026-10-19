@@ -19,7 +19,7 @@ When using AI tools in the research process:
 - AI tools should not be used to generate reference lists.
 - AI-generated code should be tested to ensure that it accurately solves the problem at hand; see [Better Code, Better Science](https://bettercodebetterscience.github.io/bettercode/) for more on this.
 
-It is the researcher's ultimate responsiblity to vouch for any AI-generated outputs, so those outputs should be validated and verified just as one would for an output from a research assistant.
+It is the researcher's ultimate responsibility to vouch for any AI-generated outputs, so those outputs should be validated and verified just as one would for an output from a research assistant.
 
 ## Reference review
 
