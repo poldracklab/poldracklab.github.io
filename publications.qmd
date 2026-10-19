@@ -11,22 +11,22 @@ format:
 #| warning: false
 #| message: false
 
-# this code reads publications from a JSON file and formats them for display
+# this code reads publications from publications.yml and formats them for display
 from datetime import date
-import json
+import yaml
 from pathlib import Path
 import os
 
-# Read publications from JSON file
-json_file = Path('publications.json')
+# Read publications from YAML file
+yaml_file = Path('publications.yml')
 
-if not json_file.exists():
+if not yaml_file.exists():
     raise FileNotFoundError(
-        f'Publications JSON file not found at {json_file}'
+        f'Publications YAML file not found at {yaml_file}'
     )
 
-with open(json_file) as f:
-    data = json.load(f)
+with open(yaml_file) as f:
+    data = yaml.safe_load(f)
 
 publications = data['publications']
 
@@ -97,7 +97,7 @@ for year in sorted_years:
         print()
 
 print('\ \n\ \n')
-print(f'*Updated: {date.today()} - Publication list generated from local JSON file*')
+print(f'*Updated: {date.today()} - generated from academicdb*')
 
 
 ```

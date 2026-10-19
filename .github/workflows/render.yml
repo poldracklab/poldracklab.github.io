@@ -32,7 +32,7 @@ jobs:
     - name: Verify Install
       run: /usr/local/bin/quarto check
     - name: Install quarto deps
-      run: pip install nbformat nbclient ipykernel jupyter tomli biopython scholarly crossrefapi toml pymongo orcid
+      run: pip install nbformat nbclient ipykernel jupyter tomli biopython scholarly crossrefapi toml pymongo orcid pyyaml
     - name: Install academicdb
       run: pip install academicdb
     - name: decrypt config file
