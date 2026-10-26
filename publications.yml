@@ -99,7 +99,7 @@ publications:
   - name: Esteban, Oscar
   identifiers: {}
   links: {}
-  oa_url: https://doi.org/10.31234/osf.io/cn59h_v2
+  oa_url: https://doi.org/10.31234/osf.io/cn59h_v1
   citation: Topor M, Bamford JS, Bazhydai M, Chen Z, Chuan-Peng H, Conry-Murray C, Costa TL, Culina A, Dalmaso M, Dienes Z, ..., Esteban O. [Registered Reports as the default pathway for confirmatory publication](https://doi.org/10.31234/osf.io/cn59h_v2). OSF Preprints (preprint).
 - doi: 10.7554/elife.112683
   title: 'Responsible Research Assessment of Faculty: maximizing quality, transparency, and trustworthiness of scientific research in Research-Performing Organizations'
@@ -965,7 +965,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '13'
-  page_range: null
+  page_range: '593'
   authors:
   - name: Ponce AF
   - name: Aggarwal H
@@ -1008,7 +1008,7 @@ publications:
     pmcid: PMC13076999
   links: {}
   oa_url: https://doi.org/10.1038/s41597-026-06869-1
-  citation: 'Ponce AF, Aggarwal H, Shankar S, Torre JJ, Pinho AL, Thual A, Ginisty C, Lecomte Y, Berland V, Beriot L, ..., Thirion B. [Individual Brain Charting: fifth release of high-resolution fMRI data for cognitive mapping.](https://doi.org/10.1038/s41597-026-06869-1) Sci Data, *13*.'
+  citation: 'Ponce AF, Aggarwal H, Shankar S, Torre JJ, Pinho AL, Thual A, Ginisty C, Lecomte Y, Berland V, Beriot L, ..., Thirion B. [Individual Brain Charting: fifth release of high-resolution fMRI data for cognitive mapping.](https://doi.org/10.1038/s41597-026-06869-1) Sci Data, *13*, 593.'
 - doi: 10.1162/imag.a.1144
   title: Assessing metadata privacy in neuroimaging.
   year: 2026
@@ -2042,6 +2042,7 @@ publications:
   - name: Breitborde, Nicholas
   identifiers:
     pmid: '42459164'
+    pmcid: PMC13372093
   links: {}
   oa_url: https://doi.org/10.1093/schizbullopen/sgag024
   citation: Wastler HM, Moe A, Blouin AM, Bozzay M, Kilicoglu MFV, Arango C, Bouix S, Broome MR, Calkins ME, Conus P, ..., Breitborde N. [Relationship among Sleep Disturbance, Stress, and Suicidal Ideation in Clinical High Risk for Psychosis](https://doi.org/10.1093/schizbullopen/sgag024). Schizophrenia Bulletin Open, *7*, sgag024.
@@ -3600,6 +3601,7 @@ publications:
   - name: Poldrack, Russell A.
   identifiers:
     pmid: '37996498'
+    pmcid: PMC13689935
   links:
     resources:
     - type: Code
@@ -4009,7 +4011,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '2022'
-  page_range: null
+  page_range: baac096
   authors:
   - name: Delorme, Arnaud
   - name: Truong, Dung
@@ -4025,7 +4027,7 @@ publications:
     pmcid: PMC9650770
   links: {}
   oa_url: https://doi.org/10.1093/database/baac096
-  citation: 'Delorme A, Truong D, Youn C, Sivagnanam S, Stirm C, Yoshimoto K, Poldrack RA, Majumdar A, Makeig S. [NEMAR: an open access data, tools and compute resource operating on neuroelectromagnetic data.](https://doi.org/10.1093/database/baac096) Database, *2022*.'
+  citation: 'Delorme A, Truong D, Youn C, Sivagnanam S, Stirm C, Yoshimoto K, Poldrack RA, Majumdar A, Makeig S. [NEMAR: an open access data, tools and compute resource operating on neuroelectromagnetic data.](https://doi.org/10.1093/database/baac096) Database, *2022*, baac096.'
 - doi: 10.1016/j.tics.2022.07.003
   title: Interpreting mental state decoding with deep learning models.
   year: 2022
@@ -4466,7 +4468,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '10'
-  page_range: null
+  page_range: e72185
   authors:
   - name: Aczel, Balazs
   - name: Szaszi, Barnabas
@@ -4527,7 +4529,7 @@ publications:
     pmcid: PMC8626083
   links: {}
   oa_url: https://doi.org/10.7554/elife.72185
-  citation: Aczel B, Szaszi B, Nilsonne G, Van Den Akker OR, Albers CJ, Van Assen MA, Bastiaansen JA, Benjamin D, Boehm U, Botvinik-Nezer R, ..., Wagenmakers EJ. [Consensus-based guidance for conducting and reporting multi-analyst studies.](https://doi.org/10.7554/elife.72185) eLife, *10*.
+  citation: Aczel B, Szaszi B, Nilsonne G, Van Den Akker OR, Albers CJ, Van Assen MA, Bastiaansen JA, Benjamin D, Boehm U, Botvinik-Nezer R, ..., Wagenmakers EJ. [Consensus-based guidance for conducting and reporting multi-analyst studies.](https://doi.org/10.7554/elife.72185) eLife, *10*, e72185.
 - doi: 10.7554/elife.71774
   title: The OpenNeuro resource for sharing of neuroscience data.
   year: 2021
@@ -11501,7 +11503,7 @@ publications:
   identifiers:
     pmid: '16406760'
   links: {}
-  oa_url: null
+  oa_url: https://imt.hal.science/hal-01699045
   citation: Poldrack RA. [Can cognitive processes be inferred from neuroimaging data?](https://doi.org/10.1016/j.tics.2005.12.004). Trends in Cognitive Sciences, *10*, 59-63.
 - doi: 10.1109/icpr.2006.1052
   title: Shape-based discrimination and classification of cortical surfaces
