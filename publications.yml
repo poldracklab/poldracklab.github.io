@@ -4270,7 +4270,7 @@ publications:
     pmid: '35689029'
     pmcid: PMC10548890
   links: {}
-  oa_url: https://escholarship.org/uc/item/7mm8w5hh
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/10548890
   citation: 'Adebimpe A, Bertolero M, Dolui S, Cieslak M, Murtha K, Baller EB, Boeve B, Boxer A, Butler ER, Cook P, ..., Oathes DJ. [ASLPrep: a platform for processing of arterial spin labeled MRI and quantification of regional brain perfusion.](https://doi.org/10.1038/s41592-022-01458-7) Nature Methods, *19*, 683-686.'
 - doi: 10.1016/j.neuroimage.2022.119306
   title: Survey on Open Science Practices in Functional Neuroimaging
@@ -5677,7 +5677,7 @@ publications:
     pmid: '30606277'
     pmcid: PMC7086288
   links: {}
-  oa_url: https://scholarworks.utrgv.edu/som_pub/72
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/7086288
   citation: Mollon J, Mathias SR, Knowles EEM, Rodrigue A, Koenis MMG, Pearlson GD, Reichenberg A, Barrett J, Denbow D, Aberizk K, Zatony M, Poldrack RA, Blangero J, Glahn DC. [Cognitive impairment from early to middle adulthood in patients with affective and nonaffective psychotic disorders](https://doi.org/10.1017/s0033291718003938). Psychological Medicine, *50*, 48-57.
 - doi: 10.1073/pnas.1917123116
   title: 'Reply to Friedman and Banich: Right measures for the research question'
@@ -5776,7 +5776,7 @@ publications:
     pmid: '31611705'
     pmcid: PMC7289187
   links: {}
-  oa_url: https://doi.org/10.1038/s41593-019-0510-4
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/7289187
   citation: Reid AT, Headley DB, Mill RD, Sanchez-Romero R, Uddin LQ, Marinazzo D, Lurie DJ, Valdés-Sosa PA, Hanson SJ, Biswal BB, Calhoun V, Poldrack RA, Cole MW. [Advancing functional connectivity research from association to causation](https://doi.org/10.1038/s41593-019-0510-4). Nature Neuroscience, *22*, 1751-1760.
 - doi: 10.1007/s42113-019-00062-x
   title: The Importance of Standards for Sharing of Computational Models and Data
@@ -7276,7 +7276,7 @@ publications:
     - type: OSF
       url: https://osf.io/amxpv
       title: ''
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/5801197
+  oa_url: http://europepmc.org/pmc/articles/PMC5801197
   citation: Eisenberg IW, Bissett PG, Canning JR, Dallery J, Enkavi AZ, Whitfield-Gabrieli S, Gonzalez O, Green AI, Greene MA, Kiernan M, ..., Poldrack RA. [Applying novel technologies and methods to inform the ontology of self-regulation](https://doi.org/10.1016/j.brat.2017.09.014). Behaviour Research and Therapy, *101*, 46-57.
 - doi: 10.1016/j.schres.2017.08.015
   title: Deficits in visual working-memory capacity and general cognition in African Americans with psychosis
@@ -7302,7 +7302,7 @@ publications:
     pmid: '28843437'
     pmcid: PMC5825248
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/5825248
+  oa_url: http://europepmc.org/pmc/articles/PMC5825248
   citation: Mathias SR, Knowles EEM, Barrett J, Beetham T, Leach O, Buccheri S, Aberizk K, Blangero J, Poldrack RA, Glahn DC. [Deficits in visual working-memory capacity and general cognition in African Americans with psychosis](https://doi.org/10.1016/j.schres.2017.08.015). Schizophrenia Research, *193*, 100-106.
 - doi: 10.1016/j.neuroimage.2017.08.010
   title: Principles of dynamic network reconfiguration across diverse brain states
@@ -8091,7 +8091,7 @@ publications:
     pmid: '27744290'
     pmcid: PMC6075600
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/6075600
+  oa_url: http://europepmc.org/pmc/articles/PMC6075600
   citation: Hodgson K, Poldrack RA, Curran JE, Knowles EE, Mathias S, Göring HHH, Yao N, Olvera RL, Fox PT, Almasy L, Duggirala R, Barch DM, Blangero J, Glahn DC. [Shared Genetic Factors Influence Head Motion During MRI and Body Mass Index](https://doi.org/10.1093/cercor/bhw321). Cerebral Cortex, *27*, 5539-5546.
 - doi: 10.1016/j.neuron.2016.09.018
   title: 'The Dynamics of Functional Brain Networks: Integrated Network States during Cognitive Task Performance'
@@ -8134,7 +8134,7 @@ publications:
     pmid: '27528672'
     pmcid: PMC5024627
   links: {}
-  oa_url: http://arxiv.org/abs/1601.05065
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/5024627
   citation: Shine JM, Koyejo O, Poldrack RA. [Temporal metastates are associated with differential patterns of time-resolved connectivity, network topology, and attention](https://doi.org/10.1073/pnas.1604898113). Proceedings of the National Academy of Sciences of the United States of America, *113*, 9888-9891.
 - doi: 10.1371/journal.pbio.1002506
   title: A Practical Guide for Improving Transparency and Reproducibility in Neuroimaging Research
@@ -9343,7 +9343,7 @@ publications:
     pmid: '23684877'
     pmcid: PMC4011498
   links: {}
-  oa_url: http://hdl.handle.net/11577/3177409
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/4011498
   citation: 'Barch DM, Burgess GC, Harms MP, Petersen SE, Schlaggar BL, Corbetta M, Glasser MF, Curtiss S, Dixit S, Feldt C, Nolan D, Bryant E, Hartley T, Footer O, Bjork JM, Poldrack R, Smith S, Johansen-Berg H, Snyder AZ, Van Essen DC. [Function in the human connectome: Task-fMRI and individual differences in behavior](https://doi.org/10.1016/j.neuroimage.2013.05.033). NeuroImage, *80*, 169-189.'
 - doi: 10.1007/s00213-013-3113-x
   title: Greater risk sensitivity of dorsolateral prefrontal cortex in young smokers than in nonsmokers
@@ -10390,7 +10390,7 @@ publications:
     pmid: '20553896'
     pmcid: PMC3632300
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/3632300
+  oa_url: http://europepmc.org/articles/PMC3632300
   citation: 'Mumford JA, Horvath S, Oldham MC, Langfelder P, Geschwind DH, Poldrack RA. [Detecting network modules in fMRI time series: A weighted network analysis approach](https://doi.org/10.1016/j.neuroimage.2010.05.047). NeuroImage, *52*, 1465-1476.'
 - doi: 10.1111/j.1756-8765.2010.01100.x
   title: Towards an Ontology of Cognitive Control
@@ -11547,7 +11547,7 @@ publications:
     - type: Data
       url: https://openneuro.org/datasets/ds000017/versions/00001
       title: ''
-  oa_url: null
+  oa_url: http://europepmc.org/articles/PMC1630684
   citation: Aron AR, Gluck MA, Poldrack RA. [Long-term test-retest reliability of functional MRI in a classification learning task.](https://doi.org/10.1016/j.neuroimage.2005.08.010) NeuroImage, *29*, 1000-1006.
 - doi: 10.1002/hbm.20186
   title: Ventral-striatal/nucleus-accumbens sensitivity to prediction errors during classification learning.
@@ -12301,7 +12301,7 @@ publications:
     pmid: '11248106'
     pmcid: PMC30681
   links: {}
-  oa_url: http://bura.brunel.ac.uk/handle/2438/4798
+  oa_url: http://europepmc.org/pmc/articles/PMC30681
   citation: 'Vuilleumier P, Sagiv N, Hazeltine E, Poldrack RA, Swick D, Rafal RD, Gabrieli JDE. [Neural fate of seen and unseen faces in visuospatial neglect: a combined event-related functional MRI and event-related potential study.](https://doi.org/10.1073/pnas.051436898) Proceedings of the National Academy of Sciences of the United States of America, *98*, 3495-3500.'
 - doi: 10.1097/00001756-200102120-00024
   title: 'Disrupted neural responses to phonological and orthographic processing in dyslexic children: an fMRI study.'
@@ -12422,7 +12422,7 @@ publications:
     pmid: '11095716'
     pmcid: PMC17674
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/17674
+  oa_url: http://europepmc.org/pmc/articles/PMC17674
   citation: 'Temple E, Poldrack RA, Protopapas A, Nagarajan S, Salz T, Tallal P, Merzenich MM, Gabrieli JDE. [Disruption of the neural response to rapid acoustic stimuli in dyslexia: evidence from functional MRI.](https://doi.org/10.1073/pnas.240461697) Proceedings of the National Academy of Sciences of the United States of America, *97*, 13907-13912.'
 - doi: 10.1162/089892900563984
   title: Neural Activation During Response Competition
