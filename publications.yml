@@ -3,7 +3,7 @@ publications:
   title: Registered Reports as the default pathway for confirmatory publication
   year: 2026
   publication_date: '2026-10-15'
-  publication_name: null
+  publication_name: PsyArXiv (OSF Preprints)
   publication_type: preprint
   is_preprint: true
   volume: null
@@ -100,7 +100,7 @@ publications:
   identifiers: {}
   links: {}
   oa_url: https://doi.org/10.31234/osf.io/cn59h_v1
-  citation: Topor M, Bamford JS, Bazhydai M, Chen Z, Chuan-Peng H, Conry-Murray C, Costa TL, Culina A, Dalmaso M, Dienes Z, ..., Esteban O. [Registered Reports as the default pathway for confirmatory publication](https://doi.org/10.31234/osf.io/cn59h_v2). OSF Preprints (preprint).
+  citation: Topor M, Bamford JS, Bazhydai M, Chen Z, Chuan-Peng H, Conry-Murray C, Costa TL, Culina A, Dalmaso M, Dienes Z, ..., Esteban O. [Registered Reports as the default pathway for confirmatory publication](https://doi.org/10.31234/osf.io/cn59h_v2). PsyArXiv (OSF Preprints) (preprint).
 - doi: 10.7554/elife.112683
   title: 'Responsible Research Assessment of Faculty: maximizing quality, transparency, and trustworthiness of scientific research in Research-Performing Organizations'
   year: 2026
@@ -371,7 +371,7 @@ publications:
   title: 'Neurobagel: building an international network for distributed data discovery'
   year: 2026
   publication_date: '2026-05-11'
-  publication_name: null
+  publication_name: MetArXiv (OSF Preprints)
   publication_type: preprint
   is_preprint: true
   volume: null
@@ -417,8 +417,8 @@ publications:
   - name: Poline, Jean-Baptiste
   identifiers: {}
   links: {}
-  oa_url: https://doi.org/10.31222/osf.io/x64tn_v1
-  citation: 'Urchs SGW, Dai A, Jahanpour A, Wang M, Dugré M, Bhagwat N, McPherson B, Pfarr JK, van Heese E, Laansma MA, ..., Poline JB. [Neurobagel: building an international network for distributed data discovery](https://doi.org/10.31222/osf.io/x64tn_v1). OSF Preprints (preprint).'
+  oa_url: https://doi.org/10.31222/osf.io/x64tn_v2
+  citation: 'Urchs SGW, Dai A, Jahanpour A, Wang M, Dugré M, Bhagwat N, McPherson B, Pfarr JK, van Heese E, Laansma MA, ..., Poline JB. [Neurobagel: building an international network for distributed data discovery](https://doi.org/10.31222/osf.io/x64tn_v1). MetArXiv (OSF Preprints) (preprint).'
 - doi: 10.1038/s41596-026-01352-y
   title: Quality assessment and control of unprocessed anatomical, functional and diffusion MRI of the human brain using MRIQC.
   year: 2026
@@ -4270,7 +4270,7 @@ publications:
     pmid: '35689029'
     pmcid: PMC10548890
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/10548890
+  oa_url: https://doi.org/10.1101/2021.05.20.444998
   citation: 'Adebimpe A, Bertolero M, Dolui S, Cieslak M, Murtha K, Baller EB, Boeve B, Boxer A, Butler ER, Cook P, ..., Oathes DJ. [ASLPrep: a platform for processing of arterial spin labeled MRI and quantification of regional brain perfusion.](https://doi.org/10.1038/s41592-022-01458-7) Nature Methods, *19*, 683-686.'
 - doi: 10.1016/j.neuroimage.2022.119306
   title: Survey on Open Science Practices in Functional Neuroimaging
@@ -4458,7 +4458,7 @@ publications:
     - type: Data
       url: http://github.com/ehbeam/neuro-knowledge-engine
       title: ''
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/8761068
+  oa_url: https://doi.org/10.1101/701540
   citation: Beam E, Potts C, Poldrack RA, Etkin A. [A data-driven framework for mapping domains of human neurobiology](https://doi.org/10.1038/s41593-021-00948-9). Nature Neuroscience, *24*, 1733-1744.
 - doi: 10.7554/elife.72185
   title: Consensus-based guidance for conducting and reporting multi-analyst studies.
@@ -5253,7 +5253,7 @@ publications:
     pmid: '32514178'
     pmcid: PMC7404612
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/7404612
+  oa_url: https://doi.org/10.1101/694364
   citation: Esteban O, Ciric R, Finc K, Blair RW, Markiewicz CJ, Moodie CA, Kent JD, Goncalves M, DuPre E, Gomez DEP, ..., Gorgolewski KJ. [Analysis of task-based functional MRI data preprocessed with fMRIPrep.](https://doi.org/10.1038/s41596-020-0327-3) Nature Protocols, *15*, 2186-2202.
 - doi: 10.1038/s41586-020-2314-9
   title: Variability in the analysis of a single neuroimaging dataset by many teams.
@@ -6504,7 +6504,7 @@ publications:
   identifiers:
     pmid: '30664771'
   links: {}
-  oa_url: null
+  oa_url: https://doi.org/10.1101/266635
   citation: Shine JM, Breakspear M, Bell PT, Ehgoetz Martens K, Shine R, Koyejo O, Sporns O, Poldrack RA. [Human cognition involves the dynamic integration of neural activity and neuromodulatory systems](https://doi.org/10.1038/s41593-018-0312-0). Nature Neuroscience, *22*, 289-296.
 - doi: 10.1016/j.neuron.2018.11.030
   title: The Costs of Reproducibility
@@ -6552,7 +6552,7 @@ publications:
     pmid: '30532080'
     pmcid: PMC6319393
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/6319393
+  oa_url: https://doi.org/10.1101/306951
   citation: 'Esteban O, Markiewicz CJ, Blair RW, Moodie CA, Isik AI, Erramuzpe A, Kent JD, Goncalves M, DuPre E, Snyder M, Oya H, Ghosh SS, Wright J, Durnez J, Poldrack RA, Gorgolewski KJ. [fMRIPrep: a robust preprocessing pipeline for functional MRI](https://doi.org/10.1038/s41592-018-0235-4). Nature Methods, *16*, 111-116.'
 - doi: 10.1016/j.conb.2018.11.002
   title: Predictive models avoid excessive reductionism in cognitive neuroimaging
@@ -6619,7 +6619,7 @@ publications:
     - type: Data
       url: https://openneuro.org/datasets/ds001167/versions/00002
       title: ''
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/6289638
+  oa_url: https://doi.org/10.1101/357327
   citation: Aridan N, Malecek NJ, Poldrack RA, Schonberg T. [Neural correlates of effort-based valuation with prospective choices](https://doi.org/10.1016/j.neuroimage.2018.10.051). NeuroImage, *185*, 446-454.
 - doi: 10.1038/s41593-019-0347-x
   title: 'Publisher Correction: Human cognition involves the dynamic integration of neural activity and neuromodulatory systems'
@@ -6829,7 +6829,7 @@ publications:
   - name: Scott, James G.
   identifiers: {}
   links: {}
-  oa_url: null
+  oa_url: http://arxiv.org/abs/1411.6144
   citation: Tansey W, Koyejo O, Poldrack RA, Scott JG. [False Discovery Rate Smoothing](https://doi.org/10.1080/01621459.2017.1319838). Journal of the American Statistical Association, *113*, 1156-1171.
 - doi: 10.1038/s41588-018-0152-6
   title: Genome-wide association meta-analysis in 269,867 individuals identifies new genetic and functional links to intelligence
@@ -7527,7 +7527,7 @@ publications:
     pmid: '29152222'
     pmcid: PMC5664981
   links: {}
-  oa_url: null
+  oa_url: https://doi.org/10.12688/f1000research.11964.2
   citation: Gorgolewski KJ, Durnez J, Poldrack RA. [Preprocessed Consortium for Neuropsychiatric Phenomics dataset](https://doi.org/10.12688/f1000research.11964.2). F1000Research, *6*, 1262.
 - doi: 10.1038/mp.2017.197
   title: 'GWAS meta-analysis reveals novel loci and genetic correlates for general cognitive function: a report from the COGENT consortium.'
