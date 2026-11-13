@@ -674,42 +674,41 @@ publications:
   links: {}
   oa_url: https://arxiv.org/abs/2608.19902
   citation: 'Chen Z, Lu N, Li X, Ricard JA, Ju C, Wang HH, Kindermann C, Mumford JA, Dillmann S, Kent J, de la Vega A, Koyejo S, Calhoun VD, Buckholtz JW, Zhou JH, Bollmann S, Poldrack RA. [Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis](https://doi.org/10.48550/arxiv.2608.19902). arXiv (preprint).'
-- doi: 10.64898/2026.05.06.722876
-  title: 'Building an open ecosystem for molecular neuroimaging: standards and tools from the OpenNeuroPET initiative.'
+- doi: 10.1177/0271678x261490245
+  title: 'Building an open infrastructure for molecular neuroimaging: Standards and tools from the OpenNeuroPET initiative'
   year: 2026
-  publication_date: null
-  publication_name: bioRxiv
-  publication_type: preprint
+  publication_date: '2026-09-09'
+  publication_name: Journal of Cerebral Blood Flow & Metabolism
+  publication_type: other
   is_preprint: false
   volume: null
-  page_range: null
+  page_range: 271678X261490245
   authors:
-  - name: Ganz M
-  - name: Norgaard M
-  - name: Pernet C
-  - name: Matheson GJ
-  - name: Galassi A
-  - name: Ceballos E
-  - name: Bilgel M
-  - name: Eierud C
-  - name: Gonzalez-Escamilla G
-  - name: Wighton P
-  - name: Markiewicz CJ
-  - name: Hardcastle N
-  - name: Buckholtz J
-  - name: Blair R
-  - name: Greve DN
-  - name: Thomas AG
-  - name: Poldrack RA
-  - name: Calhoun V
-  - name: Innis RB
-  - name: Knudsen GM
+  - name: Ganz, Melanie
+  - name: Norgaard, Martin
+  - name: Pernet, Cyril
+  - name: Matheson, Granville J
+  - name: Galassi, Anthony
+  - name: Ceballos, Eric
+  - name: Bilgel, Murat
+  - name: Eierud, Cyrus
+  - name: Gonzalez-Escamilla, Gabriel
+  - name: Wighton, Paul
+  - name: Markiewicz, Christopher J
+  - name: Hardcastle, Nell
+  - name: Buckholtz, Joshua
+  - name: Blair, Ross
+  - name: Greve, Douglas N
+  - name: Thomas, Adam G
+  - name: Poldrack, Russell A
+  - name: Calhoun, Vince
+  - name: Innis, Robert B
+  - name: Knudsen, Gitte M
   identifiers:
-    pmid: '42146624'
-    pmcid: PMC13174660
+    pmid: '42717394'
   links: {}
-  oa_url: null
-  citation: 'Ganz M, Norgaard M, Pernet C, Matheson GJ, Galassi A, Ceballos E, Bilgel M, Eierud C, Gonzalez-Escamilla G, Wighton P, Markiewicz CJ, Hardcastle N, Buckholtz J, Blair R, Greve DN, Thomas AG, Poldrack RA, Calhoun V, Innis RB, Knudsen GM. [Building an open ecosystem for molecular neuroimaging: standards and tools from the OpenNeuroPET initiative.](https://doi.org/10.64898/2026.05.06.722876) bioRxiv.'
+  oa_url: https://doi.org/10.1177/0271678x261490245
+  citation: 'Ganz M, Norgaard M, Pernet C, Matheson GJ, Galassi A, Ceballos E, Bilgel M, Eierud C, Gonzalez-Escamilla G, Wighton P, Markiewicz CJ, Hardcastle N, Buckholtz J, Blair R, Greve DN, Thomas AG, Poldrack RA, Calhoun V, Innis RB, Knudsen GM. [Building an open infrastructure for molecular neuroimaging: Standards and tools from the OpenNeuroPET initiative](https://doi.org/10.1177/0271678x261490245). Journal of Cerebral Blood Flow & Metabolism, 271678X261490245.'
 - doi: 10.31234/osf.io/7c8ap_v1
   title: Diagnostic scoring choices change the prevalence and correlates of mental illness in the ABCD Study
   year: 2026
