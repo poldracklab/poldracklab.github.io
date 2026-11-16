@@ -706,6 +706,7 @@ publications:
   - name: Knudsen, Gitte M
   identifiers:
     pmid: '42717394'
+    pmcid: PMC13650064
   links: {}
   oa_url: https://doi.org/10.1177/0271678x261490245
   citation: 'Ganz M, Norgaard M, Pernet C, Matheson GJ, Galassi A, Ceballos E, Bilgel M, Eierud C, Gonzalez-Escamilla G, Wighton P, Markiewicz CJ, Hardcastle N, Buckholtz J, Blair R, Greve DN, Thomas AG, Poldrack RA, Calhoun V, Innis RB, Knudsen GM. [Building an open infrastructure for molecular neuroimaging: Standards and tools from the OpenNeuroPET initiative](https://doi.org/10.1177/0271678x261490245). Journal of Cerebral Blood Flow & Metabolism, 271678X261490245.'
@@ -757,7 +758,7 @@ publications:
     pmid: '42115402'
     pmcid: PMC11526949
   links: {}
-  oa_url: https://doi.org/10.1101/2024.10.21.619532
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/11526949
   citation: Hagen MP, Provins C, MacNicol E, Li JK, Gomez T, Garcia M, Seeley SH, Legarreta JH, Norgaard M, Bissett PG, Poldrack RA, Rokem A, Esteban O. [Quality assessment and control of unprocessed anatomical, functional and diffusion MRI of the human brain using MRIQC.](https://doi.org/10.1038/s41596-026-01352-y) Nat Protoc, *21*, 4606-4634.
 - doi: 10.1162/imag.a.1144
   title: Assessing metadata privacy in neuroimaging.
@@ -2694,7 +2695,7 @@ publications:
     pmid: '38659772'
     pmcid: PMC11042383
   links: {}
-  oa_url: http://dx.doi.org/10.1101/2024.04.18.590179
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/11042383
   citation: Ciric R, Xu A, Poldrack RA. [hyve, a compositional visualisation engine for brain imaging data](https://doi.org/10.1101/2024.04.18.590179). Cold Spring Harbor Laboratory (preprint).
 - doi: 10.1016/j.dcn.2024.101452
   title: 'Quantifying brain development in the HEALthy Brain and Child Development (HBCD) Study: The magnetic resonance imaging and spectroscopy protocol.'
@@ -10952,7 +10953,7 @@ publications:
     pmid: '19041348'
     pmcid: PMC2747289
   links: {}
-  oa_url: null
+  oa_url: http://europepmc.org/articles/PMC2747289
   citation: Van Horn JD, Poldrack RA. [Functional MRI at the crossroads.](https://doi.org/10.1016/j.ijpsycho.2008.11.003) International Journal of Psychophysiology, *73*, 3-9.
 - doi: 10.3758/pbr.15.1.108
   title: Automaticity in motor sequence learning does not impair response inhibition.
@@ -11319,7 +11320,7 @@ publications:
     pmid: '18958217'
     pmcid: PMC2525983
   links: {}
-  oa_url: null
+  oa_url: https://doi.org/10.3389/neuro.09.003.2007
   citation: 'Raizada RDS, Poldrack RA. [Challenge-driven attention: interacting frontal and brainstem systems.](https://doi.org/10.3389/neuro.09.003.2007) Frontiers in Human Neuroscience, *1*, 3.'
 - doi: 10.1016/j.neuron.2007.11.001
   title: Selective amplification of stimulus differences during categorical processing of speech.
