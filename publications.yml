@@ -506,7 +506,7 @@ publications:
   identifiers:
     pmid: '41922703'
   links: {}
-  oa_url: https://cris.maastrichtuniversity.nl/en/publications/74ccabe5-5f8d-49f1-aa95-58cd791dfb84
+  oa_url: https://scholarlypublications.universiteitleiden.nl/handle/1887/4302444
   citation: Aczel B, Szaszi B, Clelland HT, Kovacs M, Holzmeister F, van Ravenzwaaij D, Schulz-Kümpel H, Hoffmann S, Nilsonne G, Kosa L, ..., Nosek BA. [Investigating the analytical robustness of the social and behavioural sciences.](https://doi.org/10.1038/s41586-025-09844-9) Nature, *652*, 135-142.
 - doi: 10.64898/2026.07.17.739165
   title: Early Adversity Selectively Reshapes the Somato-Cognitive Action Network in the Developing Brain.
@@ -677,9 +677,9 @@ publications:
 - doi: 10.1177/0271678x261490245
   title: 'Building an open infrastructure for molecular neuroimaging: Standards and tools from the OpenNeuroPET initiative'
   year: 2026
-  publication_date: '2026-09-09'
+  publication_date: null
   publication_name: Journal of Cerebral Blood Flow & Metabolism
-  publication_type: other
+  publication_type: journal-article
   is_preprint: false
   volume: null
   page_range: 271678X261490245
@@ -758,7 +758,7 @@ publications:
     pmid: '42115402'
     pmcid: PMC11526949
   links: {}
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/11526949
+  oa_url: https://doi.org/10.1101/2024.10.21.619532
   citation: Hagen MP, Provins C, MacNicol E, Li JK, Gomez T, Garcia M, Seeley SH, Legarreta JH, Norgaard M, Bissett PG, Poldrack RA, Rokem A, Esteban O. [Quality assessment and control of unprocessed anatomical, functional and diffusion MRI of the human brain using MRIQC.](https://doi.org/10.1038/s41596-026-01352-y) Nat Protoc, *21*, 4606-4634.
 - doi: 10.1162/imag.a.1144
   title: Assessing metadata privacy in neuroimaging.
@@ -896,13 +896,13 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '208'
-  page_range: null
+  page_range: '167'
   authors:
   - name: Poldrack, Russell A.
   identifiers: {}
   links: {}
   oa_url: null
-  citation: Poldrack RA. [Understanding, prediction, and compression](https://doi.org/10.1007/s11229-026-05801-9). Synthese, *208*.
+  citation: Poldrack RA. [Understanding, prediction, and compression](https://doi.org/10.1007/s11229-026-05801-9). Synthese, *208*, 167.
 - doi: 10.1038/s41597-026-06869-1
   title: 'Individual Brain Charting: fifth release of high-resolution fMRI data for cognitive mapping.'
   year: 2026
@@ -2484,7 +2484,7 @@ publications:
     pmid: '40019474'
     pmcid: PMC11870652
   links: {}
-  oa_url: https://doi.org/10.7554/elife.98351.3
+  oa_url: https://doi.org/10.7554/elife.98351.2
   citation: Jaffe PI, Santiago-Reyes GX, Schafer RJ, Bissett PG, Poldrack RA. [An image-computable model of speeded decision-making.](https://doi.org/10.7554/elife.98351) Elife, *13*.
 - doi: 10.1162/imag_a_00508
   title: Can I have your data? Recommendations and practical tips for sharing neuroimaging data upon a direct personal request
@@ -2539,14 +2539,14 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '35'
-  page_range: null
+  page_range: bhaf238
   authors:
   - name: Russell A Poldrack
   identifiers:
     pmid: '40928748'
   links: {}
   oa_url: https://doi.org/10.1093/cercor/bhaf238
-  citation: Poldrack RA. [SPM as a cornerstone of an open source software ecosystem for neuroimaging](https://doi.org/10.1093/cercor/bhaf238). Cerebral Cortex, *35*.
+  citation: Poldrack RA. [SPM as a cornerstone of an open source software ecosystem for neuroimaging](https://doi.org/10.1093/cercor/bhaf238). Cerebral Cortex, *35*, bhaf238.
 - doi: 10.1371/journal.pbio.3003149
   title: Removing facial features from structural MRI images biases visual quality assessment.
   year: 2025
@@ -4145,7 +4145,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '11'
-  page_range: null
+  page_range: e79277
   authors:
   - name: De La Vega, Alejandro
   - name: Rocca, Roberta
@@ -4162,7 +4162,7 @@ publications:
     pmcid: PMC9489206
   links: {}
   oa_url: https://doi.org/10.7554/elife.79277
-  citation: De La Vega A, Rocca R, Blair RW, Markiewicz CJ, Mentch J, Kent JD, Herholz P, Ghosh SS, Poldrack RA, Yarkoni T. [Neuroscout, a unified platform for generalizable and reproducible fMRI research.](https://doi.org/10.7554/elife.79277) eLife, *11*.
+  citation: De La Vega A, Rocca R, Blair RW, Markiewicz CJ, Mentch J, Kent JD, Herholz P, Ghosh SS, Poldrack RA, Yarkoni T. [Neuroscout, a unified platform for generalizable and reproducible fMRI research.](https://doi.org/10.7554/elife.79277) eLife, *11*, e79277.
 - doi: 10.1093/database/baac096
   title: 'NEMAR: an open access data, tools and compute resource operating on neuroelectromagnetic data.'
   year: 2022
@@ -4538,7 +4538,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '7'
-  page_range: null
+  page_range: eabf4355
   authors:
   - name: Bissett, Patrick G.
   - name: Jones, Henry M.
@@ -4556,7 +4556,7 @@ publications:
       url: https://zenodo.org/record/4432816
       title: ''
   oa_url: https://doi.org/10.1126/sciadv.abf4355
-  citation: Bissett PG, Jones HM, Poldrack RA, Logan GD. [Severe violations of independence in response inhibition tasks](https://doi.org/10.1126/sciadv.abf4355). Science Advances, *7*.
+  citation: Bissett PG, Jones HM, Poldrack RA, Logan GD. [Severe violations of independence in response inhibition tasks](https://doi.org/10.1126/sciadv.abf4355). Science Advances, *7*, eabf4355.
 - doi: 10.7554/elife.60185
   title: Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study.
   year: 2021
@@ -4565,7 +4565,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '10'
-  page_range: null
+  page_range: e60185
   authors:
   - name: Bissett, Patrick G.
   - name: Hagen, McKenzie P.
@@ -4580,7 +4580,7 @@ publications:
       url: https://zenodo.org/records/4458428
       title: ''
   oa_url: https://doi.org/10.7554/elife.60185
-  citation: Bissett PG, Hagen MP, Jones HM, Poldrack RA. [Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study.](https://doi.org/10.7554/elife.60185) eLife, *10*.
+  citation: Bissett PG, Hagen MP, Jones HM, Poldrack RA. [Design issues and solutions for stop-signal data from the Adolescent Brain Cognitive Development (ABCD) study.](https://doi.org/10.7554/elife.60185) eLife, *10*, e60185.
 - doi: 10.1109/ner49283.2021.9441399
   title: Tools for importing and evaluating BIDS-EEG formatted data
   year: 2021
@@ -4800,7 +4800,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '10'
-  page_range: null
+  page_range: giab051
   authors:
   - name: Levitis, Elizabeth
   - name: Van Praag, Cassandra D.Gould
@@ -4907,7 +4907,7 @@ publications:
     pmcid: PMC8377301
   links: {}
   oa_url: https://doi.org/10.1093/gigascience/giab051
-  citation: Levitis E, Van Praag CDG, Gau R, Heunis S, Dupre E, Kiar G, Bottenhorn KL, Glatard T, Nikolaidis A, Whitaker KJ, ..., Walsh RJ. [Centering inclusivity in the design of online conferences-An OHBM-Open Science perspective.](https://doi.org/10.1093/gigascience/giab051) GigaScience, *10*.
+  citation: Levitis E, Van Praag CDG, Gau R, Heunis S, Dupre E, Kiar G, Bottenhorn KL, Glatard T, Nikolaidis A, Whitaker KJ, ..., Walsh RJ. [Centering inclusivity in the design of online conferences-An OHBM-Open Science perspective.](https://doi.org/10.1093/gigascience/giab051) GigaScience, *10*, giab051.
 - doi: 10.1109/isbi48211.2021.9433884
   title: Atlas-based brain extraction is robust across RAT MRI studies
   year: 2021
@@ -4958,7 +4958,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '10'
-  page_range: null
+  page_range: e71774
   authors:
   - name: Markiewicz, Christopher J.
   - name: Gorgolewski, Krzysztof J.
@@ -4977,7 +4977,7 @@ publications:
     pmcid: PMC8550750
   links: {}
   oa_url: https://doi.org/10.7554/elife.71774
-  citation: Markiewicz CJ, Gorgolewski KJ, Feingold F, Blair R, Halchenko YO, Miller E, Hardcastle N, Wexler J, Esteban O, Goncavles M, Jwa A, Poldrack R. [The OpenNeuro resource for sharing of neuroscience data.](https://doi.org/10.7554/elife.71774) eLife, *10*.
+  citation: Markiewicz CJ, Gorgolewski KJ, Feingold F, Blair R, Halchenko YO, Miller E, Hardcastle N, Wexler J, Esteban O, Goncavles M, Jwa A, Poldrack R. [The OpenNeuro resource for sharing of neuroscience data.](https://doi.org/10.7554/elife.71774) eLife, *10*, e71774.
 - doi: 10.1080/00223891.2020.1732994
   title: Correlation Database of 60 Cross-Disciplinary Surveys and Cognitive Tasks Assessing Self-Regulation
   year: 2021
@@ -5390,7 +5390,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '9'
-  page_range: null
+  page_range: e53385
   authors:
   - name: Dockès, Jérôme
   - name: Poldrack, Russell A.
@@ -5405,7 +5405,7 @@ publications:
     pmcid: PMC7164961
   links: {}
   oa_url: https://doi.org/10.7554/elife.53385
-  citation: Dockès J, Poldrack RA, Primet R, Gözükan H, Yarkoni T, Suchanek F, Thirion B, Varoquaux G. [NeuroQuery, comprehensive meta-analysis of human brain mapping](https://doi.org/10.7554/elife.53385). eLife, *9*.
+  citation: Dockès J, Poldrack RA, Primet R, Gözükan H, Yarkoni T, Suchanek F, Thirion B, Varoquaux G. [NeuroQuery, comprehensive meta-analysis of human brain mapping](https://doi.org/10.7554/elife.53385). eLife, *9*, e53385.
 - doi: 10.1038/s41596-020-0327-3
   title: Analysis of task-based functional MRI data preprocessed with fMRIPrep.
   year: 2020
@@ -6107,7 +6107,7 @@ publications:
     - type: Data
       url: https://openneuro.org/datasets/ds002105/versions/1.1.0
       title: ''
-  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8312478/
+  oa_url: https://doi.org/10.1101/423509
   citation: King M, Hernandez-Castillo CR, Poldrack RA, Ivry RB, Diedrichsen J. [Functional boundaries in the human cerebellum revealed by a multi-domain task battery](https://doi.org/10.1038/s41593-019-0436-x). Nature Neuroscience, *22*, 1371-1378.
 - doi: 10.1016/j.ajhg.2019.06.012
   title: Pleiotropic Meta-Analysis of Cognition, Education, and Schizophrenia Differentiates Roles of Early Neurodevelopmental and Adult Synaptic Pathways
@@ -6307,7 +6307,7 @@ publications:
     pmid: '31611705'
     pmcid: PMC7289187
   links: {}
-  oa_url: https://doi.org/10.1038/s41593-019-0510-4
+  oa_url: http://hdl.handle.net/1854/LU-8631786
   citation: Reid AT, Headley DB, Mill RD, Sanchez-Romero R, Uddin LQ, Marinazzo D, Lurie DJ, Valdés-Sosa PA, Hanson SJ, Biswal BB, Calhoun V, Poldrack RA, Cole MW. [Advancing functional connectivity research from association to causation](https://doi.org/10.1038/s41593-019-0510-4). Nature Neuroscience, *22*, 1751-1760.
 - doi: 10.1016/j.neuron.2019.09.002
   title: The Low-Dimensional Neural Architecture of Cognitive Complexity Is Related to Activity in Medial Thalamic Nuclei
@@ -6453,7 +6453,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '8'
-  page_range: null
+  page_range: e46323
   authors:
   - name: Verbruggen, Frederick
   - name: Aron, Adam R.
@@ -6505,7 +6505,7 @@ publications:
     pmcid: PMC6533084
   links: {}
   oa_url: https://doi.org/10.7554/elife.46323
-  citation: Verbruggen F, Aron AR, Band GPH, Beste C, Bissett PG, Brockett AT, Brown JW, Chamberlain SR, Chambers CD, Colonius H, ..., Boehler CN. [A consensus guide to capturing the ability to inhibit actions and impulsive behaviors in the stop-signal task](https://doi.org/10.7554/elife.46323). eLife, *8*.
+  citation: Verbruggen F, Aron AR, Band GPH, Beste C, Bissett PG, Brockett AT, Brown JW, Chamberlain SR, Chambers CD, Colonius H, ..., Boehler CN. [A consensus guide to capturing the ability to inhibit actions and impulsive behaviors in the stop-signal task](https://doi.org/10.7554/elife.46323). eLife, *8*, e46323.
 - doi: 10.21105/joss.01294
   title: 'PyBIDS: Python tools for BIDS datasets.'
   year: 2019
@@ -7245,7 +7245,7 @@ publications:
   publication_type: journal-article
   is_preprint: false
   volume: '7'
-  page_range: null
+  page_range: e31130
   authors:
   - name: Shine, James M.
   - name: Aburn, Matthew J.
@@ -7256,7 +7256,7 @@ publications:
     pmcid: PMC5818252
   links: {}
   oa_url: https://doi.org/10.7554/elife.31130
-  citation: Shine JM, Aburn MJ, Breakspear M, Poldrack RA. [The modulation of neural gain facilitates a transition between functional segregation and integration in the brain](https://doi.org/10.7554/elife.31130). eLife, *7*.
+  citation: Shine JM, Aburn MJ, Breakspear M, Poldrack RA. [The modulation of neural gain facilitates a transition between functional segregation and integration in the brain](https://doi.org/10.7554/elife.31130). eLife, *7*, e31130.
 - doi: 10.1016/j.neuroimage.2017.08.010
   title: Principles of dynamic network reconfiguration across diverse brain states
   year: 2018
