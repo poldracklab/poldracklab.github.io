@@ -643,6 +643,29 @@ publications:
   links: {}
   oa_url: https://doi.org/10.1371/journal.pcbi.1014428
   citation: Bridgeford EW, Campbell ID, Chen Z, Lin Z, Ritz H, Vandekerckhove J, Poldrack RA. [Twelve quick tips for AI-assisted coding in science.](https://doi.org/10.1371/journal.pcbi.1014428) PLoS Comput Biol, *22*, e1014428.
+- doi: 10.1016/j.cmet.2026.10.018
+  title: Repeated sugar exposure reshapes cue-potentiated motivation without a detectable change in explicit valuation
+  year: 2026
+  publication_date: '2026-11-01'
+  publication_name: Cell Metabolism
+  publication_type: journal-article
+  is_preprint: false
+  volume: null
+  page_range: null
+  authors:
+  - name: Burger, Kyle S.
+  - name: Shearrer, Grace E.
+  - name: Papantoni, Afroditi
+  - name: Sadler, Jennifer R.
+  - name: Mumford, Jeanette
+  - name: Small, Dana M.
+  - name: Poldrack, Russell A.
+  - name: Finn, Emily S.
+  identifiers:
+    pmid: '43051149'
+  links: {}
+  oa_url: https://doi.org/10.1016/j.cmet.2026.10.018
+  citation: Burger KS, Shearrer GE, Papantoni A, Sadler JR, Mumford J, Small DM, Poldrack RA, Finn ES. [Repeated sugar exposure reshapes cue-potentiated motivation without a detectable change in explicit valuation](https://doi.org/10.1016/j.cmet.2026.10.018). Cell Metabolism.
 - doi: 10.48550/arxiv.2608.19902
   title: 'Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis'
   year: 2026
